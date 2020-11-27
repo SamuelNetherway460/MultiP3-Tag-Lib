@@ -17,3 +17,7 @@ F
 src/FileTypes/MP3.java,1/8/18a2b1a0f4b1d5cb09ea5cd775966aa5d61b2958
 O
 src/Factories/ID3v1Factory.java,1/9/19316503303568da535c9dba80a378af3592caeb
+R
+"src/Utilities/StringUtilities.java,c/9/c9c96eb637c746715d7fe8e6e5fb0cc9950f3495
+P
+ src/Utilities/ByteUtilities.java,a/4/a43f691bafc4e59e33a13aff33638e050363ab71

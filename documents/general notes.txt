@@ -1,5 +1,7 @@
 General Notes
 
+READ ME: A document used for detailed general notes on the project. Topics inculde implementation details, planning, explanations, etc.
+
 Tag Types:
 
 - ID3
@@ -20,3 +22,10 @@ Tag Types:
   	- APEv2
   		- HEADER: 
   		- POSITION: Start of file
+
+Programs:
+
+- Traktor Pro 3
+	- Hierarchy exists for which tags the data is pulled out of. Current investigated hierarcy:
+		1) ID3v2.4
+		2) ID3v1.1
