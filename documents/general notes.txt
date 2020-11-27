@@ -1,0 +1,22 @@
+General Notes
+
+Tag Types:
+
+- ID3
+	- ID3V1
+		- ID3V1.1
+			- HEADER: TAG
+			- POSITION: End of file
+	- ID3V2
+		- HEADER: 
+		- POSITION: Start of file
+		- ID3V2.2
+		- ID3V2.3
+		- ID3V2.4
+- APE
+  	- APEv1
+  		- HEADER: <no header>
+  		- POSITION: End of file
+  	- APEv2
+  		- HEADER: 
+  		- POSITION: Start of file
