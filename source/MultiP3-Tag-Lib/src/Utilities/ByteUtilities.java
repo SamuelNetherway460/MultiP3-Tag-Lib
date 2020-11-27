@@ -35,6 +35,22 @@ public class ByteUtilities {
     }
 
     //TODO - JavaDoc
+    //TODO - Comment on how this method works, look at documentation
+    public static void writeID3v1Bytes(MP3 mp3) {
+        byte[] bytes = mp3.getId3v1().getRaw();
+        int endPortion = (int)mp3.getSize() - ID3V1_TAG_LENGTH;
+        try {
+            SeekableByteChannel seekableByteChannel = Files.newByteChannel(mp3.getPath(), StandardOpenOption.WRITE);
+            seekableByteChannel.position(endPortion);
+            ByteBuffer byteBuffer = ByteBuffer.wrap(bytes);
+            byteBuffer.rewind();
+            seekableByteChannel.write(byteBuffer);
+        } catch (IOException ioe) {
+            ioe.printStackTrace();
+        }
+    }
+
+    //TODO - JavaDoc
     public static byte[] getID3v1EnhancedBytes(MP3 mp3) {
         byte[] bytes = null;
         try {

@@ -2,6 +2,8 @@ package FileTypes;
 
 import Factories.*;
 import TagTypes.*;
+import Utilities.ByteUtilities;
+
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
@@ -119,5 +121,12 @@ public class MP3 {
      */
     public ID3v24 getId3v24() {
         return id3v24;
+    }
+
+    /**
+     * Saves the changes made to the ID3v1 tag.
+     */
+    public void saveID3v1() {
+        ByteUtilities.writeID3v1Bytes(this);
     }
 }

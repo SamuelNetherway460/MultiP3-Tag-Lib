@@ -8,9 +8,11 @@ import Exceptions.GenreOutOfBoundsException;
 import FileTypes.MP3;
 import TagTypes.ID3v1;
 import Utilities.BufferUtilities;
+import Utilities.ByteUtilities;
 import Utilities.StringUtilities;
 
 import java.io.UnsupportedEncodingException;
+import java.nio.ByteBuffer;
 
 //TODO - JavaDoc
 /**
@@ -66,7 +68,7 @@ public class ID3v1Factory {
     private static ID3v1 readFields(ID3v1 tag) {
 
         try {
-            tag.setTitle(readTitle(tag));
+            tag.setTitle(readRawTitle(tag));
         } catch (EmptyFieldException efe) {
             tag.setTitle(EMPTY_STRING);
         }
@@ -115,7 +117,7 @@ public class ID3v1Factory {
      * @return The title of the mp3 track.
      * @throws EmptyFieldException Thrown if the title field does not contain a value.
      */
-    public static String readTitle(ID3v1 tag) throws EmptyFieldException {
+    public static String readRawTitle(ID3v1 tag) throws EmptyFieldException {
         String paddedTitle = EMPTY_STRING;
         String title = EMPTY_STRING;
         try {
@@ -126,6 +128,23 @@ public class ID3v1Factory {
         }
         if (title.equalsIgnoreCase(EMPTY_STRING))  throw new EmptyFieldException("[EMPTY FIELD EXCEPTION] Title field does not contain a value");
         return title;
+    }
+
+    //TODO - JavaDoc
+    //TODO - comment method
+    /**
+     *
+     * @param tag
+     */
+    public static byte[] writeRawTitle(ID3v1 tag) {
+        String paddedString = StringUtilities.addPadding(tag.getTitle(), TITLE_FIELD_LENGTH);
+        //TODO - Put into byte utilities class
+        byte[] raw = tag.getRaw();
+        byte[] section = paddedString.getBytes();
+        ByteBuffer buffer = ByteBuffer.wrap(raw);
+        buffer.position(TITLE_FIELD_START);
+        buffer.put(section);
+        return raw;
     }
 
     /**
@@ -258,8 +277,6 @@ public class ID3v1Factory {
      *
      * @param tag The ID3v1 tag containing the raw tag bytes.
      * @return The index indicating the genre of the track.
-     * @throws InvalidFieldValue Thrown if the value contained in the field is invalid.
-     *                           If the genre index is out of bounds then the InvalidFieldValue exception is thrown.
      */
     public static int readGenreIndex(ID3v1 tag) {
         String genreIndexString = EMPTY_STRING;

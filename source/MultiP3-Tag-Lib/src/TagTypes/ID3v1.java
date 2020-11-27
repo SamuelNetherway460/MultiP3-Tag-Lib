@@ -1,5 +1,6 @@
 package TagTypes;
 
+import Factories.ID3v1Factory;
 import FileTypes.MP3;
 import Utilities.ByteUtilities;
 
@@ -76,13 +77,15 @@ public class ID3v1 {
         return title;
     }
 
+    //TODO - Review JavaDoc, raw sync
     /**
-     * Updates the title field.
+     * Updates the title field and syncs with raw.
      *
      * @param title The new value for the title field.
      */
     public void setTitle(String title) {
         this.title = title;
+        this.raw = ID3v1Factory.writeRawTitle(this);
     }
 
     /**

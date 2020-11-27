@@ -23,6 +23,11 @@ public class StringUtilities {
         return s;
     }
 
+    public static String addPadding(String s, int maxLength) {
+        int stringLength = s.length();
+        return String.format("%-" + maxLength + "s", s);
+    }
+
     //TODO - JavaDoc
     public static String trimStringRight(String s, int length) {
         return s.substring(0, length);

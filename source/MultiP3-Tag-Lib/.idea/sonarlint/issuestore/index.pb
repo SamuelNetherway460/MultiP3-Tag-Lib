@@ -3,3 +3,17 @@ n
 >test-music/mp3/Andy C, Fiora - Heartbeat Loud (Andy C VIP).mp3,b/c/bc68a7cb1aa4191233c7b6c062eb2dc9a743eb91
 G
 src/TagTypes/ID3v1.java,2/e/2e9053d2057072643116e5b4e2b6dabe5d6febd8
+H
+src/TagTypes/ID3v22.java,d/a/da6a6e13d7cc3a28b1dfde597af4788625320338
+H
+src/TagTypes/ID3v23.java,9/6/96901eaf44abbcb0a8e24fb955739cc13077cb5d
+H
+src/TagTypes/ID3v24.java,9/5/956c93b45a3c2de94739c8485a4aac59e54035a2
+G
+src/TagTypes/ID3v2.java,6/f/6f0efa95fb70dbb9fe26d4875d8c1b5a91efcaa4
+O
+src/TagTypes/AbstractID3v2.java,4/c/4c3643a90987bba9f9c1dd443426769e3b41a318
+F
+src/FileTypes/MP3.java,1/8/18a2b1a0f4b1d5cb09ea5cd775966aa5d61b2958
+O
+src/Factories/ID3v1Factory.java,1/9/19316503303568da535c9dba80a378af3592caeb
