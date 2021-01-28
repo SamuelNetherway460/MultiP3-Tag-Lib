@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="MultiP3-Tag-Lib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/source/MultiP3-Tag-Lib/out/artifacts/MultiP3_Tag_Lib_jar/MultiP3-Tag-Lib.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
