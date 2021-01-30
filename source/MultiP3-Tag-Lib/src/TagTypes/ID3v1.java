@@ -220,17 +220,16 @@ public class ID3v1 {
 
     //TODO - JavaDoc
     public String toString() {
-        String toString =
-            "Tag Type: ID3v1\n" +
-            "Title: " + title + "\n" +
-            "Artist: " + artist + "\n" +
-            "Album: " + album + "\n" +
-            "Year: " + year + "\n" +
-            "Comment: " + comment + "\n" +
-            "Zero Byte: " + zeroByte + "\n" +
-            "Track Number: " + trackNumber + "\n" +
-            "Genre Index: " + genreIndex + "\n" +
-            "Genre: " + genre;
+        String toString = "Tag Type: ID3v1\n"
+            + "Title: " + title + "\n"
+            + "Artist: " + artist + "\n"
+            + "Album: " + album + "\n"
+            + "Year: " + year + "\n"
+            + "Comment: " + comment + "\n"
+            + "Zero Byte: " + zeroByte + "\n"
+            + "Track Number: " + trackNumber + "\n"
+            + "Genre Index: " + genreIndex + "\n"
+            + "Genre: " + genre;
         return toString;
     }
 }
