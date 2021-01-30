@@ -9,5 +9,6 @@
 # Editor-based HTTP Client requests
 /httpRequests/
 
-# sonarlint
+# .idea
 sonarlint/*
+checkstyle-idea.xml
