@@ -1,20 +1,0 @@
-
-b
-java:S1854"@Remove this useless assignment to local variable "stringLength".(™Ÿò«þÿÿÿÿ8Ïè˜Ïà.
-M
-java:S1135$"2Complete the task associated to this TODO comment.(ä’¯÷ýÿÿÿÿ
-M
-java:S1135"2Complete the task associated to this TODO comment.(ä’¯÷ýÿÿÿÿ
-n	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÄÍû
-H
-java:S1135"2Complete the task associated to this TODO comment.(ù¹ò‰
-c
-java:S3457"AFormat specifiers should be used instead of string concatenation.(”Ñ…çÿÿÿÿÿ8ºÔŠÏà.
-M
-java:S1135"2Complete the task associated to this TODO comment.(ä’¯÷ýÿÿÿÿ
-U
-java:S1118	":Add a private constructor to hide the implicit public one.(åµÌ±þÿÿÿÿ
-S
-java:S1481"1Remove this unused "stringLength" local variable.(™Ÿò«þÿÿÿÿ8Ïè˜Ïà.
-M
-java:S1135"2Complete the task associated to this TODO comment.(ä’¯÷ýÿÿÿÿ

@@ -10,4 +10,4 @@
 /httpRequests/
 
 # sonarlint
-/sonarlint/
+sonarlint/*
