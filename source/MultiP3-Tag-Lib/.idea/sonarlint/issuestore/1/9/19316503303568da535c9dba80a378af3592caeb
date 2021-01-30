@@ -1,29 +1,29 @@
 
+D	java:S108Œ")Either remove or fill this block of code.(ñØ…²şÿÿÿÿ
+R
+java:S1068%"7Remove this unused "HEADER_FIELD_LENGTH" private field.(—é’¢úÿÿÿÿ
+F
+java:S10681"0Remove this unused "ERROR_STRING" private field.(ŞõÂÇ
+V
+java:S1128"4Remove this unused import 'Utilities.ByteUtilities'.(È–—Šùÿÿÿÿ8ãÀµĞà.
+P
+java:S1135"2Complete the task associated to this TODO comment.(ş©“8±ØäĞà.
+U
+java:S1135…"2Complete the task associated to this TODO comment.(ä’¯÷ıÿÿÿÿ8ÂŞâĞà.
+M
+java:S1135"2Complete the task associated to this TODO comment.(ä’¯÷ıÿÿÿÿ
+Y
+java:S1854í"BRemove this useless assignment to local variable "paddedZeroByte".(ã˜†
+K
+java:S1068"0Remove this unused "HEADER_START" private field.(Ì·½¶ùÿÿÿÿ
+Q
+java:S1068+";Remove this unused "COMMENT_FIELD_LENGTH_V2" private field.(ıñŸ«
 M
 java:S1135"2Complete the task associated to this TODO comment.(™¡°øÿÿÿÿ
 U
 java:S1135†"2Complete the task associated to this TODO comment.(Ê²õÿÿÿÿÿ8¼ÈãĞà.
 P
-java:S1135"2Complete the task associated to this TODO comment.(ş©“8±ØäĞà.
-R
-java:S1068%"7Remove this unused "HEADER_FIELD_LENGTH" private field.(—é’¢úÿÿÿÿ
-D	java:S108Œ")Either remove or fill this block of code.(ñØ…²şÿÿÿÿ
-Q
-java:S1068+";Remove this unused "COMMENT_FIELD_LENGTH_V2" private field.(ıñŸ«
-P
 java:S1118":Add a private constructor to hide the implicit public one.(¹ĞÀÚ
-Y
-java:S1854í"BRemove this useless assignment to local variable "paddedZeroByte".(ã˜†
-U
-java:S1135…"2Complete the task associated to this TODO comment.(ä’¯÷ıÿÿÿÿ8ÂŞâĞà.
-K
-java:S1068"0Remove this unused "HEADER_START" private field.(Ì·½¶ùÿÿÿÿ
-M
-java:S1135"2Complete the task associated to this TODO comment.(ä’¯÷ıÿÿÿÿ
-V
-java:S1128"4Remove this unused import 'Utilities.ByteUtilities'.(È–—Šùÿÿÿÿ8ãÀµĞà.
 t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(áŞäÛşÿÿÿÿ
-F
-java:S10681"0Remove this unused "ERROR_STRING" private field.(ŞõÂÇ
 J
 java:S1481í"3Remove this unused "paddedZeroByte" local variable.(ã˜†

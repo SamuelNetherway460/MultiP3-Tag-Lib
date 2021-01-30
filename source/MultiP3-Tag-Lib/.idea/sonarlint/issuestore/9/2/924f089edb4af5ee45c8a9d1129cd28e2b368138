@@ -1,13 +1,13 @@
 
-[
-java:S1124	"EReorder the modifiers to comply with the Java Language Specification.(Ò…¨‰
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(þŒÙñøÿÿÿÿ8çî—Óô.
-U	java:S106"9Replace this use of System.out or System.err by a logger.(Ä•¡¶8çî—Óô.
-G
-java:S1135"2Complete the task associated to this TODO comment.(ãˆ¬o
 M
 java:S1135"2Complete the task associated to this TODO comment.(ä’¯÷ýÿÿÿÿ
+[
+java:S1124	"EReorder the modifiers to comply with the Java Language Specification.(Ò…¨‰
 Z	java:S106"9Replace this use of System.out or System.err by a logger.(Ô£‹Ïûÿÿÿÿ8çî—Óô.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(þŒÙñøÿÿÿÿ8çî—Óô.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(Ä•¡¶8çî—Óô.
 U	java:S106"9Replace this use of System.out or System.err by a logger.(•¿…ë8çî—Óô.
+G
+java:S1135"2Complete the task associated to this TODO comment.(ãˆ¬o
 H
 java:S1135"2Complete the task associated to this TODO comment.(çêæ»
