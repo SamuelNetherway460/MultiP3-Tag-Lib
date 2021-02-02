@@ -1,6 +1,7 @@
 package Utilities;
 
 import FileTypes.MP3;
+import FileTypes.WAV;
 
 import java.io.IOException;
 import java.nio.ByteBuffer;
@@ -8,15 +9,25 @@ import java.nio.channels.SeekableByteChannel;
 import java.nio.file.Files;
 import java.nio.file.StandardOpenOption;
 
-//TODO - JavaDoc
+/**
+ * Utility class for accessing and modifying tag byte data.
+ *
+ * @author Samuel Netherway
+ */
 public class ByteUtilities {
 
     private static final int DEFAULT_BUFFER_LENGTH = 65536;
     private static final int ID3V1_TAG_LENGTH = 128;
-    private static final int ENCHANCED_TAG_LENGTH = 227;
+    private static final int ENHANCED_TAG_LENGTH = 227;
     private static final int ENHANCED_TAG_START = 0;
 
     //TODO - JavaDoc
+
+    /**
+     *
+     * @param mp3 The mp3 file which contains the
+     * @return
+     */
     public static byte[] getID3v1Bytes(MP3 mp3) {
         byte[] bytes = null;
         int endPortion = (int)mp3.getSize() - ID3V1_TAG_LENGTH;
@@ -33,6 +44,8 @@ public class ByteUtilities {
         }
         return bytes;
     }
+
+
 
     //TODO - JavaDoc
     //TODO - Comment on how this method works, look at documentation
@@ -55,7 +68,7 @@ public class ByteUtilities {
         byte[] bytes = null;
         try {
             SeekableByteChannel seekableByteChannel = Files.newByteChannel(mp3.getPath(), StandardOpenOption.READ);
-            ByteBuffer byteBuffer = ByteBuffer.allocate(ENCHANCED_TAG_LENGTH);
+            ByteBuffer byteBuffer = ByteBuffer.allocate(ENHANCED_TAG_LENGTH);
             seekableByteChannel.position(ENHANCED_TAG_START);
             byteBuffer.clear();
             seekableByteChannel.read(byteBuffer);
@@ -78,6 +91,19 @@ public class ByteUtilities {
     //TODO - JavaDoc
     //TODO - Implement
     public static byte[] getID3v23Bytes(MP3 mp3) {
+        byte[] bytes = null;
+
+        return bytes;
+    }
+
+    //TODO - Implement
+    //TODO - JavaDoc
+    /**
+     *
+     * @param wav
+     * @return
+     */
+    public static byte[] getID3v23Bytes(WAV wav) {
         byte[] bytes = null;
 
         return bytes;
