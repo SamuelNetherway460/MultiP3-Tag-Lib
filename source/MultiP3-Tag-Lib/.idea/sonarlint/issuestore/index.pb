@@ -1,0 +1,47 @@
+
+O
+src/Factories/ID3v1Factory.java,1/9/19316503303568da535c9dba80a378af3592caeb
+J
+src/DataStore/Globals.java,6/3/637e8d1c51012abf739bb7d98d0f968ac21c3c6e
+=
+src/Test.java,a/8/a862b92d10f810e224187403c322cb8e01f5e244
+T
+$src/Factories/ID3v2FrameFactory.java,d/7/d7a3dbc7715a14cbe25dab3fffe2ad39a7072296
+P
+ src/Factories/ID3v22Factory.java,9/9/99115671131b3a7e99a74f8c4458c03f3ce8db90
+P
+ src/Factories/ID3v23Factory.java,9/b/9b211cddc8ef4a601ae8be9d1f0e894cfa21aee6
+P
+ src/Factories/ID3v24Factory.java,2/2/2231523265b250631304fc6655a5d7fdb765986d
+Q
+!src/TagStructures/ID3v2Frame.java,7/9/796d2ceaf864a4167e781164b61c1559cd7cdfe6
+G
+src/TagTypes/ID3v1.java,2/e/2e9053d2057072643116e5b4e2b6dabe5d6febd8
+F
+src/FileTypes/MP3.java,1/8/18a2b1a0f4b1d5cb09ea5cd775966aa5d61b2958
+]
+-src/Exceptions/GenreOutOfBoundsException.java,6/c/6c57ec90eeed8e6b4e4134d3b68e8bf568126c7e
+W
+'src/Exceptions/EmptyFieldException.java,7/7/773f1bd23f497eb8fda3b41c34d07f19c1d273d6
+Q
+!src/Exceptions/BaseException.java,b/9/b9bf1761537c71dc398dcd4f5fa7f43d1414b64d
+]
+-src/Exceptions/SpeedOutOfBoundsException.java,8/2/8297b196389286b983671f72be5ad924532ac70e
+I
+src/DataStore/Genres.java,0/d/0d57563afecea3ff1a21f851e185b528ab6a24b0
+Y
+)src/Exceptions/InvalidGenreException.java,0/b/0b7ca5958aeaf3a30e99fd33eb10653ff7c05d8d
+C
+MultiP3-Tag-Lib.iml,2/9/29be661070ae1726be28a5482252f549e2c1b05d
+I
+src/DataStore/Speeds.java,4/2/42180edb589f0c9caf1d5030cd456b9d8c2ba0e4
+R
+"src/Utilities/BufferUtilities.java,9/a/9a23c014cc3c04b03b282d18f37a5abc40630883
+R
+"src/Utilities/StringUtilities.java,c/9/c9c96eb637c746715d7fe8e6e5fb0cc9950f3495
+O
+src/TagTypes/ID3v1Enhanced.java,d/4/d458e6690c02fddbcf5dd69f55b11bd2ab928750
+P
+ src/Utilities/ByteUtilities.java,a/4/a43f691bafc4e59e33a13aff33638e050363ab71
+W
+'src/Factories/ID3v1EnhancedFactory.java,7/5/7511f204de55f827443488b5e0c79434b48875e9

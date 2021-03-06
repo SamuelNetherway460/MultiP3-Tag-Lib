@@ -1,12 +1,15 @@
 package TagTypes;
 
+import DataStore.Genres;
+import Exceptions.GenreOutOfBoundsException;
+import Exceptions.InvalidGenreException;
 import Factories.ID3v1Factory;
-import FileTypes.MP3;
-import Utilities.ByteUtilities;
+import Utilities.StringUtilities;
 
-//TODO - JavaDoc
+import java.nio.charset.StandardCharsets;
+
 /**
- *
+ * Class for encapsulating all attribute and required functions needed for an ID3v1 tag.
  *
  * @author Samuel Netherway
  */
@@ -28,23 +31,44 @@ public class ID3v1 {
     private int genreIndex = EMPTY_FIELD_INT;
     private String genre = EMPTY_FIELD_STRING;
 
-    //TODO Check if the mp3 file has a ID3v1 tag first
     /**
      * Constructs a new ID3v1 tag for the mp3 file.
-     *
-     * @param mp3 The mp3 file which the ID3v1 tag will be created for.
      */
-    public ID3v1(MP3 mp3) {
-        initTag(mp3);
+    public ID3v1() {
+        initEmptyTag();
     }
 
     /**
-     * Initializes the new ID3v1 tag and reads the portion of the mp3 track which contains the ID3v1 tags.
-     *
-     * @param mp3 The mp3 file which the ID3v1 tag will be initialized from.
+     * Creates a new empty ID3v1 tag.
      */
-    private void initTag(MP3 mp3) {
-        raw = ByteUtilities.getID3v1Bytes(mp3);
+    private void initEmptyTag() {
+        raw = StringUtilities.addPadding(HEADER, 128).getBytes(StandardCharsets.ISO_8859_1);
+    }
+
+    /**
+     * Populates all the ID3v1 tag fields.
+     *
+     * @param title The title of the track.
+     * @param artist The artist of the track.
+     * @param album The album that the track belongs to.
+     * @param year The year the track was released.
+     * @param comment The comment on the track.
+     * @param zeroByte Zero byte indicating whether or not their is a track number.
+     * @param trackNumber The number of the track in the album.
+     * @param genreIndex An integer representing a particular genre.
+     * @param genre The genre of the track.
+     */
+    public void populateFields(String title, String artist, String album, String year, String comment, boolean zeroByte,
+                               int trackNumber, int genreIndex, String genre) {
+        if(title != null) this.title = title;
+        this.artist = artist;
+        this.album = album;
+        this.year = year;
+        this.comment = comment;
+        this.zeroByte = zeroByte;
+        this.trackNumber = trackNumber;
+        this.genreIndex = genreIndex;
+        this.genre = genre;
     }
 
     /**
@@ -77,15 +101,14 @@ public class ID3v1 {
         return title;
     }
 
-    //TODO - Review JavaDoc, raw sync
     /**
-     * Updates the title field and syncs with raw.
+     * Updates the title field and syncs raw.
      *
      * @param title The new value for the title field.
      */
     public void setTitle(String title) {
         this.title = title;
-        this.raw = ID3v1Factory.writeRawTitle(this);
+        this.raw = ID3v1Factory.updateRawTitle(this);
     }
 
     /**
@@ -96,12 +119,13 @@ public class ID3v1 {
     }
 
     /**
-     * Updates the artist field.
+     * Updates the artist field and syncs raw.
      *
      * @param artist The new value for the artist field.
      */
     public void setArtist(String artist) {
         this.artist = artist;
+        this.raw = ID3v1Factory.updateRawArtist(this);
     }
 
     /**
@@ -112,12 +136,13 @@ public class ID3v1 {
     }
 
     /**
-     * Updates the album field.
+     * Updates the album field and syncs raw.
      *
      * @param album The new value for the album field.
      */
     public void setAlbum(String album) {
         this.album = album;
+        this.raw = ID3v1Factory.updateRawAlbum(this);
     }
 
     /**
@@ -128,12 +153,13 @@ public class ID3v1 {
     }
 
     /**
-     * Updates the year field.
+     * Updates the year field and syncs raw.
      *
      * @param year The new value for the year field.
      */
     public void setYear(String year) {
         this.year = year;
+        this.raw = ID3v1Factory.updateRawYear(this);
     }
 
     /**
@@ -144,12 +170,13 @@ public class ID3v1 {
     }
 
     /**
-     * Updates the comment on the track.
+     * Updates the comment on the track and syncs raw.
      *
      * @param comment The new value for the comment field.
      */
     public void setComment(String comment) {
         this.comment = comment;
+        this.raw = ID3v1Factory.updateRawComment(this);
     }
 
     /**
@@ -160,12 +187,13 @@ public class ID3v1 {
     }
 
     /**
-     * Updates the field indicating whether the track number field contains a value.
+     * Updates the field indicating whether the track number field contains a value and syncs raw.
      *
      * @param zeroByte The new value indicating whether the track number field contains a value.
      */
     public void setZeroByte(boolean zeroByte) {
         this.zeroByte = zeroByte;
+        this.raw = ID3v1Factory.updateRawZeroByte(this);
     }
 
     /**
@@ -176,12 +204,13 @@ public class ID3v1 {
     }
 
     /**
-     * Updates the track number field.
+     * Updates the track number field and syncs raw.
      *
      * @param trackNumber The new value for the track number field.
      */
     public void setTrackNumber(int trackNumber) {
         this.trackNumber = trackNumber;
+        this.raw = ID3v1Factory.updateRawTrackNumber(this);
     }
 
     /**
@@ -191,14 +220,20 @@ public class ID3v1 {
         return genreIndex;
     }
 
-    //TODO Add validation to ensure that the genre index passed is between >= 0 and <= 79
     /**
-     * Updates the index representing one of the 80 genres.
+     * Updates the index representing one of the 80 genres and syncs raw.
      *
      * @param genreIndex The new value for the index representing a genre.
      */
     public void setGenreIndex(int genreIndex) {
         this.genreIndex = genreIndex;
+        this.raw = ID3v1Factory.updateRawGenreIndex(this);
+        try {
+            this.genre = Genres.getGenreFromIndexID3v1Tag(genreIndex);
+        } catch (GenreOutOfBoundsException goobe) {
+            genre = "";
+            this.genreIndex = EMPTY_FIELD_INT;
+        }
     }
 
     /**
@@ -208,17 +243,26 @@ public class ID3v1 {
         return genre;
     }
 
-    //TODO Add validation to ensure that the genre passed is one of the 80
     /**
      * Updates the genre of the track.
      *
      * @param genre The new value for the genre of the track.
      */
     public void setGenre(String genre) {
-        this.genre = genre;
+        try {
+            genreIndex = Genres.convertStringGenreToIndexID3v1(genre);
+            this.genre = genre;
+        } catch (InvalidGenreException ige) {
+            this.genre = "";
+            genreIndex = EMPTY_FIELD_INT;
+        }
     }
 
-    //TODO - JavaDoc
+    /**
+     * Generates a formatted string containing all ID3v1 tag data.
+     *
+     * @return A formatted string containing all ID3v1 tag data.
+     */
     public String toString() {
         String toString = "Tag Type: ID3v1\n"
             + "Title: " + title + "\n"

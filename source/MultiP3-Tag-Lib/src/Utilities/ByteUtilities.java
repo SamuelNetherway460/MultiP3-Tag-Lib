@@ -21,6 +21,9 @@ public class ByteUtilities {
     private static final int ENHANCED_TAG_LENGTH = 227;
     private static final int ENHANCED_TAG_START = 0;
 
+    private static final int ID3V24_START_POSITION = 0;
+    private static final int ID3V24_HEADER_LENGTH = 10;
+
     //TODO - JavaDoc
 
     /**
@@ -44,8 +47,6 @@ public class ByteUtilities {
         }
         return bytes;
     }
-
-
 
     //TODO - JavaDoc
     //TODO - Comment on how this method works, look at documentation
@@ -74,6 +75,24 @@ public class ByteUtilities {
             seekableByteChannel.read(byteBuffer);
             bytes = byteBuffer.array();
         } catch (IOException ioe) {
+            bytes = null;
+            return bytes;
+        }
+        return bytes;
+    }
+
+    public static byte[] all(MP3 mp3) {
+        byte[] bytes = null;
+        try {
+            SeekableByteChannel seekableByteChannel = Files.newByteChannel(mp3.getPath(), StandardOpenOption.READ);
+            System.out.println(seekableByteChannel.size());
+            ByteBuffer byteBuffer = ByteBuffer.allocate((int) seekableByteChannel.size());
+            seekableByteChannel.position(0);
+            byteBuffer.clear();
+            seekableByteChannel.read(byteBuffer);
+            bytes = byteBuffer.array();
+        } catch (IOException ioe) {
+            ioe.printStackTrace();
             bytes = null;
             return bytes;
         }
@@ -113,7 +132,35 @@ public class ByteUtilities {
     //TODO - Implement
     public static byte[] getID3v24Bytes(MP3 mp3) {
         byte[] bytes = null;
-
+        try {
+            SeekableByteChannel seekableByteChannel = Files.newByteChannel(mp3.getPath(), StandardOpenOption.READ);
+            ByteBuffer byteBuffer = ByteBuffer.allocate(ID3V24_HEADER_LENGTH);
+            seekableByteChannel.position(ID3V24_START_POSITION);
+            byteBuffer.clear();
+            seekableByteChannel.read(byteBuffer);
+            bytes = byteBuffer.array();
+        } catch (IOException ioe) {
+            bytes = null;
+            return bytes;
+        }
         return bytes;
+    }
+
+    /**
+     * Updates a section of a byte array.
+     *
+     * @param raw Original byte array.
+     * @param section New section content to be inserted.
+     * @param start The start position of the section.
+     * @param length The length of the section.
+     * @return The updated byte array.
+     */
+    public static byte[] updateSection(byte[] raw, String section, int start, int length) {
+        String paddedString = StringUtilities.addPadding(section, length);
+        byte[] sectionBytes = paddedString.getBytes();
+        ByteBuffer buffer = ByteBuffer.wrap(raw);
+        buffer.position(start);
+        buffer.put(sectionBytes);
+        return raw;
     }
 }

@@ -5,7 +5,6 @@ import Exceptions.EmptyFieldException;
 import Exceptions.GenreOutOfBoundsException;
 import FileTypes.MP3;
 import TagTypes.ID3v1Enhanced;
-import Utilities.BufferUtilities;
 import Utilities.StringUtilities;
 
 import java.io.UnsupportedEncodingException;
@@ -71,7 +70,7 @@ public class ID3v1EnhancedFactory {
         tag.setGenreIndex(readGenreIndex(tag));
 
         try {
-            tag.setGenre(Genres.getGenreFromIndexID3v1EnhancedTag(tag.getGenreIndex()));
+            tag.setGenre(Genres.getGenreFromIndexID3v1Tag(tag.getGenreIndex()));
         } catch (GenreOutOfBoundsException goobe) {
             tag.setGenre(EMPTY_STRING);
         }

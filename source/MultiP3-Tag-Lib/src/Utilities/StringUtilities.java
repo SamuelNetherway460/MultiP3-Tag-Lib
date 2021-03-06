@@ -24,7 +24,6 @@ public class StringUtilities {
     }
 
     public static String addPadding(String s, int maxLength) {
-        int stringLength = s.length();
         return String.format("%-" + maxLength + "s", s);
     }
 
