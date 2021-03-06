@@ -1,6 +1,8 @@
 package TagTypes;
 
 import FileTypes.MP3;
+import TagStructures.ID3v24Header;
+import TagStructures.ID3v2Header;
 import Utilities.ByteUtilities;
 
 import java.sql.Time;
@@ -8,6 +10,7 @@ import java.sql.Time;
 //TODO - JavaDoc
 public class ID3v24 extends ID3v23 {
 
+    private ID3v24Header header = null;
     private int audioSeekPointIndex;
     private String seek;
     private String signature;
@@ -33,6 +36,14 @@ public class ID3v24 extends ID3v23 {
     @Override
     public void initTag(MP3 mp3) {
         bytes = ByteUtilities.getID3v24Bytes(mp3);
+    }
+
+    public ID3v24Header getHeader() {
+        return header;
+    }
+
+    public void setHeader(ID3v24Header header) {
+        this.header = header;
     }
 
     //TODO - JavaDoc

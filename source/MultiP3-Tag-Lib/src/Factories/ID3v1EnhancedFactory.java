@@ -5,6 +5,7 @@ import Exceptions.EmptyFieldException;
 import Exceptions.GenreOutOfBoundsException;
 import FileTypes.MP3;
 import TagTypes.ID3v1Enhanced;
+import Utilities.BufferUtilities;
 import Utilities.StringUtilities;
 
 import java.io.UnsupportedEncodingException;

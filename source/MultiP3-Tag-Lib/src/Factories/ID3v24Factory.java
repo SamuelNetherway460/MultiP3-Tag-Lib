@@ -1,6 +1,8 @@
 package Factories;
 
 import FileTypes.MP3;
+import TagStructures.ID3v24Header;
+import TagStructures.ID3v2Header;
 import TagTypes.ID3v23;
 import TagTypes.ID3v24;
 
@@ -36,7 +38,14 @@ public class ID3v24Factory extends ID3v23Factory {
     private static final String META_SIZE = ""; // Dropped from ID3v23
     private static final String META_YEAR = "TDRC";
 
-    public static ID3v24 createTag(MP3 mp3) {
-        return new ID3v24(mp3);
+    public static ID3v24 extractTag(MP3 mp3) {
+        ID3v24 id3v24 = new ID3v24(mp3);
+        id3v24.setHeader(extractHeader(id3v24));
+        return id3v24;
+    }
+
+    public static ID3v24Header extractHeader(ID3v24 id3v24) {
+        ID3v24Header header = new ID3v24Header(id3v24);
+        return header;
     }
 }

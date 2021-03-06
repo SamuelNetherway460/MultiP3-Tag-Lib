@@ -11,6 +11,13 @@ public final class BufferUtilities {
 
 	private BufferUtilities() {}
 
+	//TODO - JavaDoc
+	// Constructs a new String by decoding the specified subarray of bytes using the specified charset.
+	public static String convertBytesToString(byte[] bytes, int start, int length, String charsetName) throws UnsupportedEncodingException {
+		if (length < 1) return "";
+		return new String(bytes, start, length, charsetName);
+	}
+
 	public static String byteBufferToStringIgnoringEncodingIssues(byte[] bytes, int offset, int length) {
 		try {
 			return byteBufferToString(bytes, offset, length, defaultCharsetName);

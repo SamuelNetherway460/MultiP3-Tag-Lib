@@ -2,6 +2,7 @@ package Utilities;
 
 import FileTypes.MP3;
 import FileTypes.WAV;
+import TagTypes.ID3v24;
 
 import java.io.IOException;
 import java.nio.ByteBuffer;
@@ -143,6 +144,11 @@ public class ByteUtilities {
             bytes = null;
             return bytes;
         }
+        return bytes;
+    }
+
+    public static byte[] getID3v24Header(ID3v24 id3v24) {
+        byte[] bytes = null;
         return bytes;
     }
 
