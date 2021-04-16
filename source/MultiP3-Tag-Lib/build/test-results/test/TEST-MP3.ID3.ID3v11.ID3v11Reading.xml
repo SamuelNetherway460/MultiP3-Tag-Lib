@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="MP3.ID3.ID3v11.ID3v11Reading" tests="8" skipped="0" failures="0" errors="0" timestamp="2021-04-12T11:01:48" hostname="Samuels-MBP-3" time="0.029">
+  <properties/>
+  <testcase name="readCheckByte()" classname="MP3.ID3.ID3v11.ID3v11Reading" time="0.015"/>
+  <testcase name="readAlbum()" classname="MP3.ID3.ID3v11.ID3v11Reading" time="0.001"/>
+  <testcase name="readGenre()" classname="MP3.ID3.ID3v11.ID3v11Reading" time="0.001"/>
+  <testcase name="readTitle()" classname="MP3.ID3.ID3v11.ID3v11Reading" time="0.002"/>
+  <testcase name="readArtist()" classname="MP3.ID3.ID3v11.ID3v11Reading" time="0.001"/>
+  <testcase name="readYear()" classname="MP3.ID3.ID3v11.ID3v11Reading" time="0.0"/>
+  <testcase name="readComment()" classname="MP3.ID3.ID3v11.ID3v11Reading" time="0.001"/>
+  <testcase name="readTrackNumber()" classname="MP3.ID3.ID3v11.ID3v11Reading" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

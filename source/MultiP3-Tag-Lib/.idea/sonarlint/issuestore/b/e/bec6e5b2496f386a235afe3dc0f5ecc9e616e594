@@ -1,0 +1,23 @@
+
+M
+java:S1135"2Complete the task associated to this TODO comment.(ä’¯÷ıÿÿÿÿ
+T
+java:S3034j">Prevent "int" promotion by adding "& 0xff" to this expression.(¸¿€Ò
+H
+java:S1135"2Complete the task associated to this TODO comment.(Àê¶¾
+Ÿ
+java:S1130"}Remove the declaration of thrown exception 'java.io.UnsupportedEncodingException', as it cannot be thrown from method's body.(èÌ‹áıÿÿÿÿ8«Û×°/
+t	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(áê½ıÿÿÿÿ
+Y
+java:S3034d">Prevent "int" promotion by adding "& 0xff" to this expression.(Ùâ˜Èøÿÿÿÿ
+W
+java:S1854"5Remove this useless assignment to local variable "s".(×Î§ÿÿÿÿÿ8ÄÎÒÜŒ/
+H
+java:S1481"&Remove this unused "s" local variable.(×Î§ÿÿÿÿÿ8ÄÎÒÜŒ/
+n	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÄÍû
+<
+java:S11682"&Return an empty array instead of null.(¥¹ï
+Q
+java:S1854Ê"5Remove this useless assignment to local variable "j".(ù ŸÖÿÿÿÿÿ
+L
+java:S1172•"0Remove this unused method parameter "fromIndex".(•Şìùÿÿÿÿ

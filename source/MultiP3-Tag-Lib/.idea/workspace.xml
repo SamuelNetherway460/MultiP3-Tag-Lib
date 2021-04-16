@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="78a3bad7-b97e-4a13-af01-8512dd4b9670" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/MultiP3-Tag-Lib.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/MultiP3-Tag-Lib.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/MultiP3_Tag_Lib_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/9/19316503303568da535c9dba80a378af3592caeb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiP3-Tag-Lib.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MultiP3_Tag_Lib_jar/MultiP3-Tag-Lib.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataStore/Genres.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataStore/Globals.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataStore/Speeds.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exceptions/BaseException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exceptions/EmptyFieldException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exceptions/GenreOutOfBoundsException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exceptions/InvalidGenreException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exceptions/SpeedOutOfBoundsException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Factories/ID3v1EnhancedFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Factories/ID3v1Factory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Factories/ID3v22Factory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Factories/ID3v23Factory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Factories/ID3v24Factory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Factories/ID3v2FrameFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FileTypes/MP3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FileTypes/WAV.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TagStructures/ID3v22Header.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TagStructures/ID3v23Header.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TagStructures/ID3v24Header.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TagStructures/ID3v2Frame.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TagStructures/ID3v2Header.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TagTypes/AbstractID3v2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TagTypes/ID3v1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TagTypes/ID3v1Enhanced.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TagTypes/ID3v2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TagTypes/ID3v22.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TagTypes/ID3v23.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TagTypes/ID3v24.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Utilities/BufferUtilities.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Utilities/ByteUtilities.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Utilities/EncodedText.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Utilities/StringUtilities.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1r46nAtq5BRZkjzCJaQCLdKwYsM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/TestFileTypes/WAV/ID3v2" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java/TestFileTypes/WAV/ID3v2" />
+      <recent name="$PROJECT_DIR$/src/test/java/TestFileTypes/WAV/ID3v2/ID3v24" />
+      <recent name="$PROJECT_DIR$/src/test/java/TestFileTypes/WAV/ID3v2/ID3v23" />
+      <recent name="$PROJECT_DIR$/src/main/java" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="Globals" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Exceptions" />
+      <recent name="TestFileTypes.WAV.ID3v2.ID3v23" />
+      <recent name="TestFileTypes.WAV.ID3v2.ID3v24" />
+      <recent name="TestFileTypes.MP3.ID3.ID3v24" />
+      <recent name="TestFileTypes.MP3.ID3.ID3v23" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.ID3v1Genres">
+    <configuration name="ID3v11Reading" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MultiP3-Tag-Lib.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestFileTypes.MP3.ID3.ID3v11.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestFileTypes.MP3.ID3.ID3v11" />
+      <option name="MAIN_CLASS_NAME" value="TestFileTypes.MP3.ID3.ID3v11.ID3v11Reading" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ID3v11WritingBoundary" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MultiP3-Tag-Lib.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestFileTypes.MP3.ID3.ID3v11.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestFileTypes.MP3.ID3.ID3v11" />
+      <option name="MAIN_CLASS_NAME" value="TestFileTypes.MP3.ID3.ID3v11.ID3v11WritingBoundary" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ID3v11WritingNormal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MultiP3-Tag-Lib.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestFileTypes.MP3.ID3.ID3v11.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestFileTypes.MP3.ID3.ID3v11" />
+      <option name="MAIN_CLASS_NAME" value="TestFileTypes.MP3.ID3.ID3v11.ID3v11WritingNormal" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ID3v11WritingRobust" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MultiP3-Tag-Lib.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestFileTypes.MP3.ID3.ID3v11.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestFileTypes.MP3.ID3.ID3v11" />
+      <option name="MAIN_CLASS_NAME" value="TestFileTypes.MP3.ID3.ID3v11.ID3v11WritingRobust" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ID3v1Genres" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MultiP3-Tag-Lib.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestFileTypes.MP3.ID3.ID3v1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestFileTypes.MP3.ID3.ID3v1" />
+      <option name="MAIN_CLASS_NAME" value="TestFileTypes.MP3.ID3.ID3v1.ID3v1Genres" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ID3v1Genres" />
+        <item itemvalue="JUnit.ID3v11WritingRobust" />
+        <item itemvalue="JUnit.ID3v11WritingNormal" />
+        <item itemvalue="JUnit.ID3v11WritingBoundary" />
+        <item itemvalue="JUnit.ID3v11Reading" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="78a3bad7-b97e-4a13-af01-8512dd4b9670" name="Default Changelist" comment="" />
+      <created>1618223179067</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1618223179067</updated>
+      <workItem from="1618223182262" duration="21854000" />
+      <workItem from="1618312415703" duration="11353000" />
+      <workItem from="1618398157393" duration="566000" />
+      <workItem from="1618484826518" duration="12478000" />
+      <workItem from="1618529486198" duration="2026000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/TestFileTypes/MP3/ID3/ID3v1/ID3v1Reading.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/TestFileTypes/MP3/ID3/ID3v11/ID3v11WritingNormal.java</url>
+          <line>108</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/Utilities/ByteUtilities.java</url>
+          <line>233</line>
+          <properties class="Utilities.ByteUtilities" method="updateSection">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/Factories/ID3v11Factory.java</url>
+          <line>183</line>
+          <properties class="Factories.ID3v11Factory" method="updateRawTrackNumber">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

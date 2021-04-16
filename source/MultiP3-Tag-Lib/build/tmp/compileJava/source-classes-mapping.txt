@@ -1,0 +1,70 @@
+Factories/ID3v1Factory.java
+ Factories.ID3v1Factory
+Exceptions/HeaderNotFoundException.java
+ Exceptions.HeaderNotFoundException
+FileTypes/WAV.java
+ FileTypes.WAV
+DataStore/Globals.java
+ DataStore.Globals
+Exceptions/InvalidGenreException.java
+ Exceptions.InvalidGenreException
+Factories/ID3v2Factory.java
+ Factories.ID3v2Factory
+TagTypes/ID3v22.java
+ TagTypes.ID3v22
+Factories/ID3v1EnhancedFactory.java
+ Factories.ID3v1EnhancedFactory
+TagTypes/ID3v1Enhanced.java
+ TagTypes.ID3v1Enhanced
+TagTypes/ID3v2.java
+ TagTypes.ID3v2
+Utilities/EncodedText.java
+ Utilities.EncodedText
+Exceptions/BaseException.java
+ Exceptions.BaseException
+TagTypes/ID3v11.java
+ TagTypes.ID3v11
+Exceptions/GenreOutOfBoundsException.java
+ Exceptions.GenreOutOfBoundsException
+Factories/ID3v24Factory.java
+ Factories.ID3v24Factory
+Exceptions/EmptyFieldException.java
+ Exceptions.EmptyFieldException
+Utilities/StringUtilities.java
+ Utilities.StringUtilities
+Factories/ID3v22Factory.java
+ Factories.ID3v22Factory
+Factories/ID3v23Factory.java
+ Factories.ID3v23Factory
+Factories/ID3v11Factory.java
+ Factories.ID3v11Factory
+Exceptions/TrackNumberOutOfBoundsException.java
+ Exceptions.TrackNumberOutOfBoundsException
+TagTypes/AbstractID3v2.java
+ TagTypes.AbstractID3v2
+TagStructures/ID3v2Frame.java
+ TagStructures.ID3v2Frame
+DataStore/Speeds.java
+ DataStore.Speeds
+Factories/ID3v2HeaderFactory.java
+ Factories.ID3v2HeaderFactory
+TagTypes/ID3v23.java
+ TagTypes.ID3v23
+TagTypes/ID3v1.java
+ TagTypes.ID3v1
+TagStructures/ID3v2Header.java
+ TagStructures.ID3v2Header
+Factories/ID3v2FrameFactory.java
+ Factories.ID3v2FrameFactory
+Utilities/BufferUtilities.java
+ Utilities.BufferUtilities
+Exceptions/SpeedOutOfBoundsException.java
+ Exceptions.SpeedOutOfBoundsException
+TagTypes/ID3v24.java
+ TagTypes.ID3v24
+Utilities/ByteUtilities.java
+ Utilities.ByteUtilities
+DataStore/Genres.java
+ DataStore.Genres
+FileTypes/MP3.java
+ FileTypes.MP3
