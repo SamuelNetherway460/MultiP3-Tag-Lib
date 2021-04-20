@@ -10,6 +10,7 @@ import java.util.ArrayList;
  *
  * @author Samuel Netherway
  */
+/*
 public abstract class AbstractID3v2 implements ID3v2 {
 
     protected String recommendedBufferSize;
@@ -653,3 +654,5 @@ public abstract class AbstractID3v2 implements ID3v2 {
         this.userDefinedURLLink = userDefinedURLLink;
     }
 }
+
+ */

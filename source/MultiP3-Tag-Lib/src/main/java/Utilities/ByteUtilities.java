@@ -1,5 +1,6 @@
 package Utilities;
 
+import Factories.ID3v2HeaderFactory;
 import FileTypes.MP3;
 import FileTypes.WAV;
 import TagStructures.ID3v2Header;
@@ -108,11 +109,14 @@ public class ByteUtilities {
         return bytes;
     }
 
+    public static byte[] getFileBytes(MP3 mp3) {
+        return all(mp3);
+    }
+
     public static byte[] all(MP3 mp3) {
         byte[] bytes = null;
         try {
             SeekableByteChannel seekableByteChannel = Files.newByteChannel(mp3.getPath(), StandardOpenOption.READ);
-            System.out.println(seekableByteChannel.size());
             ByteBuffer byteBuffer = ByteBuffer.allocate((int) seekableByteChannel.size());
             seekableByteChannel.position(0);
             byteBuffer.clear();
@@ -173,24 +177,60 @@ public class ByteUtilities {
         return bytes;
     }
 
-    public static byte[] scanForID3v2Header(MP3 mp3) {
+    public static byte[] getID3v2HeaderBytes(MP3 mp3) {
         byte[] bytes = all(mp3);
         for (int i = 0; i < bytes.length; i++) {
-            if (bytes[i + ID3v2Header.I_OFFSET] == DECIMAL_I
-                && bytes[i + ID3v2Header.D_OFFSET] == DECIMAL_D
-                && bytes[i + ID3v2Header.THREE_OFFSET] == DECIMAL_3) {
-                if (bytes[i + ID3v2Header.MAJOR_VERSION_OFFSET] < 255
-                    && bytes[i + ID3v2Header.MINOR_VERSION_OFFSET] < 255) {
-                    if (bytes[i + ID3v2Header.TAG_SIZE_1_OFFSET] < 128
-                        && bytes[i + ID3v2Header.TAG_SIZE_2_OFFSET] < 128
-                        && bytes[i + ID3v2Header.TAG_SIZE_3_OFFSET] < 128
-                        && bytes[i + ID3v2Header.TAG_SIZE_4_OFFSET] < 128) {
-                        return Arrays.copyOfRange(bytes, i, ID3v2Header.ID3V2_HEADER_LENGTH - 1);
+            if (bytes[i + ID3v2HeaderFactory.I_START] == DECIMAL_I
+                && bytes[i + ID3v2HeaderFactory.D_START] == DECIMAL_D
+                && bytes[i + ID3v2HeaderFactory.THREE_START] == DECIMAL_3) {
+                if (bytes[i + ID3v2HeaderFactory.MAJOR_VERSION_START] < 255
+                    && bytes[i + ID3v2HeaderFactory.MINOR_VERSION_START] < 255) {
+                    if (bytes[i + ID3v2HeaderFactory.SIZE_START_1] < 128
+                        && bytes[i + ID3v2HeaderFactory.SIZE_START_2] < 128
+                        && bytes[i + ID3v2HeaderFactory.SIZE_START_3] < 128
+                        && bytes[i + ID3v2HeaderFactory.SIZE_START_4] < 128) {
+                        return Arrays.copyOfRange(bytes, i, ID3v2HeaderFactory.HEADER_LENGTH);
                     }
                 }
             }
         }
         return null;
+    }
+
+    public static int scanForID3v2TagPosition(MP3 mp3) {
+        byte[] bytes = all(mp3);
+        for (int i = 0; i < bytes.length; i++) {
+            if (bytes[i + ID3v2HeaderFactory.I_START] == DECIMAL_I
+                && bytes[i + ID3v2HeaderFactory.D_START] == DECIMAL_D
+                && bytes[i + ID3v2HeaderFactory.THREE_START] == DECIMAL_3) {
+                if (bytes[i + ID3v2HeaderFactory.MAJOR_VERSION_START] < 255
+                    && bytes[i + ID3v2HeaderFactory.MINOR_VERSION_START] < 255) {
+                    if (bytes[i + ID3v2HeaderFactory.SIZE_START_1] < 128
+                        && bytes[i + ID3v2HeaderFactory.SIZE_START_2] < 128
+                        && bytes[i + ID3v2HeaderFactory.SIZE_START_3] < 128
+                        && bytes[i + ID3v2HeaderFactory.SIZE_START_4] < 128) {
+                        return i;
+                    }
+                }
+            }
+        }
+        return -1; //TODO:  ERROR VALUE, TAG COULD NOT BE FOUND REPLACE WITH EXCEPTION THROW
+    }
+
+    public static byte[] getID3v2TagBytes(MP3 mp3, ID3v2Header header) {
+        byte[] bytes = null;
+        try {
+            SeekableByteChannel seekableByteChannel = Files.newByteChannel(mp3.getPath(), StandardOpenOption.READ);
+            ByteBuffer byteBuffer = ByteBuffer.allocate(header.getTagSize());
+            seekableByteChannel.position(header.getPositionInFile());
+            byteBuffer.clear();
+            seekableByteChannel.read(byteBuffer);
+            bytes = byteBuffer.array();
+        } catch (IOException ioe) {
+            bytes = null;
+            return bytes;
+        }
+        return bytes;
     }
 
     // TODO Implement
@@ -201,7 +241,8 @@ public class ByteUtilities {
      * @return A byte array containing the extended FileTypes.MP3.ID3.ID3v24 tag header.
      */
     public static byte[] getID3v2ExtendedHeader(ID3v24 id3v24) {
-        return Arrays.copyOfRange(id3v24.getBytes(), ID3V24_START_POSITION, ID3V24_HEADER_LENGTH - 1);
+        //return Arrays.copyOfRange(id3v24.getBytes(), ID3V24_START_POSITION, ID3V24_HEADER_LENGTH - 1);
+        return null;
     }
 
     /**

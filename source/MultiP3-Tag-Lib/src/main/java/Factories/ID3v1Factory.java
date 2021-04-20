@@ -13,8 +13,6 @@ import Utilities.StringUtilities;
 
 import java.io.UnsupportedEncodingException;
 
-import static Utilities.BufferUtilities.convertByteToInt;
-
 /**
  * Factory class used for creating, deleting and manipulating the FileTypes.MP3.ID3.ID3v1 tag.
  *
@@ -56,7 +54,7 @@ public class ID3v1Factory {
      * Creates a new ID3v1 tag and starts the field reading process.
      *
      * @param mp3 The mp3 file containing the tag data.
-     * @return The FileTypes.MP3.ID3.ID3v1 tag with all fields populated.
+     * @return The ID3v1 tag with all fields populated.
      */
     public static ID3v1 extractTag(MP3 mp3) {
         ID3v1 id3V1 = new ID3v1();
@@ -67,8 +65,8 @@ public class ID3v1Factory {
     /**
      * Reads all tag fields.
      *
-     * @param tag The empty FileTypes.MP3.ID3.ID3v1 tag containing the raw tag bytes.
-     * @return The FileTypes.MP3.ID3.ID3v1 tag with all attributes populated.
+     * @param tag The empty ID3v1 tag containing the raw tag bytes.
+     * @return The ID3v1 tag with all attributes populated.
      */
     protected static ID3v1 populateFields(ID3v1 tag) {
 

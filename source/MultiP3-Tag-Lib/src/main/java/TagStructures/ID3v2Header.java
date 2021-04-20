@@ -2,43 +2,58 @@ package TagStructures;
 
 public class ID3v2Header {
 
-    public static final String IDENTIFIER = "FileTypes.MP3.ID3";
-    public static final int FILE_IDENTIFIER_OFFSET = 0;
-    public static final int I_OFFSET = 0;
-    public static final int D_OFFSET = 1;
-    public static final int THREE_OFFSET = 2;
-    public static final int MAJOR_VERSION_OFFSET = 3;
-    public static final int MINOR_VERSION_OFFSET = 4;
-    public static final int FLAGS_OFFSET = 5;
-    public static final int TAG_SIZE_1_OFFSET = 6;
-    public static final int TAG_SIZE_2_OFFSET = 7;
-    public static final int TAG_SIZE_3_OFFSET = 8;
-    public static final int TAG_SIZE_4_OFFSET = 9;
-    public static final int UNSYNCHRONISATION_BIT = 1;
-    public static final int EXTENDED_HEADER_BIT = 2;
-    public static final int EXPERIMENTAL_INDICATOR_BIT = 3;
-    public static final int FOOTER_PRESENT_BIT = 4;
-    public static final int UNDEFINED_FLAG_ONE_BIT = 5;
-    public static final int UNDEFINED_FLAG_TWO_BIT = 6;
-    public static final int UNDEFINED_FLAG_THREE_BIT = 7;
-    public static final int UNDEFINED_FLAG_FOUR_BIT = 8;
-    public static final int ID3V2_HEADER_LENGTH = 10;
-    public static final int FILE_IDENTIFIER_LENGTH = 3;
-    public static final int VERSION_LENGTH = 2;
-    public static final int MAJOR_VERSION_LENGTH = 1;
-    public static final int MINOR_VERSION_LENGTH = 1;
-    public static final int FLAGS_LENGTH = 1;
-    public static final int TAG_SIZE_LENGTH = 4;
+    private int majorVersion;
+    private int minorVersion;
+    private boolean unsynchronisation;
+    private boolean compression;
+    private boolean extendedHeader;
+    private boolean experimental;
+    private boolean footer;
+    private boolean unassignedFlag1;
+    private boolean unassignedFlag2;
+    private boolean unassignedFlag3;
+    private boolean unassignedFlag4;
+    private int tagSize;
+    private int dataSize;
+    private int positionInFile;
+    private byte[] bytes;
 
-    private boolean unsynchronisation = false;
-    private boolean extendedHeader = false;
-    private boolean experimentalIndicator = false;
-    private boolean footer = false;
-    private int tagSize = 0;
-    protected byte[] bytes;
+    public ID3v2Header() {}
 
-    public ID3v2Header() {
-        super();
+    public ID3v2Header(int majorVersion, int minorVersion, boolean unsynchronisation, boolean extendedHeader,
+                       boolean experimental, boolean footer, boolean unassignedFlag1, boolean unassignedFlag2,
+                       boolean unassignedFlag3, boolean unassignedFlag4, int tagSize, int dataSize, int positionInFile,
+                       byte[] bytes) {
+        this.majorVersion = majorVersion;
+        this.minorVersion = minorVersion;
+        this.unsynchronisation = unsynchronisation;
+        this.extendedHeader = extendedHeader;
+        this.experimental = experimental;
+        this.footer = footer;
+        this.unassignedFlag1 = unassignedFlag1;
+        this.unassignedFlag2 = unassignedFlag2;
+        this.unassignedFlag3 = unassignedFlag3;
+        this.unassignedFlag4 = unassignedFlag4;
+        this.tagSize = tagSize;
+        this.dataSize = dataSize;
+        this.positionInFile = positionInFile;
+        this.bytes = bytes;
+    }
+
+    public int getMajorVersion() {
+        return majorVersion;
+    }
+
+    public void setMajorVersion(int majorVersion) {
+        this.majorVersion = majorVersion;
+    }
+
+    public int getMinorVersion() {
+        return minorVersion;
+    }
+
+    public void setMinorVersion(int minorVersion) {
+        this.minorVersion = minorVersion;
     }
 
     /**
@@ -57,6 +72,16 @@ public class ID3v2Header {
      */
     public void setUnsynchronisation(boolean unsynchronisation) {
         this.unsynchronisation = unsynchronisation;
+    }
+
+    /**
+     * Gets the flag value indicating whether the tag uses a compression scheme. Exclusive to the ID3v2.2 version.
+     *
+     * @return A boolean value indicating whether the tag uses a compression scheme.
+     */
+    public boolean hasCompression() {
+        if (majorVersion != 2) return false;
+        return compression;
     }
 
     /**
@@ -83,16 +108,16 @@ public class ID3v2Header {
      * @return A boolean value indicating whether the tag is experimental.
      */
     public boolean hasExperimentalIndicator() {
-        return experimentalIndicator;
+        return experimental;
     }
 
     /**
      * Updates the flag value indicating whether the tag is experimental.
      *
-     * @param experimentalIndicator A boolean value indicating whether the tag is experimental.
+     * @param experimental A boolean value indicating whether the tag is experimental.
      */
-    public void setExperimentalIndicator(boolean experimentalIndicator) {
-        this.experimentalIndicator = experimentalIndicator;
+    public void setExperimental(boolean experimental) {
+        this.experimental = experimental;
     }
 
     /**
@@ -113,6 +138,38 @@ public class ID3v2Header {
         this.footer = footer;
     }
 
+    public boolean hasUnassignedFlag1() {
+        return unassignedFlag1;
+    }
+
+    public void setUnassignedFlag1(boolean unassignedFlag1) {
+        this.unassignedFlag1 = unassignedFlag1;
+    }
+
+    public boolean hasUnassignedFlag2() {
+        return unassignedFlag2;
+    }
+
+    public void setUnassignedFlag2(boolean unassignedFlag2) {
+        this.unassignedFlag2 = unassignedFlag2;
+    }
+
+    public boolean hasUnassignedFlag3() {
+        return unassignedFlag3;
+    }
+
+    public void setUnassignedFlag3(boolean unassignedFlag3) {
+        this.unassignedFlag3 = unassignedFlag3;
+    }
+
+    public boolean hasUnassignedFlag4() {
+        return unassignedFlag4;
+    }
+
+    public void setUnassignedFlag4(boolean unassignedFlag4) {
+        this.unassignedFlag4 = unassignedFlag4;
+    }
+
     /**
      * The size of the tag in bytes.
      *
@@ -129,6 +186,22 @@ public class ID3v2Header {
      */
     public void setTagSize(int tagSize) {
         this.tagSize = tagSize;
+    }
+
+    public int getDataSize() {
+        return dataSize;
+    }
+
+    public void setDataSize(int dataSize) {
+        this.dataSize = dataSize;
+    }
+
+    public int getPositionInFile() {
+        return positionInFile;
+    }
+
+    public void setPositionInFile(int positionInFile) {
+        this.positionInFile = positionInFile;
     }
 
     public byte[] getBytes() {

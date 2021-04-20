@@ -1,37 +1,43 @@
 package TagTypes;
 
 import FileTypes.MP3;
+import TagStructures.ID3v2ExtendedHeader;
 import Utilities.ByteUtilities;
 
 //TODO - JavaDoc
-public class ID3v23 extends AbstractID3v2 {
+public class ID3v23 extends ID3v2 {
 
-    protected String commercial = null;
-    protected String encryptionMethodRegistration = null;
-    protected String groupIdentificationRegistration = null;
-    protected String ownership = null;
-    protected String positionSynchronisation = null;
-    protected String privateField = null;
-    protected String[] synchronizedTempoCodes = null;
-    protected String fileOwnerLicence = null;
-    protected String leadPerformersSoloists = null;
-    protected String internetRadioStationName = null;
-    protected String internetRadioStationOwner = null;
-    protected String termsOfUse = null;
-    protected String commercialInformation = null;
-    protected String copyrightLegalInformation = null;
-    protected String officialInternetRadioStationHomepage = null;
-    protected String payment = null;
-    protected String publishersOfficialWebpage = null;
+    protected ID3v2ExtendedHeader extendedHeader;
+
+    protected String commercial;
+    protected String encryptionMethodRegistration;
+    protected String groupIdentificationRegistration;
+    protected String ownership;
+    protected String positionSynchronisation;
+    protected String privateField;
+    protected String[] synchronizedTempoCodes;
+    protected String fileOwnerLicence;
+    protected String leadPerformersSoloists;
+    protected String internetRadioStationName;
+    protected String internetRadioStationOwner;
+    protected String termsOfUse;
+    protected String commercialInformation;
+    protected String copyrightLegalInformation;
+    protected String officialInternetRadioStationHomepage;
+    protected String payment;
+    protected String publishersOfficialWebpage;
 
     //TODO - JavaDoc
-    public ID3v23(MP3 mp3) {
-        initTag(mp3);
+    public ID3v23() {
+
     }
 
-    //TODO - JavaDoc
-    public void initTag(MP3 mp3) {
-        bytes = ByteUtilities.getID3v23Bytes(mp3);
+    public ID3v2ExtendedHeader getExtendedHeader() {
+        return extendedHeader;
+    }
+
+    public void setExtendedHeader(ID3v2ExtendedHeader extendedHeader) {
+        this.extendedHeader = extendedHeader;
     }
 
     //TODO - JavaDoc
@@ -76,12 +82,13 @@ public class ID3v23 extends AbstractID3v2 {
 
     //TODO - JavaDoc
     public int getPlayCounter() {
-        return playCounter;
+        //return playCounter;
+        return 1;
     }
 
     //TODO - JavaDoc
     public void setPlayCounter(int playCounter) {
-        this.playCounter = playCounter;
+        //this.playCounter = playCounter;
     }
 
     //TODO - JavaDoc

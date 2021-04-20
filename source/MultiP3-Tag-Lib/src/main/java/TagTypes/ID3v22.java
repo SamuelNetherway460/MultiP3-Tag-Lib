@@ -4,19 +4,14 @@ import FileTypes.MP3;
 import Utilities.ByteUtilities;
 
 //TODO - JavaDoc
-public class ID3v22 extends AbstractID3v2 {
+public class ID3v22 extends ID3v2 {
 
     private String[] tempoCodes;
     private String[] leadArtistsLeadPerformersSoloistsPerformingGroup;
 
     //TODO - JavaDoc
-    public ID3v22(MP3 mp3) {
-        initTag(mp3);
-    }
+    public ID3v22() {
 
-    //TODO - JavaDoc
-    public void initTag(MP3 mp3) {
-        bytes = ByteUtilities.getID3v22Bytes(mp3);
     }
 
     //TODO - JavaDoc

@@ -1,7 +1,17 @@
 package Factories;
 
+import Exceptions.HeaderNotFoundException;
 import FileTypes.MP3;
+import TagStructures.ID3v2Frame;
+import TagStructures.ID3v2Header;
+import TagTypes.ID3v2;
 import TagTypes.ID3v22;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+
+import static Factories.ID3v2FrameFactory.extractFrames;
+import static Factories.ID3v2HeaderFactory.HEADER_LENGTH;
 
 //TODO - JavaDoc
 /**
@@ -9,7 +19,7 @@ import TagTypes.ID3v22;
  *
  * @author Samuel Netherway
  */
-public class ID3v22Factory {
+public class ID3v22Factory extends ID3v2Factory {
 
     private static final String META_RECOMMENDED_BUFFER_SIZE = "BUF";
     private static final String META_PLAY_COUNTER = "CNT";
@@ -75,14 +85,26 @@ public class ID3v22Factory {
     private static final String META_PUBLISHERS_OFFICIAL_WEBPAGE = "WPB";
     private static final String META_USER_DEFINED_URL_LINK_FRAME = "WXX";
 
-    public static ID3v22 createTag(MP3 mp3) {
-        return populateFrames(new ID3v22(mp3));
-    }
+    public static ID3v22 extractTag(MP3 mp3) {
+        ID3v2Header header = null;
+        try {
+            header = ID3v2HeaderFactory.extractHeader(mp3);
+        } catch (HeaderNotFoundException hnfe) {
+            hnfe.printStackTrace(); // TODO Handle correctly
+        }
 
-    //TODO Implement
-    public static ID3v22 populateFrames(ID3v22 tag) {
-        byte[] data = tag.getBytes();
+        ID3v22 tag = new ID3v22();
+        tag.setBytes(Arrays.copyOfRange(mp3.getBytes(), header.getPositionInFile(),
+            header.getPositionInFile() + header.getTagSize()));
 
+        if (header.hasExtendedHeader()) {
+
+        } else {
+            tag.setFrameBytes(Arrays.copyOfRange(tag.getBytes(), HEADER_LENGTH, header.getTagSize()));
+        }
+        tag.setHeader(header);
+
+        ArrayList<ID3v2Frame> frames = extractFrames(header, tag.getFrameBytes());
 
         return tag;
     }

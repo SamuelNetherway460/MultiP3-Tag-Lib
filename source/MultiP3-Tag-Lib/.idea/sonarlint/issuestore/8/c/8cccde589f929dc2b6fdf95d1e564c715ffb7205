@@ -1,0 +1,18 @@
+
+O
+java:S1197¯"8Move the array designator from the variable to the type.(¿Ú÷¼
+n
+java:S3776©"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(Ë¿ç­ÿÿÿÿÿ
+h
+java:S3776o"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(âƒ½õ
+X
+java:S1126ç"AReplace this if-then-else statement by a single return statement.(»ÙÌ…
+3
+java:S2225Ë"Return empty string instead.(¥¹ï
+L
+java:S1172”"0Remove this unused method parameter "transcode".(ú€Ó­üÿÿÿÿ
+[
+java:S1117A"@Rename "textEncoding" which hides the field declared at line 50.(´Ï¨Àûÿÿÿÿ
+n	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÄÍû
+=
+java:S1168ş"&Return an empty array instead of null.(¥¹ï

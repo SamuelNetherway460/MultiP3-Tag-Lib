@@ -1,0 +1,154 @@
+
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(áŞäÛşÿÿÿÿ
+U
+java:S1118":Add a private constructor to hide the implicit public one.(»¬¦Òúÿÿÿÿ
+M
+java:S1135"2Complete the task associated to this TODO comment.(ä’¯÷ıÿÿÿÿ
+N
+java:S1068"9Remove this unused "META_AUDIO_ENCRYPTION" private field.(ÏÏ—Q
+O
+java:S1068"9Remove this unused "META_ATTACHED_PICTURE" private field.(ÛÔÿ³
+G
+java:S1068"1Remove this unused "META_COMMENTS" private field.(á†¦
+I
+java:S1068"3Remove this unused "META_COMMERCIAL" private field.(¥‘Õ
+b
+java:S1068"GRemove this unused "META_ENCRYPTION_METHOD_REGISTRATION" private field.( ¡Ï¥ÿÿÿÿÿ
+P
+java:S1068"5Remove this unused "META_EQUALIZATION" private field.(ÊØíÊûÿÿÿÿ
+Q
+java:S1068";Remove this unused "META_EVENT_TIMING_CODES" private field.(èÒ¯’
+Z
+java:S1068"DRemove this unused "META_GENERAL_ENCAPSULATED_OBJECT" private field.(‡â
+e
+java:S1068"JRemove this unused "META_GROUP_IDENTIFICATION_REGISTRATION" private field.(°€˜»ûÿÿÿÿ
+S
+java:S1068"=Remove this unused "META_INVOLVED_PEOPLE_LIST" private field.(¡¸ï²
+P
+java:S1068";Remove this unused "META_LINKED_INFORMATION" private field.(ƒ»Å[
+Q
+java:S1068"<Remove this unused "META_MUSIC_CD_IDENTIFIER" private field.(ÈÙ¦G
+Y
+java:S1068"CRemove this unused "META_MPEG_LOCATION_LOOKUP_TABLE" private field.(ñ•®å
+K
+java:S1068"5Remove this unused "META_OWERNERSHIPE" private field.(İ¾©¬
+P
+java:S1068"5Remove this unused "META_PLAY_COUNTER" private field.(‹Êé×ûÿÿÿÿ
+Q
+java:S1068"6Remove this unused "META_POPULARIMETER" private field.(Œ§ºŒÿÿÿÿÿ
+W
+java:S1068"ARemove this unused "META_POSITION_SYNCHRONISATION" private field.(öÅ
+F
+java:S1068"0Remove this unused "META_PRIVATE" private field.(“à””
+Z
+java:S1068 "?Remove this unused "META_RECOMENDED_BUFFER_SIZE" private field.(ƒÆõÉùÿÿÿÿ
+^
+java:S1068!"CRemove this unused "META_RELATIVE_VOLUME_ADJUSTMENT" private field.(ãŒëûÿÿÿÿ
+E
+java:S1068""/Remove this unused "META_REVERB" private field.(†Ç´¶
+V
+java:S1068#"@Remove this unused "META_SYNCHRONIZED_LYRIC_TEXT" private field.(íÃÉÄ
+\
+java:S1068$"ARemove this unused "META_SYNCHRONIZED_TEMPO_CODES" private field.(–¸ÿ—şÿÿÿÿ
+Z
+java:S1068%"?Remove this unused "META_ALBUM_MOVIE_SHOW_TITLE" private field.(ã½˜Ãşÿÿÿÿ
+O
+java:S1068&"9Remove this unused "META_BEATS_PER_MINUTE" private field.(ä´É
+L
+java:S1068'"1Remove this unused "META_COMPOSER" private field.(ã‰³ßıÿÿÿÿ
+P
+java:S1068("5Remove this unused "META_CONTENT_TYPE" private field.(’²ûƒüÿÿÿÿ
+P
+java:S1068)":Remove this unused "META_COPYRIGHT_MESSAGE" private field.(ÕÕÎÆ
+H
+java:S1068*"-Remove this unused "META_DATE" private field.(ïì‹øÿÿÿÿ
+L
+java:S1068+"7Remove this unused "META_PLAYLIST_DELAY" private field.(œÏ©
+I
+java:S1068,"3Remove this unused "META_ENCODED_BY" private field.(¹İÜî
+X
+java:S1068-"=Remove this unused "META_LYRICIST_TEXT_WRITER" private field.(”óôˆşÿÿÿÿ
+M
+java:S1068."2Remove this unused "META_FILE_TYPE" private field.(«Åú§ıÿÿÿÿ
+H
+java:S1068/"-Remove this unused "META_TIME" private field.(¯ôéôúÿÿÿÿ
+]
+java:S10680"BRemove this unused "META_CONTENT_GROUP_DESCRIPTION" private field.(©”ïèúÿÿÿÿ
+g
+java:S10681"LRemove this unused "META_TITLE_SONG_NAME_CONTENT_DESCRIPTION" private field.(ĞÏÎ±üÿÿÿÿ
+^
+java:S10682"HRemove this unused "META_SUBTITLE_DESCRIPTION_REFINEMENT" private field.(°§­…
+J
+java:S10683"4Remove this unused "META_INITIAL_KEY" private field.(Æ’×Î
+G
+java:S10684"1Remove this unused "META_LANGUAGE" private field.(ûêäÒ
+J
+java:S10685"/Remove this unused "META_LENGTH" private field.(Ùíóüùÿÿÿÿ
+I
+java:S10686"3Remove this unused "META_MEDIA_TYPE" private field.(ƒ€ü
+c
+java:S10687"HRemove this unused "META_ORIGINAL_ALBUM_MOVIE_SHOW_TITLE" private field.(“àà¡ûÿÿÿÿ
+P
+java:S10688":Remove this unused "META_ORIGINAL_FILENAME" private field.(˜¦ë¦
+c
+java:S10689"HRemove this unused "META_ORIGINAL_LYRICISTS_TEXT_WRITERS" private field.(¥ö…¤øÿÿÿÿ
+_
+java:S1068:"DRemove this unused "META_ORIGINAL_ARTISTS_PERFORMERS" private field.(¶ñ³‡ûÿÿÿÿ
+Y
+java:S1068;">Remove this unused "META_ORIGINAL_RELEASE_YEAR" private field.(è¡Öşÿÿÿÿ
+V
+java:S1068<";Remove this unused "META_FILE_OWNER_LICENCE" private field.(ãÏ¯ûÿÿÿÿ
+W
+java:S1068="ARemove this unused "META_LEAD_PERFORMERS_SOLOISTS" private field.(øƒŸ
+[
+java:S1068>"ERemove this unused "META_BAND_ORCHESTRA_ACCOMPANIMENT" private field.(ßÂŒ€
+b
+java:S1068?"GRemove this unused "META_CONDUCTOR_PERFORMER_REFINEMENT" private field.(úÌËºûÿÿÿÿ
+p
+java:S1068@"URemove this unused "META_INTERPRETED_REMIXED_OR_OTHERWISE_MODIFIED_BY" private field.(®Ü³×üÿÿÿÿ
+Q
+java:S1068A"6Remove this unused "META_PART_OF_A_SET" private field.(š®Ìªıÿÿÿÿ
+M
+java:S1068B"2Remove this unused "META_PUBLISHER" private field.(“´õ¥şÿÿÿÿ
+[
+java:S1068C"ERemove this unused "META_TRACK_NUMBER_POSITION_IN_SET" private field.(œÆ‰Ò
+N
+java:S1068D"8Remove this unused "META_RECORDING_DATES" private field.(²Â÷
+Z
+java:S1068E"DRemove this unused "META_INTERNET_RADIO_STATION_NAME" private field.(—öŸ®
+`
+java:S1068F"ERemove this unused "META_INTERNET_RADIO_STATION_OWNER" private field.(ÔÅû¦úÿÿÿÿ
+C
+java:S1068G"-Remove this unused "META_SIZE" private field.(åÅıÔ
+d
+java:S1068H"NRemove this unused "META_INTERNATIONAL_STANDARD_RECORDING_CODE" private field.(æ–¿«
+o
+java:S1068I"YRemove this unused "META_SOFTWARE_HARDWARE_AND_SETTINGS_USED_FOR_ENCODING" private field.(¹Àµ×
+a
+java:S1068J"FRemove this unused "META_USER_DEFINED_TEXT_INFORMATION" private field.(š³ãßúÿÿÿÿ
+C
+java:S1068K"-Remove this unused "META_YEAR" private field.(¡í–
+Z
+java:S1068L"?Remove this unused "META_UNIQUE_FILE_IDENTIFIER" private field.(¦´üùÿÿÿÿ
+K
+java:S1068M"5Remove this unused "META_TERMS_OF_USE" private field.(·ãúí
+k
+java:S1068N"PRemove this unused "META_UNSYNCHRONIZED_LYRIC_TEXT_TRANSCRIPTION" private field.(·ƒ–¶üÿÿÿÿ
+Z
+java:S1068O"?Remove this unused "META_COMMERCIAL_INFORMATION" private field.(â§®ñÿÿÿÿÿ
+_
+java:S1068P"DRemove this unused "META_COPYRIGHT_LEGAL_INFORMATION" private field.(€Îê¤úÿÿÿÿ
+Z
+java:S1068Q"?Remove this unused "META_OFFICIAL_AUDIO_WEBPAGE" private field.(Â¼“òÿÿÿÿÿ
+`
+java:S1068R"JRemove this unused "META_OFFICIAL_ARTIST_PERFORMER_WEBPAGE" private field.(ö‚½í
+a
+java:S1068S"FRemove this unused "META_OFFICIAL_AUDIO_SOURCE_WEBPAGE" private field.(„åªşÿÿÿÿ
+l
+java:S1068T"QRemove this unused "META_OFFICIAL_INTERNET_RADIO_STATION_HOMEPAGE" private field.(ÏÏÿÿÿÿÿ
+K
+java:S1068U"0Remove this unused "META_PAYMENT" private field.(ˆÅ§ºûÿÿÿÿ
+Z
+java:S1068V"DRemove this unused "META_PUBLISHERS_OFFICIAL_WEBPAGE" private field.(«Ú˜Ğ
+Y
+java:S1068W">Remove this unused "META_USER_DEFINED_URL_LINK" private field.(Ã™²¬ùÿÿÿÿ

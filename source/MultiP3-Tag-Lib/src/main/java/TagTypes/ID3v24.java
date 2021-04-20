@@ -1,17 +1,14 @@
 package TagTypes;
 
-import Exceptions.HeaderNotFoundException;
-import Factories.ID3v2HeaderFactory;
-import FileTypes.MP3;
-import TagStructures.ID3v2Header;
-import Utilities.ByteUtilities;
+import TagStructures.ID3v2Footer;
 
 import java.sql.Time;
 
 //TODO - JavaDoc
 public class ID3v24 extends ID3v23 {
 
-    private ID3v2Header header = null;
+    private ID3v2Footer footer;
+
     private int audioSeekPointIndex;
     private String seek;
     private String signature;
@@ -29,27 +26,16 @@ public class ID3v24 extends ID3v23 {
     private String equalization;
 
     //TODO - JavaDoc
-    public ID3v24(MP3 mp3) {
-        super(mp3);
+    public ID3v24() {
+
     }
 
-    //TODO - JavaDoc
-    @Override
-    public void initTag(MP3 mp3) {
-        bytes = ByteUtilities.getID3v24Bytes(mp3);
-        try {
-            header = ID3v2HeaderFactory.extractHeader(mp3);
-        } catch (HeaderNotFoundException hnfe) {
-            hnfe.printStackTrace(); // TODO Handle correctly
-        }
+    public ID3v2Footer getFooter() {
+        return footer;
     }
 
-    public ID3v2Header getHeader() {
-        return header;
-    }
-
-    public void setHeader(ID3v2Header header) {
-        this.header = header;
+    public void setFooter(ID3v2Footer footer) {
+        this.footer = footer;
     }
 
     //TODO - JavaDoc

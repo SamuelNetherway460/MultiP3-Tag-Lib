@@ -1,11 +1,54 @@
 package TagTypes;
 
-import FileTypes.MP3;
+import TagStructures.ID3v2Frame;
+import TagStructures.ID3v2Header;
 
-//TODO - JavaDoc
-public interface ID3v2 {
+import java.util.Map;
 
-    //TODO - JavaDoc
-    void initTag(MP3 mp3);
+public class ID3v2 {
 
+    protected ID3v2Header header;
+    private Map<String, ID3v2Frame> frames;
+    private byte[] bytes;
+    private byte[] frameBytes;
+
+    public ID3v2Header getHeader() {
+        return header;
+    }
+
+    public void setHeader(ID3v2Header header) {
+        this.header = header;
+    }
+
+    public Map<String, ID3v2Frame> getFrames() {
+        return frames;
+    }
+
+    public void setFrames(Map<String, ID3v2Frame> frames) {
+        this.frames = frames;
+    }
+
+    public byte[] getBytes() {
+        return bytes;
+    }
+
+    public void setBytes(byte[] bytes) {
+        this.bytes = bytes;
+    }
+
+    public byte[] getFrameBytes() {
+        return frameBytes;
+    }
+
+    public void setFrameBytes(byte[] frameBytes) {
+        this.frameBytes = frameBytes;
+    }
+
+    public int getMajorVersion() {
+        return header.getMajorVersion();
+    }
+
+    public int getMinorVersion() {
+        return header.getMinorVersion();
+    }
 }

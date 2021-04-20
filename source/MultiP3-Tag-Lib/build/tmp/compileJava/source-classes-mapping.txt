@@ -1,15 +1,17 @@
 Factories/ID3v1Factory.java
  Factories.ID3v1Factory
-Exceptions/HeaderNotFoundException.java
- Exceptions.HeaderNotFoundException
+Factories/ID3v2FooterFactory.java
+ Factories.ID3v2FooterFactory
 FileTypes/WAV.java
  FileTypes.WAV
+Exceptions/HeaderNotFoundException.java
+ Exceptions.HeaderNotFoundException
 DataStore/Globals.java
  DataStore.Globals
 Exceptions/InvalidGenreException.java
  Exceptions.InvalidGenreException
-Factories/ID3v2Factory.java
- Factories.ID3v2Factory
+TagStructures/ID3v2Frame.java
+ TagStructures.ID3v2Frame
 TagTypes/ID3v22.java
  TagTypes.ID3v22
 Factories/ID3v1EnhancedFactory.java
@@ -24,6 +26,8 @@ Exceptions/BaseException.java
  Exceptions.BaseException
 TagTypes/ID3v11.java
  TagTypes.ID3v11
+Main.java
+ Main
 Exceptions/GenreOutOfBoundsException.java
  Exceptions.GenreOutOfBoundsException
 Factories/ID3v24Factory.java
@@ -40,10 +44,8 @@ Factories/ID3v11Factory.java
  Factories.ID3v11Factory
 Exceptions/TrackNumberOutOfBoundsException.java
  Exceptions.TrackNumberOutOfBoundsException
-TagTypes/AbstractID3v2.java
- TagTypes.AbstractID3v2
-TagStructures/ID3v2Frame.java
- TagStructures.ID3v2Frame
+Factories/ID3v2ExtendedHeaderFactory.java
+ Factories.ID3v2ExtendedHeaderFactory
 DataStore/Speeds.java
  DataStore.Speeds
 Factories/ID3v2HeaderFactory.java
@@ -54,8 +56,8 @@ TagTypes/ID3v1.java
  TagTypes.ID3v1
 TagStructures/ID3v2Header.java
  TagStructures.ID3v2Header
-Factories/ID3v2FrameFactory.java
- Factories.ID3v2FrameFactory
+FileTypes/MP3.java
+ FileTypes.MP3
 Utilities/BufferUtilities.java
  Utilities.BufferUtilities
 Exceptions/SpeedOutOfBoundsException.java
@@ -64,7 +66,15 @@ TagTypes/ID3v24.java
  TagTypes.ID3v24
 Utilities/ByteUtilities.java
  Utilities.ByteUtilities
+TagStructures/ID3v2ExtendedHeader.java
+ TagStructures.ID3v2ExtendedHeader
 DataStore/Genres.java
  DataStore.Genres
-FileTypes/MP3.java
- FileTypes.MP3
+TagStructures/ID3v2Footer.java
+ TagStructures.ID3v2Footer
+Exceptions/InvalidFrameException.java
+ Exceptions.InvalidFrameException
+Factories/ID3v2Factory.java
+ Factories.ID3v2Factory
+Factories/ID3v2FrameFactory.java
+ Factories.ID3v2FrameFactory

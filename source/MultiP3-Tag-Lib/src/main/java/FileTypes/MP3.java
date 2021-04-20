@@ -13,6 +13,8 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 
+import static Utilities.ByteUtilities.getFileBytes;
+
 /**
  * Class for encapsulating all attribute and required functions needed for an MP3 file.
  *
@@ -26,6 +28,7 @@ public class MP3 {
 
     private Path path;
     private long size;
+    private byte[] bytes;
     private ID3v1 id3v1 = null;
     private ID3v11 id3v11 = null;
     private ID3v1Enhanced id3v1Enhanced = null;
@@ -54,6 +57,7 @@ public class MP3 {
         } catch (IOException io) {
             this.size = 0;
         }
+        this.bytes = getFileBytes(this);//TODO Change method to accept file instead of mp3
     }
 
     /**
@@ -85,6 +89,10 @@ public class MP3 {
      */
     public long getSize() {
         return size;
+    }
+
+    public byte[] getBytes() {
+        return bytes;
     }
 
     /**

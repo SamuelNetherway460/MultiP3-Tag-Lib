@@ -1,0 +1,6 @@
+
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Û·¯¢üÿÿÿÿ
+
+java:S1319+"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(µ¿ËŞ8ù¨Ø/
+“
+java:S1319/"qThe type of the "frames" object should be an interface such as "List" rather than the implementation "ArrayList".(ó³î©ÿÿÿÿÿ8ù¨Ø/
