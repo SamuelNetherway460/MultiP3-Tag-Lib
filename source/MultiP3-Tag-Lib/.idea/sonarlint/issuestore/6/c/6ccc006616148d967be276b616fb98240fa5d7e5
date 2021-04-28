@@ -1,16 +1,12 @@
 
 U
-java:S1118":Add a private constructor to hide the implicit public one.(­²êöÿÿÿÿÿ
-€
-java:S1488:"^Immediately return this expression instead of assigning it to the temporary variable "header".(ÑèŠüÿÿÿÿ8¢“±Ó/
->
-java:S1116M"Remove this empty statement.(š­ú±ùÿÿÿÿ8Œ„ãÓ/
->
-java:S1116L"Remove this empty statement.(ÂÌœùûÿÿÿÿ8Œ„ãÓ/
+java:S1118":Add a private constructor to hide the implicit public one.(­²êöÿÿÿÿÿ
 t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(áŞäÛşÿÿÿÿ
->
-java:S1116N"Remove this empty statement.(¿¤€×ÿÿÿÿÿ8Œ„ãÓ/
-9
-java:S1116O"Remove this empty statement.(êÉÉÛ8Œ„ãÓ/
+€
+java:S1488<"^Immediately return this expression instead of assigning it to the temporary variable "header".(ÑèŠüÿÿÿÿ8¢“±Ó/
+€
+java:S1488E"^Immediately return this expression instead of assigning it to the temporary variable "header".(ÑèŠüÿÿÿÿ8Ü‹Œ­/
 V
-java:S1128"4Remove this unused import 'Utilities.ByteUtilities'.(È–—Šùÿÿÿÿ8¹ï¡×/
+java:S1128"4Remove this unused import 'Utilities.ByteUtilities'.(È–—Šùÿÿÿÿ8¹ï¡×/
+
+java:S1186h"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ôÖ¯I8“’Á/

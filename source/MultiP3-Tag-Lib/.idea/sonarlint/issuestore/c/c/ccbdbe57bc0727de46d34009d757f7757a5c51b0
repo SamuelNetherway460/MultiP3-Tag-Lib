@@ -1,93 +1,131 @@
 
-N
-java:S1135•"2Complete the task associated to this TODO comment.(¹ÎÀØøÿÿÿÿ
-R
-java:S1066Î"/Merge this if statement with the enclosing one.(Ş¾£ÿÿÿÿÿ8şÉ”×/
-N
-java:S1135"2Complete the task associated to this TODO comment.(¹ÎÀØøÿÿÿÿ
-N
-java:S1135¢"2Complete the task associated to this TODO comment.(ä’¯÷ıÿÿÿÿ
 o
-java:S2095§"QUse try-with-resources or close this "SeekableByteChannel" in a "finally" clause.(Ïë8éãÎã/
-?
-java:S1068$")Remove this unused "HEX_D" private field.(ÆğÒ§
-T
-java:S1135P"2Complete the task associated to this TODO comment.( ‹ğ˜øÿÿÿÿ8ÖéÃ»Œ/
-o
-java:S2095ß"QUse try-with-resources or close this "SeekableByteChannel" in a "finally" clause.(Ïë8éãÎã/
-K
-java:S1066º"/Merge this if statement with the enclosing one.(Ş¾£ÿÿÿÿÿ
-y
-java:S1488ˆ"]Immediately return this expression instead of assigning it to the temporary variable "bytes".(Ê›ˆ·ıÿÿÿÿ
-N
-java:S1135†"2Complete the task associated to this TODO comment.(¹ÎÀØøÿÿÿÿ
-F
-java:S1172"*Remove this unused method parameter "mp3".(Û÷Èüÿÿÿÿ
-N
-java:S1135£"2Complete the task associated to this TODO comment.(¹ÎÀØøÿÿÿÿ
-N
-java:S1135–"2Complete the task associated to this TODO comment.(ä’¯÷ıÿÿÿÿ
-n	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÄÍû
-R
-java:S1066Ğ"/Merge this if statement with the enclosing one.(•ÔÙşÿÿÿÿ8şÉ”×/
-A
-java:S1172‡"*Remove this unused method parameter "mp3".(‹êÇõ
-D
-java:S1068%")Remove this unused "HEX_3" private field.(öú‘ÿÿÿÿÿ
+java:S2095ú"QUse try-with-resources or close this "SeekableByteChannel" in a "finally" clause.(Ïë8ºß•­/
+g
+java:S2259Ù"DA "NullPointerException" could be thrown; "header" is nullable here.(¶—©úÿÿÿÿ8­ã¿Ä/
+g
+java:S2259¥"DA "NullPointerException" could be thrown; "header" is nullable here.(ÂÎ”øÿÿÿÿ8‡ÒÿË/
+t
+java:S2095Æ"QUse try-with-resources or close this "SeekableByteChannel" in a "finally" clause.(§´ºıÿÿÿÿ8­ã¿Ä/
+M
+java:S1172â"*Remove this unused method parameter "mp3".(Û÷Èüÿÿÿÿ8ºß•­/
 U
-java:S1135Š"2Complete the task associated to this TODO comment.(¸ÈÖıøÿÿÿÿ8••Ü¯/
-y
-java:S1488"]Immediately return this expression instead of assigning it to the temporary variable "bytes".(Ê›ˆ·ıÿÿÿÿ
-=
-java:S1168Å"&Return an empty array instead of null.(¥¹ï
-n
-java:S20952"QUse try-with-resources or close this "SeekableByteChannel" in a "finally" clause.(Ïë8éãÎã/
-P
-java:S1135Ù"2Complete the task associated to this TODO comment.(¼Ÿ»Ş8½—×/
-M
-java:S1135_"2Complete the task associated to this TODO comment.(ä’¯÷ıÿÿÿÿ
-N
-java:S1135"2Complete the task associated to this TODO comment.(ä’¯÷ıÿÿÿÿ
-A
-java:S1172œ"*Remove this unused method parameter "wav".(íéù
-n
-java:S2095E"QUse try-with-resources or close this "SeekableByteChannel" in a "finally" clause.(ŠÔ¶á8éãÎã/
-M
-java:S1135'"2Complete the task associated to this TODO comment.(ä’¯÷ıÿÿÿÿ
-n
-java:S2095w"QUse try-with-resources or close this "SeekableByteChannel" in a "finally" clause.(Ïë8éãÎã/
-^	java:S125ô"<This block of commented-out lines of code should be removed.(æŒÊûÿÿÿÿ8îÇ‰Ù/
-D
-java:S1068#")Remove this unused "HEX_I" private field.(©®±÷øÿÿÿÿ
-n
-java:S2095U"QUse try-with-resources or close this "SeekableByteChannel" in a "finally" clause.(ŠÔ¶á8éãÎã/
-M
-java:S1135@"2Complete the task associated to this TODO comment.( ‹ğ˜øÿÿÿÿ
-n
-java:S2095c"QUse try-with-resources or close this "SeekableByteChannel" in a "finally" clause.(Ïë8éãÎã/
-N
-java:S1135…"2Complete the task associated to this TODO comment.(ä’¯÷ıÿÿÿÿ
-_
-java:S2259¶"CA "NullPointerException" could be thrown; "bytes" is nullable here.(—Ü™âûÿÿÿÿ
-‚
-java:S4144"_Update this method so that its implementation is not identical to "getID3v22Bytes" on line 135.(Û÷Èüÿÿÿÿ8éãÎã/
-M
-java:S1135?"2Complete the task associated to this TODO comment.(ä’¯÷ıÿÿÿÿ
-P
-java:S1172ó"-Remove this unused method parameter "id3v24".(ÚÊ–Öúÿÿÿÿ8ş“ŠÙ/
-y
-java:S1488"]Immediately return this expression instead of assigning it to the temporary variable "bytes".(Ê›ˆ·ıÿÿÿÿ
-f
-java:S2259Ê"CA "NullPointerException" could be thrown; "bytes" is nullable here.(—Ü™âûÿÿÿÿ8şÉ”×/
-N
-java:S1068"9Remove this unused "DEFAULT_BUFFER_LENGTH" private field.(Ğ»È
+java:S1135é"2Complete the task associated to this TODO comment.(ä’¯÷ıÿÿÿÿ8‹èß£/
+o
+java:S2095Û"QUse try-with-resources or close this "SeekableByteChannel" in a "finally" clause.(ŠÔ¶á8ºß•­/
+o
+java:S2095¡"QUse try-with-resources or close this "SeekableByteChannel" in a "finally" clause.(Ïë8ºß•­/
+K	java:S108ï")Either remove or fill this block of code.(‘ôìÓúÿÿÿÿ8ºß•­/
+U
+java:S1135õ"2Complete the task associated to this TODO comment.(ä’¯÷ıÿÿÿÿ8ºß•­/
 T
-java:S1135O"2Complete the task associated to this TODO comment.(ä’¯÷ıÿÿÿÿ8ÖéÃ»Œ/
-K
-java:S1066¼"/Merge this if statement with the enclosing one.(•ÔÙşÿÿÿÿ
-P
-java:S1118":Add a private constructor to hide the implicit public one.(‹É¿
+java:S1135T"2Complete the task associated to this TODO comment.( ‹ğ˜øÿÿÿÿ8ÖéÃ»Œ/
+T
+java:S1135S"2Complete the task associated to this TODO comment.(ä’¯÷ıÿÿÿÿ8ÖéÃ»Œ/
+d
+java:S1854í"ARemove this useless assignment to local variable "startPosition".(¶ğé¨ıÿÿÿÿ8ºß•­/
+U
+java:S1135è"2Complete the task associated to this TODO comment.(¹ÎÀØøÿÿÿÿ8ºß•­/
+‚
+java:S4144â"_Update this method so that its implementation is not identical to "getID3v22Bytes" on line 346.(Û÷Èüÿÿÿÿ8ºß•­/
 D
-java:S1168õ"&Return an empty array instead of null.(¥¹ï8ş“ŠÙ/
+java:S1168Ü"&Return an empty array instead of null.(¥¹ï8ºß•­/
+H
+java:S1172Ú"*Remove this unused method parameter "mp3".(‹êÇõ8ºß•­/
+U
+java:S1135à"2Complete the task associated to this TODO comment.(ä’¯÷ıÿÿÿÿ8ºß•­/
+P
+java:S1172Ú"-Remove this unused method parameter "id3v24".(ÚÊ–Öúÿÿÿÿ8ºß•­/
+€
+java:S1488ã"]Immediately return this expression instead of assigning it to the temporary variable "bytes".(Ê›ˆ·ıÿÿÿÿ8ºß•­/
+U
+java:S1135Ø"2Complete the task associated to this TODO comment.(ä’¯÷ıÿÿÿÿ8ºß•­/
+t
+java:S2095Ê"QUse try-with-resources or close this "SeekableByteChannel" in a "finally" clause.(şå›úÿÿÿÿ8­ã¿Ä/
+R
+java:S1066£"/Merge this if statement with the enclosing one.(•ÔÙşÿÿÿÿ8ºß•­/
+P
+java:S1135À"2Complete the task associated to this TODO comment.(¼Ÿ»Ş8ºß•­/
+M
+java:S1135C"2Complete the task associated to this TODO comment.(ä’¯÷ıÿÿÿÿ
+U
+java:S1135ö"2Complete the task associated to this TODO comment.(¹ÎÀØøÿÿÿÿ8‹èß£/
+n	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÄÍû
+n
+java:S2095I"QUse try-with-resources or close this "SeekableByteChannel" in a "finally" clause.(ŠÔ¶á8éãÎã/
+n
+java:S2095Y"QUse try-with-resources or close this "SeekableByteChannel" in a "finally" clause.(ŠÔ¶á8éãÎã/
+f
+java:S2259±"CA "NullPointerException" could be thrown; "bytes" is nullable here.(—Ü™âûÿÿÿÿ8ºß•­/
+U
+java:S1135Ù"2Complete the task associated to this TODO comment.(¹ÎÀØøÿÿÿÿ8‹èß£/
+g
+java:S2259À"DA "NullPointerException" could be thrown; "header" is nullable here.(ÂÎ”øÿÿÿÿ8­ã¿Ä/
+H
+java:S1172ï"*Remove this unused method parameter "wav".(íéù8ºß•­/
+^	java:S125Û"<This block of commented-out lines of code should be removed.(æŒÊûÿÿÿÿ8ºß•­/
+o
+java:S2095ó"QUse try-with-resources or close this "SeekableByteChannel" in a "finally" clause.(ŠÔ¶á8ºß•­/
+t
+java:S2095«"QUse try-with-resources or close this "SeekableByteChannel" in a "finally" clause.(§´ºıÿÿÿÿ8À€Ì/
+n
+java:S20956"QUse try-with-resources or close this "SeekableByteChannel" in a "finally" clause.(Ïë8éãÎã/
+o
+java:S2095"QUse try-with-resources or close this "SeekableByteChannel" in a "finally" clause.(ŠÔ¶á8Ñ»ÀÄ/
+R
+java:S1066"/Merge this if statement with the enclosing one.(•ÔÙşÿÿÿÿ8ºß•­/
+f
+java:S2259"CA "NullPointerException" could be thrown; "bytes" is nullable here.(—Ü™âûÿÿÿÿ8ºß•­/
+^	java:S125æ"<This block of commented-out lines of code should be removed.(»­£‚şÿÿÿÿ8ºß•­/
+P
+java:S1135¬"2Complete the task associated to this TODO comment.(¼Ÿ»Ş8ºß•­/
+n
+java:S2095u"QUse try-with-resources or close this "SeekableByteChannel" in a "finally" clause.(ŠÔ¶á8ºß•­/
+K
+java:S1068)")Remove this unused "HEX_3" private field.(öú‘ÿÿÿÿÿ8ğŸšÊ/
+M
+java:S1135+"2Complete the task associated to this TODO comment.(ä’¯÷ıÿÿÿÿ
+R
+java:S1066·"/Merge this if statement with the enclosing one.(•ÔÙşÿÿÿÿ8ºß•­/
+P
+java:S1481ê"2Remove this unused "startPosition" local variable.(Íˆ¦ë8ºß•­/
+R
+java:S1066¡"/Merge this if statement with the enclosing one.(Ş¾£ÿÿÿÿÿ8ºß•­/
+o
+java:S2095¹"QUse try-with-resources or close this "SeekableByteChannel" in a "finally" clause.(Ïë8ºß•­/
+U
+java:S1135Ó"2Complete the task associated to this TODO comment.(Í€Û½üÿÿÿÿ8ºß•­/
+D
+java:S1168˜"&Return an empty array instead of null.(¥¹ï8ºß•­/
+b
+java:S2259Š"DA "NullPointerException" could be thrown; "header" is nullable here.(Èºæ×8Ñ»ÀÄ/
+U
+java:S1135á"2Complete the task associated to this TODO comment.(¹ÎÀØøÿÿÿÿ8‹èß£/
+f
+java:S2259‰"CA "NullPointerException" could be thrown; "bytes" is nullable here.(—Ü™âûÿÿÿÿ8ºß•­/
+a
+java:S2259o"DA "NullPointerException" could be thrown; "header" is nullable here.(Èºæ×8­ã¿Ä/
+€
+java:S1488Û"]Immediately return this expression instead of assigning it to the temporary variable "bytes".(Ê›ˆ·ıÿÿÿÿ8ºß•­/
+U
+java:S1135"2Complete the task associated to this TODO comment.(ä’¯÷ıÿÿÿÿ8ºß•­/
+€
+java:S1488ğ"]Immediately return this expression instead of assigning it to the temporary variable "bytes".(Ê›ˆ·ıÿÿÿÿ8ºß•­/
+o
+java:S2095Æ"QUse try-with-resources or close this "SeekableByteChannel" in a "finally" clause.(Ïë8ºß•­/
+M
+java:S1135D"2Complete the task associated to this TODO comment.( ‹ğ˜øÿÿÿÿ
+U
+java:S1135ñ"2Complete the task associated to this TODO comment.(¸ÈÖıøÿÿÿÿ8ºß•­/
 N
-java:S1135ì"2Complete the task associated to this TODO comment.(Í€Û½üÿÿÿÿ
+java:S1068"9Remove this unused "DEFAULT_BUFFER_LENGTH" private field.(Ğ»È
+K
+java:S1068'")Remove this unused "HEX_I" private field.(©®±÷øÿÿÿÿ8ğŸšÊ/
+F
+java:S1068(")Remove this unused "HEX_D" private field.(ÆğÒ§8ğŸšÊ/
+R
+java:S1066µ"/Merge this if statement with the enclosing one.(Ş¾£ÿÿÿÿÿ8ºß•­/
+P
+java:S1118":Add a private constructor to hide the implicit public one.(‹É¿
+R
+java:S1066"/Merge this if statement with the enclosing one.(Ş¾£ÿÿÿÿÿ8ºß•­/

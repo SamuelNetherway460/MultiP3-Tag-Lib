@@ -8,11 +8,13 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
+import java.io.FileNotFoundException;
+
 public class ID3v1WritingRobust {
 
     @Test
     @DisplayName("Should not write ID3v1 Title with characters = MAX+1")
-    void shouldNotWriteInvalidTitleMaxCharactersPlusOne() {
+    void shouldNotWriteInvalidTitleMaxCharactersPlusOne() throws FileNotFoundException {
         MP3 mp3 = new MP3(MP3Globals.SAMPLE_MP3_FILE_PATH, false);
         ID3v1 id3v1 = new ID3v1();
         if (mp3.hasID3v1()) id3v1 = mp3.getId3v1();
@@ -37,7 +39,7 @@ public class ID3v1WritingRobust {
 
     @Test
     @DisplayName("Should not write ID3v1 Artist with characters = MAX+1")
-    void shouldNotWriteInvalidArtistMaxCharactersPlusOne() {
+    void shouldNotWriteInvalidArtistMaxCharactersPlusOne() throws FileNotFoundException {
         MP3 mp3 = new MP3(MP3Globals.SAMPLE_MP3_FILE_PATH, false);
         ID3v1 id3v1 = new ID3v1();
         if (mp3.hasID3v1()) id3v1 = mp3.getId3v1();
@@ -62,7 +64,7 @@ public class ID3v1WritingRobust {
 
     @Test
     @DisplayName("Should not write ID3v1 Album with characters = MAX+1")
-    void shouldNotWriteInvalidAlbumMaxCharactersPlusOne() {
+    void shouldNotWriteInvalidAlbumMaxCharactersPlusOne() throws FileNotFoundException {
         MP3 mp3 = new MP3(MP3Globals.SAMPLE_MP3_FILE_PATH, false);
         ID3v1 id3v1 = new ID3v1();
         if (mp3.hasID3v1()) id3v1 = mp3.getId3v1();
@@ -87,7 +89,7 @@ public class ID3v1WritingRobust {
 
     @Test
     @DisplayName("Should not write ID3v1 Comment with characters = MAX+1")
-    void shouldNotWriteInvalidCommentMaxCharactersPlusOne() {
+    void shouldNotWriteInvalidCommentMaxCharactersPlusOne() throws FileNotFoundException {
         MP3 mp3 = new MP3(MP3Globals.SAMPLE_MP3_FILE_PATH, false);
         ID3v1 id3v1 = new ID3v1();
         if (mp3.hasID3v1()) id3v1 = mp3.getId3v1();
@@ -112,7 +114,7 @@ public class ID3v1WritingRobust {
 
     @Test
     @DisplayName("Should not write ID3v1 Year with value = MAX+1")
-    void shouldNotWriteInvalidYearMaxValuePlusOne() {
+    void shouldNotWriteInvalidYearMaxValuePlusOne() throws FileNotFoundException {
         MP3 mp3 = new MP3(MP3Globals.SAMPLE_MP3_FILE_PATH, false);
         ID3v1 id3v1 = new ID3v1();
         if (mp3.hasID3v1()) id3v1 = mp3.getId3v1();
@@ -137,7 +139,7 @@ public class ID3v1WritingRobust {
 
     @Test
     @DisplayName("Should not write ID3v1 Year with value = MIN-1")
-    void shouldNotWriteInvalidYearMinValueMinusOne() {
+    void shouldNotWriteInvalidYearMinValueMinusOne() throws FileNotFoundException {
         MP3 mp3 = new MP3(MP3Globals.SAMPLE_MP3_FILE_PATH, false);
         ID3v1 id3v1 = new ID3v1();
         if (mp3.hasID3v1()) id3v1 = mp3.getId3v1();
@@ -162,7 +164,7 @@ public class ID3v1WritingRobust {
 
     @Test
     @DisplayName("Should not write ID3v1 Genre with index = MAX+1")
-    void shouldNotWriteInvalidGenreIndexMaxPlusOne() {
+    void shouldNotWriteInvalidGenreIndexMaxPlusOne() throws FileNotFoundException {
         MP3 mp3 = new MP3(MP3Globals.SAMPLE_MP3_FILE_PATH, false);
         ID3v1 id3v1 = new ID3v1();
         if (mp3.hasID3v1()) id3v1 = mp3.getId3v1();
@@ -187,7 +189,7 @@ public class ID3v1WritingRobust {
 
     @Test
     @DisplayName("Should not write ID3v1 Genre with index = MIN-1")
-    void shouldNotWriteInvalidGenreIndexMinMinusOne() {
+    void shouldNotWriteInvalidGenreIndexMinMinusOne() throws FileNotFoundException {
         MP3 mp3 = new MP3(MP3Globals.SAMPLE_MP3_FILE_PATH, false);
         ID3v1 id3v1 = new ID3v1();
         if (mp3.hasID3v1()) id3v1 = mp3.getId3v1();

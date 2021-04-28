@@ -1,135 +1,11 @@
 
-b
-java:S10685"GRemove this unused "META_CONDUCTOR_PERFORMER_REFINEMENT" private field.(§ôêöüÿÿÿÿ
-H
-java:S1068)"-Remove this unused "META_TIME" private field.(»§Ô”ÿÿÿÿÿ
-T
-java:S1068"9Remove this unused "META_AUDIO_ENCRYPTION" private field.(ÆÙê¸ûÿÿÿÿ
-L
-java:S1068"6Remove this unused "META_POPULARIMETER" private field.(ôüÓà
-I
-java:S1068'"3Remove this unused "META_ENCODED_BY" private field.(Õ­úœ
-C
-java:S1068%"-Remove this unused "META_DATE" private field.(ıÓü¤
-Q
-java:S1068";Remove this unused "META_LINKED_INFORMATION" private field.(«ÒÈ
-J
-java:S1068#"5Remove this unused "META_CONTENT_TYPE" private field.(æ«œ
-^
-java:S10680"HRemove this unused "META_ORIGINAL_LYRICISTS_TEXT_WRITERS" private field.(°Á—ï
-k
-java:S10686"URemove this unused "META_INTERPRETED_REMIXED_OR_OTHERWISE_MODIFIED_BY" private field.(Ş¶«·
-f
-java:S1068?"KRemove this unused "META_TITLE_SONGNAME_CONTENT_DESCRIPTION" private field.(‰éî¤úÿÿÿÿ
-H
-java:S1068C"-Remove this unused "META_YEAR" private field.(•´îñşÿÿÿÿ
-^
-java:S10682"HRemove this unused "META_ORIGINAL_ALBUM_MOVIE_SHOW_TITLE" private field.(­ğ¡
-a
-java:S1068H"FRemove this unused "META_OFFICIAL_AUDIO_SOURCE_WEBPAGE" private field.(¡Ç¦ÿÿÿÿÿ
-^
-java:S1068"CRemove this unused "META_RELATIVE_VOLUME_ADJUSTMENT" private field.(°×’ÿÿÿÿÿ
-R
-java:S1068"7Remove this unused "META_ENCRYPTED_META" private field.(İ„Ïûÿÿÿÿ
-U
-java:S1068 "?Remove this unused "META_ALBUM_MOVIE_SHOW_TITLE" private field.(€åô¾
-[
-java:S10684"ERemove this unused "META_BAND_ORCHESTRA_ACCOMPANIMENT" private field.(²Ò®•
-E
-java:S1068"/Remove this unused "META_REVERB" private field.(‚¾šı
-R
-java:S1068"<Remove this unused "META_MUSIC_CD_IDENTIFIER" private field.(¤ÖÏ
-Y
-java:S1068"CRemove this unused "META_MPEG_LOCATION_LOOKUP_TABLE" private field.(Û·Æ·
-Z
-java:S1068"DRemove this unused "META_GENERAL_ENCAPSULATED_OBJECT" private field.(ªÂ˜º
-_
-java:S1068."DRemove this unused "META_ORIGINAL_ARTISTS_PERFORMERS" private field.(ÿ²Õÿÿÿÿÿ
-H
-java:S1068<"-Remove this unused "META_SIZE" private field.(µü¼úÿÿÿÿ
-k
-java:S1068E"PRemove this unused "META_UNSYNCHRONIZED_LYRIC_TEXT_TRANSCRIPTION" private field.( Ã»Åşÿÿÿÿ
-_
-java:S1068L"DRemove this unused "META_USER_DEFINED_URL_LINK_FRAME" private field.(ø³ºøÿÿÿÿ
-H
-java:S10688"2Remove this unused "META_PUBLISHER" private field.(²’øÚ
-e
-java:S1068G"JRemove this unused "META_OFFICIAL_ARTIST_PERFORMER_WEBPAGE" private field.(“ìèëùÿÿÿÿ
-Z
-java:S1068K"DRemove this unused "META_PUBLISHERS_OFFICIAL_WEBPAGE" private field.(§Ÿß
 O
-java:S1068"9Remove this unused "META_ATTACHED_PICTURE" private field.(÷ã¯¬
-i
-java:S10689"NRemove this unused "META_INTERNATIONAL_STANDARD_RECORDING_CODE" private field.(°»Üçûÿÿÿÿ
+java:S1135"2Complete the task associated to this TODO comment.(¥á¢Ñ8¼©¬/
 t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(áŞäÛşÿÿÿÿ
-T
-java:S1068!"9Remove this unused "META_BEATS_PER_MINUTE" private field.(©¾ó§ûÿÿÿÿ
-L
-java:S1068"1Remove this unused "META_COMMENTS" private field.(ñÁ±€øÿÿÿÿ
-P
-java:S1068"5Remove this unused "META_EQUALIZATION" private field.(ş°Úüÿÿÿÿ
+E	java:S108%")Either remove or fill this block of code.(Ë¿óï8¼©¬/
 M
-java:S1068("2Remove this unused "META_FILE_TYPE" private field.(³·ÿíùÿÿÿÿ
-P
-java:S1118":Add a private constructor to hide the implicit public one.(¯å°«
-M
-java:S1068&"7Remove this unused "META_PLAYLIST_DELAY" private field.(ÇÂ¶ª
-E
-java:S1068,"/Remove this unused "META_LENGTH" private field.(Æ­•õ
-R
-java:S1068"<Remove this unused "META_SYNCHED_TEMPO_CODES" private field.(ä¥ø
-P
-java:S1068"5Remove this unused "META_PLAY_COUNTER" private field.(í“™úÿÿÿÿ
-P
-java:S1068/":Remove this unused "META_ORIGINAL_FILENAME" private field.(¥¡ƒŠ
-P
-java:S1068$":Remove this unused "META_COPYRIGHT_MESSAGE" private field.(‚Ö’‚
-Q
-java:S10687"6Remove this unused "META_PART_OF_A_SET" private field.(ø—Î¥ıÿÿÿÿ
-N
-java:S1068:"8Remove this unused "META_RECORDING_DATES" private field.(¶ ¯î
-U
-java:S1068I"?Remove this unused "META_COMMERCIAL_INFORMATION" private field.(¯˜î¥
-X	java:S125T"<This block of commented-out lines of code should be removed.(½«×³8öëŒÙ/
-I
-java:S1068-"3Remove this unused "META_MEDIA_TYPE" private field.(Ğ Ä×
-[
-java:S1068"@Remove this unused "META_SYNCHRONIZED_LYRIC_TEXT" private field.(ô®¤Öüÿÿÿÿ
-L
-java:S1068""1Remove this unused "META_COMPOSER" private field.( …å¾øÿÿÿÿ
-H
-java:S1068+"2Remove this unused "META_LANGUAGES" private field.(Õàñ½
-`
-java:S1068;"ERemove this unused "META_TRACK_NUMBER_POSITION_IN_SET" private field.(×Çà´øÿÿÿÿ
-b
-java:S1068B"LRemove this unused "META_USER_DEFINED_TEXT_INFORMATION_FRAME" private field.(½ÒÍÖ
-X
-java:S1068"=Remove this unused "META_INVOLVED_PEOPLE_LIST" private field.(Áûš€ÿÿÿÿÿ
-Y
-java:S1068F"DRemove this unused "META_OFFICIAL_AUDIO_FILE_WEBPAGE" private field.(öüE
-o
-java:S1068="YRemove this unused "META_SOFTWARE_HARDWARE_AND_SETTINGS_USED_FOR_ENCODING" private field.(«Úš¹
-V
-java:S1068";Remove this unused "META_EVENT_TIMING_CODES" private field.(š µùÿÿÿÿ
-S
-java:S1068A"=Remove this unused "META_LYRICIST_TEXT_WRITER" private field.(ş“‘
-Z
-java:S1068D"?Remove this unused "META_UNIQUE_FILE_IDENTIFIER" private field.(óŞ‡ùÿÿÿÿ
-_
-java:S1068J"DRemove this unused "META_COPYRIGHT_LEGAL_INFORMATION" private field.(Å˜ƒ•ÿÿÿÿÿ
-V
-java:S1068"@Remove this unused "META_RECOMMENDED_BUFFER_SIZE" private field.(©ûê¢
-u
-java:S10683"_Remove this unused "META_LEAD_ARTISTS_LEAD_PERFORMERS_SOLOISTS_PERFORMING_GROUP" private field.(Áú…ş
-]
-java:S1068>"BRemove this unused "META_CONTENT_GROUP_DESCRIPTION" private field.(¥Ê¤›ûÿÿÿÿ
-^
-java:S1068@"HRemove this unused "META_SUBTITLE_DESCRIPTION_REFINEMENT" private field.(”õı‰
-O
-java:S1068*"4Remove this unused "META_INITIAL_KEY" private field.(ñäØ¯ûÿÿÿÿ
-M
-java:S1135"2Complete the task associated to this TODO comment.(ä’¯÷ıÿÿÿÿ
-M
-java:S1135R"2Complete the task associated to this TODO comment.(Í€Û½üÿÿÿÿ
-Y
-java:S10681">Remove this unused "META_ORIGINAL_RELEASE_YEAR" private field.(–Õ÷Ôùÿÿÿÿ
+java:S1135"2Complete the task associated to this TODO comment.(ä’¯÷ıÿÿÿÿ
+c
+java:S1128"ARemove this unused import 'Exceptions.UnsupportedFrameException'.(Ñ¡Êÿÿÿÿÿ8¼©¬/
+a
+java:S2259""DA "NullPointerException" could be thrown; "header" is nullable here.(íË­ê8¼©¬/

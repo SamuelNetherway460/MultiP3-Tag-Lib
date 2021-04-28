@@ -11,11 +11,13 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
+import java.io.FileNotFoundException;
+
 public class ID3v11WritingNormal {
 
     @Test
     @DisplayName("Write ID3v1.1 Title NOM")
-    void writeTitleNormal() {
+    void writeTitleNormal() throws FileNotFoundException {
         MP3 mp3 = new MP3(MP3Globals.SAMPLE_MP3_FILE_PATH, false);
         ID3v11 id3v11 = new ID3v11();
         if (mp3.hasID3v11()) id3v11 = mp3.getId3v11();
@@ -43,7 +45,7 @@ public class ID3v11WritingNormal {
 
     @Test
     @DisplayName("Write ID3v1.1 Artist NOM")
-    void writeArtistNormal() {
+    void writeArtistNormal() throws FileNotFoundException {
         MP3 mp3 = new MP3(MP3Globals.SAMPLE_MP3_FILE_PATH, false);
         ID3v11 id3v11 = new ID3v11();
         if (mp3.hasID3v11()) id3v11 = mp3.getId3v11();
@@ -71,7 +73,7 @@ public class ID3v11WritingNormal {
 
     @Test
     @DisplayName("Write ID3v1.1 Album NOM")
-    void writeAlbumNormal() {
+    void writeAlbumNormal() throws FileNotFoundException {
         MP3 mp3 = new MP3(MP3Globals.SAMPLE_MP3_FILE_PATH, false);
         ID3v11 id3v11 = new ID3v11();
         if (mp3.hasID3v11()) id3v11 = mp3.getId3v11();
@@ -99,7 +101,7 @@ public class ID3v11WritingNormal {
 
     @Test
     @DisplayName("Write ID3v1.1 Year NOM")
-    void writeYearNormal() {
+    void writeYearNormal() throws FileNotFoundException {
         MP3 mp3 = new MP3(MP3Globals.SAMPLE_MP3_FILE_PATH, false);
         ID3v11 id3v11 = new ID3v11();
         if (mp3.hasID3v11()) id3v11 = mp3.getId3v11();
@@ -127,7 +129,7 @@ public class ID3v11WritingNormal {
 
     @Test
     @DisplayName("Write ID3v1.1 Genre Index NOM")
-    void writeGenreIndexNormal() {
+    void writeGenreIndexNormal() throws FileNotFoundException {
         MP3 mp3 = new MP3(MP3Globals.SAMPLE_MP3_FILE_PATH, false);
         ID3v11 id3v11 = new ID3v11();
         if (mp3.hasID3v11()) id3v11 = mp3.getId3v11();
@@ -163,7 +165,7 @@ public class ID3v11WritingNormal {
 
     @Test
     @DisplayName("Write ID3v1.1 Comment NOM")
-    void writeCommentNormal() {
+    void writeCommentNormal() throws FileNotFoundException {
         MP3 mp3 = new MP3(MP3Globals.SAMPLE_MP3_FILE_PATH, false);
         ID3v11 id3v11 = new ID3v11();
         if (mp3.hasID3v11()) id3v11 = mp3.getId3v11();
@@ -191,7 +193,7 @@ public class ID3v11WritingNormal {
 
     @Test
     @DisplayName("Write ID3v1.1 Track Number NOM")
-    void writeTrackNumberNormal() {
+    void writeTrackNumberNormal() throws FileNotFoundException {
         MP3 mp3 = new MP3(MP3Globals.SAMPLE_MP3_FILE_PATH, false);
         ID3v11 id3v11 = new ID3v11();
         if (mp3.hasID3v11()) id3v11 = mp3.getId3v11();

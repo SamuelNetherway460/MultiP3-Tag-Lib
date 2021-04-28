@@ -11,11 +11,13 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
+import java.io.FileNotFoundException;
+
 public class ID3v11WritingBoundary {
 
     @Test
     @DisplayName("Write ID3v1.1 Title MIN")
-    void writeTitleMin() {
+    void writeTitleMin() throws FileNotFoundException {
         MP3 mp3 = new MP3(MP3Globals.SAMPLE_MP3_FILE_PATH, false);
         ID3v11 id3v11 = new ID3v11();
         if (mp3.hasID3v11()) id3v11 = mp3.getId3v11();
@@ -43,7 +45,7 @@ public class ID3v11WritingBoundary {
 
     @Test
     @DisplayName("Write ID3v1.1 Title MAX")
-    void writeTitleMax() {
+    void writeTitleMax() throws FileNotFoundException {
         MP3 mp3 = new MP3(MP3Globals.SAMPLE_MP3_FILE_PATH, false);
         ID3v11 id3v11 = new ID3v11();
         if (mp3.hasID3v11()) id3v11 = mp3.getId3v11();
@@ -71,7 +73,7 @@ public class ID3v11WritingBoundary {
 
     @Test
     @DisplayName("Write ID3v1.1 Artist MIN")
-    void writeArtistMin() {
+    void writeArtistMin() throws FileNotFoundException {
         MP3 mp3 = new MP3(MP3Globals.SAMPLE_MP3_FILE_PATH, false);
         ID3v11 id3v11 = new ID3v11();
         if (mp3.hasID3v11()) id3v11 = mp3.getId3v11();
@@ -99,7 +101,7 @@ public class ID3v11WritingBoundary {
 
     @Test
     @DisplayName("Write ID3v1.1 Artist MAX")
-    void writeArtistMax() {
+    void writeArtistMax() throws FileNotFoundException {
         MP3 mp3 = new MP3(MP3Globals.SAMPLE_MP3_FILE_PATH, false);
         ID3v11 id3v11 = new ID3v11();
         if (mp3.hasID3v11()) id3v11 = mp3.getId3v11();
@@ -127,7 +129,7 @@ public class ID3v11WritingBoundary {
 
     @Test
     @DisplayName("Write ID3v1.1 Album MIN")
-    void writeAlbumMin() {
+    void writeAlbumMin() throws FileNotFoundException {
         MP3 mp3 = new MP3(MP3Globals.SAMPLE_MP3_FILE_PATH, false);
         ID3v11 id3v11 = new ID3v11();
         if (mp3.hasID3v11()) id3v11 = mp3.getId3v11();
@@ -155,7 +157,7 @@ public class ID3v11WritingBoundary {
 
     @Test
     @DisplayName("Write ID3v1.1 Album MAX")
-    void writeAlbumMax() {
+    void writeAlbumMax() throws FileNotFoundException {
         MP3 mp3 = new MP3(MP3Globals.SAMPLE_MP3_FILE_PATH, false);
         ID3v11 id3v11 = new ID3v11();
         if (mp3.hasID3v11()) id3v11 = mp3.getId3v11();
@@ -183,7 +185,7 @@ public class ID3v11WritingBoundary {
 
     @Test
     @DisplayName("Write ID3v1.1 Year MIN")
-    void writeYearMin() {
+    void writeYearMin() throws FileNotFoundException {
         MP3 mp3 = new MP3(MP3Globals.SAMPLE_MP3_FILE_PATH, false);
         ID3v11 id3v11 = new ID3v11();
         if (mp3.hasID3v11()) id3v11 = mp3.getId3v11();
@@ -211,7 +213,7 @@ public class ID3v11WritingBoundary {
 
     @Test
     @DisplayName("Write ID3v1.1 Year MAX")
-    void writeYearMax() {
+    void writeYearMax() throws FileNotFoundException {
         MP3 mp3 = new MP3(MP3Globals.SAMPLE_MP3_FILE_PATH, false);
         ID3v11 id3v11 = new ID3v11();
         if (mp3.hasID3v11()) id3v11 = mp3.getId3v11();
@@ -239,7 +241,7 @@ public class ID3v11WritingBoundary {
 
     @Test
     @DisplayName("Write ID3v1.1 Comment MIN")
-    void writeCommentMin() {
+    void writeCommentMin() throws FileNotFoundException {
         MP3 mp3 = new MP3(MP3Globals.SAMPLE_MP3_FILE_PATH, false);
         ID3v11 id3v11 = new ID3v11();
         if (mp3.hasID3v11()) id3v11 = mp3.getId3v11();
@@ -267,7 +269,7 @@ public class ID3v11WritingBoundary {
 
     @Test
     @DisplayName("Write ID3v1.1 Comment MAX")
-    void writeCommentMax() {
+    void writeCommentMax() throws FileNotFoundException {
         MP3 mp3 = new MP3(MP3Globals.SAMPLE_MP3_FILE_PATH, false);
         ID3v11 id3v11 = new ID3v11();
         if (mp3.hasID3v11()) id3v11 = mp3.getId3v11();
@@ -295,7 +297,7 @@ public class ID3v11WritingBoundary {
 
     @Test
     @DisplayName("Write ID3v1.1 Track Number MIN")
-    void writeTrackNumberMin() {
+    void writeTrackNumberMin() throws FileNotFoundException {
         MP3 mp3 = new MP3(MP3Globals.SAMPLE_MP3_FILE_PATH, false);
         ID3v11 id3v11 = new ID3v11();
         if (mp3.hasID3v11()) id3v11 = mp3.getId3v11();
@@ -331,7 +333,7 @@ public class ID3v11WritingBoundary {
 
     @Test
     @DisplayName("Write ID3v1.1 Track Number MAX")
-    void writeTrackNumberMax() {
+    void writeTrackNumberMax() throws FileNotFoundException {
         MP3 mp3 = new MP3(MP3Globals.SAMPLE_MP3_FILE_PATH, false);
         ID3v11 id3v11 = new ID3v11();
         if (mp3.hasID3v11()) id3v11 = mp3.getId3v11();
@@ -367,7 +369,7 @@ public class ID3v11WritingBoundary {
 
     @Test
     @DisplayName("Write ID3v1.1 Genre Index MIN")
-    void writeGenreIndexMin() {
+    void writeGenreIndexMin() throws FileNotFoundException {
         MP3 mp3 = new MP3(MP3Globals.SAMPLE_MP3_FILE_PATH, false);
         ID3v11 id3v11 = new ID3v11();
         if (mp3.hasID3v11()) id3v11 = mp3.getId3v11();
@@ -403,7 +405,7 @@ public class ID3v11WritingBoundary {
 
     @Test
     @DisplayName("Write ID3v1.1 Genre Index MAX")
-    void writeGenreIndexMax() {
+    void writeGenreIndexMax() throws FileNotFoundException {
         MP3 mp3 = new MP3(MP3Globals.SAMPLE_MP3_FILE_PATH, false);
         ID3v11 id3v11 = new ID3v11();
         if (mp3.hasID3v11()) id3v11 = mp3.getId3v11();

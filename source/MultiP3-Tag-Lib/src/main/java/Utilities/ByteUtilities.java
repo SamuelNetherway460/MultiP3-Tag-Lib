@@ -1,17 +1,21 @@
 package Utilities;
 
+import Exceptions.HeaderNotFoundException;
 import Factories.ID3v2HeaderFactory;
 import FileTypes.MP3;
 import FileTypes.WAV;
 import TagStructures.ID3v2Header;
 import TagTypes.ID3v24;
 
+import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.nio.ByteBuffer;
 import java.nio.channels.SeekableByteChannel;
 import java.nio.file.Files;
 import java.nio.file.StandardOpenOption;
 import java.util.Arrays;
+
+import static Factories.ID3v2HeaderFactory.extractHeader;
 
 /**
  * Utility class for accessing and modifying tag byte data.
@@ -90,6 +94,192 @@ public class ByteUtilities {
         } catch (IOException ioe) {
             ioe.printStackTrace();
         }
+        mp3.setBytes(all(mp3));
+    }
+
+    public static void updateID3v24Bytes(MP3 mp3) {
+        byte[] updatedTagBytes = mp3.getId3v24().getTagBytes();
+
+        ID3v2Header header = null;
+
+        try {
+            header = extractHeader(mp3);
+        } catch (HeaderNotFoundException e) {
+            e.printStackTrace();
+        }
+
+        byte[] mp3NoTag = removeArraySection(mp3.getBytes(), 0, header.getTagSize() - 1);
+
+        int startPosition = header.getPositionInFile();
+        byte[] mp3NewTag = insertArraySection(mp3NoTag, updatedTagBytes, startPosition);
+
+        try {
+            SeekableByteChannel seekableByteChannel = Files.newByteChannel(mp3.getPath(), StandardOpenOption.WRITE);
+            seekableByteChannel.position(0);
+            ByteBuffer byteBuffer = ByteBuffer.wrap(mp3NewTag);
+            byteBuffer.rewind();
+            seekableByteChannel.write(byteBuffer);
+        } catch (IOException ioe) {
+            ioe.printStackTrace();
+        }
+    }
+
+    public static void updateID3v23Bytes(MP3 mp3) {
+        byte[] updatedTagBytes = mp3.getId3v23().getTagBytes();
+
+        ID3v2Header header = null;
+
+        try {
+            header = extractHeader(mp3);
+        } catch (HeaderNotFoundException e) {
+            e.printStackTrace();
+        }
+
+        byte[] mp3NoTag = removeArraySection(mp3.getBytes(), 0, header.getTagSize() - 1);
+
+        int startPosition = header.getPositionInFile();
+        byte[] mp3NewTag = insertArraySection(mp3NoTag, updatedTagBytes, startPosition);
+
+        try {
+            SeekableByteChannel seekableByteChannel = Files.newByteChannel(mp3.getPath(), StandardOpenOption.WRITE);
+            seekableByteChannel.position(0);
+            ByteBuffer byteBuffer = ByteBuffer.wrap(mp3NewTag);
+            byteBuffer.rewind();
+            seekableByteChannel.write(byteBuffer);
+        } catch (IOException ioe) {
+            ioe.printStackTrace();
+        }
+    }
+
+    public static void updateID3v23Bytes(WAV wav) {
+        byte[] updatedTagBytes = wav.getId3v23().getTagBytes();
+
+        ID3v2Header header = null;
+
+        try {
+            header = extractHeader(wav);
+        } catch (HeaderNotFoundException e) {
+            e.printStackTrace();
+        }
+
+        byte[] mp3NoTag = removeArraySection(wav.getBytes(), 0, header.getTagSize() - 1);
+
+        int startPosition = header.getPositionInFile();
+        byte[] mp3NewTag = insertArraySection(mp3NoTag, updatedTagBytes, startPosition);
+
+        try {
+            SeekableByteChannel seekableByteChannel = Files.newByteChannel(wav.getPath(), StandardOpenOption.WRITE);
+            seekableByteChannel.position(0);
+            ByteBuffer byteBuffer = ByteBuffer.wrap(mp3NewTag);
+            byteBuffer.rewind();
+            seekableByteChannel.write(byteBuffer);
+        } catch (IOException ioe) {
+            ioe.printStackTrace();
+        }
+    }
+
+    public static void updateID3v24Bytes(WAV wav) {
+        byte[] updatedTagBytes = wav.getId3v24().getTagBytes();
+
+        ID3v2Header header = null;
+
+        try {
+            header = extractHeader(wav);
+        } catch (HeaderNotFoundException e) {
+            e.printStackTrace();
+        }
+
+        byte[] mp3NoTag = removeArraySection(wav.getBytes(), 0, header.getTagSize() - 1);
+
+        int startPosition = header.getPositionInFile();
+        byte[] mp3NewTag = insertArraySection(mp3NoTag, updatedTagBytes, startPosition);
+
+        try {
+            SeekableByteChannel seekableByteChannel = Files.newByteChannel(wav.getPath(), StandardOpenOption.WRITE);
+            seekableByteChannel.position(0);
+            ByteBuffer byteBuffer = ByteBuffer.wrap(mp3NewTag);
+            byteBuffer.rewind();
+            seekableByteChannel.write(byteBuffer);
+        } catch (IOException ioe) {
+            ioe.printStackTrace();
+        }
+    }
+
+    public static void removeID3v24(MP3 mp3) {
+        ID3v2Header header = null;
+        
+        try {
+            header = extractHeader(mp3);
+        } catch (HeaderNotFoundException e) {
+            e.printStackTrace();
+        }
+        
+        byte[] newBytes = removeArraySection(mp3.getBytes(), 0, header.getTagSize() - 1);
+        try {
+            SeekableByteChannel seekableByteChannel = Files.newByteChannel(mp3.getPath(), StandardOpenOption.WRITE);
+            seekableByteChannel.position(0);
+            ByteBuffer byteBuffer = ByteBuffer.wrap(newBytes);
+            byteBuffer.rewind();
+            seekableByteChannel.write(byteBuffer);
+        } catch (IOException ioe) {
+            ioe.printStackTrace();
+        }
+    }
+
+    public static void testUpdateID3v24(MP3 mp3) {
+        //byte[] newBytes = removeArraySection(mp3.getBytes(), 0, mp3.getId3v24().getHeader().getTagSize() - 1);
+        byte[] tagBytes = mp3.getId3v24().getTagBytes();
+        byte[] newBytes = new byte[0];
+        ID3v2Header header;
+        int startPosition = ID3V24_START_POSITION;
+        try {
+            header = extractHeader(mp3);
+            startPosition = header.getPositionInFile();
+            newBytes = insertArraySection(mp3.getBytes(), tagBytes, 0);
+        } catch (HeaderNotFoundException e) {
+
+        }
+        try {
+            SeekableByteChannel seekableByteChannel = Files.newByteChannel(mp3.getPath(), StandardOpenOption.WRITE);
+            seekableByteChannel.position(0);
+            ByteBuffer byteBuffer = ByteBuffer.wrap(newBytes);
+            byteBuffer.rewind();
+            seekableByteChannel.write(byteBuffer);
+        } catch (IOException ioe) {
+            ioe.printStackTrace();
+        }
+    }
+
+    private static byte[] removeArraySection(byte[] array, int start, int end) {
+        byte[] before = Arrays.copyOfRange(array, 0, start);
+        byte[] after = Arrays.copyOfRange(array, end, array.length);
+
+        ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
+        try {
+            outputStream.write(before);
+            outputStream.write(after);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        return outputStream.toByteArray();
+
+    }
+
+    private static byte[] insertArraySection(byte[] originalArray, byte[] insertArray, int start) {
+        byte[] before = Arrays.copyOfRange(originalArray, 0, start);
+        byte[] after = Arrays.copyOfRange(originalArray, start, originalArray.length);
+
+        ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
+        try {
+            outputStream.write(before);
+            outputStream.write(insertArray);
+            outputStream.write(after);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        return outputStream.toByteArray();
     }
 
     //TODO - JavaDoc
@@ -113,10 +303,31 @@ public class ByteUtilities {
         return all(mp3);
     }
 
+    public static byte[] getFileBytes(WAV wav) {
+        return all(wav);
+    }
+
     public static byte[] all(MP3 mp3) {
         byte[] bytes = null;
         try {
             SeekableByteChannel seekableByteChannel = Files.newByteChannel(mp3.getPath(), StandardOpenOption.READ);
+            ByteBuffer byteBuffer = ByteBuffer.allocate((int) seekableByteChannel.size());
+            seekableByteChannel.position(0);
+            byteBuffer.clear();
+            seekableByteChannel.read(byteBuffer);
+            bytes = byteBuffer.array();
+        } catch (IOException ioe) {
+            ioe.printStackTrace();
+            bytes = null;
+            return bytes;
+        }
+        return bytes;
+    }
+
+    public static byte[] all(WAV wav) {
+        byte[] bytes = null;
+        try {
+            SeekableByteChannel seekableByteChannel = Files.newByteChannel(wav.getPath(), StandardOpenOption.READ);
             ByteBuffer byteBuffer = ByteBuffer.allocate((int) seekableByteChannel.size());
             seekableByteChannel.position(0);
             byteBuffer.clear();
@@ -199,6 +410,26 @@ public class ByteUtilities {
 
     public static int scanForID3v2TagPosition(MP3 mp3) {
         byte[] bytes = all(mp3);
+        for (int i = 0; i < bytes.length; i++) {
+            if (bytes[i + ID3v2HeaderFactory.I_START] == DECIMAL_I
+                && bytes[i + ID3v2HeaderFactory.D_START] == DECIMAL_D
+                && bytes[i + ID3v2HeaderFactory.THREE_START] == DECIMAL_3) {
+                if (bytes[i + ID3v2HeaderFactory.MAJOR_VERSION_START] < 255
+                    && bytes[i + ID3v2HeaderFactory.MINOR_VERSION_START] < 255) {
+                    if (bytes[i + ID3v2HeaderFactory.SIZE_START_1] < 128
+                        && bytes[i + ID3v2HeaderFactory.SIZE_START_2] < 128
+                        && bytes[i + ID3v2HeaderFactory.SIZE_START_3] < 128
+                        && bytes[i + ID3v2HeaderFactory.SIZE_START_4] < 128) {
+                        return i;
+                    }
+                }
+            }
+        }
+        return -1; //TODO:  ERROR VALUE, TAG COULD NOT BE FOUND REPLACE WITH EXCEPTION THROW
+    }
+
+    public static int scanForID3v2TagPosition(WAV wav) {
+        byte[] bytes = all(wav);
         for (int i = 0; i < bytes.length; i++) {
             if (bytes[i + ID3v2HeaderFactory.I_START] == DECIMAL_I
                 && bytes[i + ID3v2HeaderFactory.D_START] == DECIMAL_D

@@ -63,7 +63,7 @@ public class ID3v11 extends ID3v1 {
      * @param comment The new value for the comment field.
      * @throws IllegalArgumentException If the comment length is greater than the max comment length.
      */
-    public void setComment(String comment) {
+    public void setComment(String comment) throws IllegalArgumentException {
         if (comment.length() <= ID3v11Factory.COMMENT_FIELD_LENGTH) {
             this.comment = comment;
             this.raw = ID3v11Factory.updateRawComment(this.getRaw(), comment);

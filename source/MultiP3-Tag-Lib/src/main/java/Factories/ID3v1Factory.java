@@ -134,7 +134,7 @@ public class ID3v1Factory {
         } catch (UnsupportedEncodingException uee) {
             return EMPTY_STRING;
         }
-        if (title.equalsIgnoreCase(EMPTY_STRING))  throw new EmptyFieldException("[EMPTY FIELD EXCEPTION] Title field does not contain a value");
+        if (title.equalsIgnoreCase(EMPTY_STRING))  throw new EmptyFieldException("[ERROR] Title field does not contain a value");
         return title;
     }
 
@@ -147,7 +147,7 @@ public class ID3v1Factory {
      */
     public static byte[] updateRawTitle(byte[] raw, String title) throws IllegalArgumentException {
         if (title.length() > ID3v1Factory.TITLE_FIELD_LENGTH) {
-            throw new IllegalArgumentException("[ILLEGAL ARGUMENT EXCEPTION] Title has length " + title.length()
+            throw new IllegalArgumentException("[ERROR] Title has length " + title.length()
                 + " which is greater than the maximum length of " + ID3v1Factory.TITLE_FIELD_LENGTH);
         } else {
             return ByteUtilities.updateSection(raw, title, TITLE_FIELD_START, TITLE_FIELD_LENGTH);
@@ -170,7 +170,7 @@ public class ID3v1Factory {
         } catch (UnsupportedEncodingException uee) {
             return EMPTY_STRING;
         }
-        if (artist.equalsIgnoreCase(EMPTY_STRING))  throw new EmptyFieldException("[EMPTY FIELD EXCEPTION] Artist field does not contain a value");
+        if (artist.equalsIgnoreCase(EMPTY_STRING))  throw new EmptyFieldException("[ERROR] Artist field does not contain a value");
         return artist;
     }
 
@@ -183,7 +183,7 @@ public class ID3v1Factory {
      */
     public static byte[] updateRawArtist(byte[] raw, String artist) {
         if (artist.length() > ARTIST_FIELD_LENGTH) {
-            throw new IllegalArgumentException("[ILLEGAL ARGUMENT EXCEPTION] Artist has length " + artist.length()
+            throw new IllegalArgumentException("[ERROR] Artist has length " + artist.length()
                 + " which is greater than the maximum length of " + ARTIST_FIELD_LENGTH);
         } else {
             return ByteUtilities.updateSection(raw, artist, ARTIST_FIELD_START, ARTIST_FIELD_LENGTH);
@@ -206,7 +206,7 @@ public class ID3v1Factory {
         } catch (UnsupportedEncodingException uee) {
             return EMPTY_STRING;
         }
-        if (album.equalsIgnoreCase(EMPTY_STRING)) throw new EmptyFieldException("[EMPTY FIELD EXCEPTION] Album field does not contain a value");
+        if (album.equalsIgnoreCase(EMPTY_STRING)) throw new EmptyFieldException("[ERROR] Album field does not contain a value");
         return album;
     }
 
@@ -219,7 +219,7 @@ public class ID3v1Factory {
      */
     public static byte[] updateRawAlbum(byte[] raw, String album) throws IllegalArgumentException {
         if (album.length() > ALBUM_FIELD_LENGTH) {
-            throw new IllegalArgumentException("[ILLEGAL ARGUMENT EXCEPTION] Album has length " + album.length()
+            throw new IllegalArgumentException("[ERROR] Album has length " + album.length()
             + " which is greater than the maximum permitted length of " + ALBUM_FIELD_LENGTH);
         } else {
             return ByteUtilities.updateSection(raw, album, ALBUM_FIELD_START, ALBUM_FIELD_LENGTH);
@@ -242,7 +242,7 @@ public class ID3v1Factory {
         } catch (UnsupportedEncodingException uee) {
             return EMPTY_FIELD_INT;
         }
-        if (year.equalsIgnoreCase(EMPTY_STRING)) throw new EmptyFieldException("[EMPTY FIELD EXCEPTION] Year field does not contain a value");
+        if (year.equalsIgnoreCase(EMPTY_STRING)) throw new EmptyFieldException("[ERROR] Year field does not contain a value");
         return Integer.parseInt(year);
     }
 
@@ -255,7 +255,7 @@ public class ID3v1Factory {
      */
     public static byte[] updateRawYear(byte[] raw, int year) throws IllegalArgumentException {
         if (year > MAX_YEAR || year < MIN_YEAR) {
-            throw new IllegalArgumentException("[ILLEGAL ARGUMENT EXCEPTION] Year has value " + year
+            throw new IllegalArgumentException("[ERROR] Year has value " + year
                 + " which is not within the range of " + MIN_YEAR + " and " + MAX_YEAR);
         } else {
             return ByteUtilities.updateSection(raw, String.valueOf(year), YEAR_FIELD_START, YEAR_FIELD_LENGTH);
@@ -278,7 +278,7 @@ public class ID3v1Factory {
         } catch (UnsupportedEncodingException uee) {
             return EMPTY_STRING;
         }
-        if (comment.equalsIgnoreCase(EMPTY_STRING)) throw new EmptyFieldException("[EMPTY FIELD EXCEPTION] Comment field does not contain a value");
+        if (comment.equalsIgnoreCase(EMPTY_STRING)) throw new EmptyFieldException("[ERROR] Comment field does not contain a value");
         return comment;
     }
 
@@ -291,7 +291,7 @@ public class ID3v1Factory {
      */
     public static byte[] updateRawComment(byte[] raw, String comment) throws IllegalArgumentException {
         if (comment.length() > COMMENT_FIELD_LENGTH) {
-            throw new IllegalArgumentException("[ILLEGAL ARGUMENT EXCEPTION] Comment has length " + comment.length()
+            throw new IllegalArgumentException("[ERROR] Comment has length " + comment.length()
                 + " which is greater than the maximum permitted length of " + COMMENT_FIELD_LENGTH);
         } else {
             return ByteUtilities.updateSection(raw, comment, COMMENT_FIELD_START, COMMENT_FIELD_LENGTH);
@@ -324,7 +324,7 @@ public class ID3v1Factory {
      */
     public static byte[] updateRawGenreIndex(byte[] raw, int index) throws GenreOutOfBoundsException {
         if (index < Genres.ID3V1_GENRES_LOWER_BOUND || index > Genres.ID3V1_GENRES_UPPER_BOUND) {
-            throw new GenreOutOfBoundsException("[GENRE OUT OF BOUNDS EXCEPTION] The genre index " + index
+            throw new GenreOutOfBoundsException("[ERROR] The genre index " + index
                 + " not within the bounds of " + Genres.ID3V1_GENRES_LOWER_BOUND + " and " + Genres.ID3V1_GENRES_UPPER_BOUND);
         } else {
             return ByteUtilities.updateSection(raw, index, GENRE_FIELD_START);

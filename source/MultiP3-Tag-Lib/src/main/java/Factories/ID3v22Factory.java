@@ -1,89 +1,26 @@
 package Factories;
 
+//TODO - JavaDoc
+
 import Exceptions.HeaderNotFoundException;
+import Exceptions.InvalidFrameException;
+import Exceptions.UnsupportedFrameException;
 import FileTypes.MP3;
-import TagStructures.ID3v2Frame;
+import TagStructures.ID3v22Frame;
 import TagStructures.ID3v2Header;
-import TagTypes.ID3v2;
 import TagTypes.ID3v22;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 
-import static Factories.ID3v2FrameFactory.extractFrames;
-import static Factories.ID3v2HeaderFactory.HEADER_LENGTH;
+import static Factories.ID3v2HeaderFactory.*;
 
-//TODO - JavaDoc
 /**
  *
  *
  * @author Samuel Netherway
  */
 public class ID3v22Factory extends ID3v2Factory {
-
-    private static final String META_RECOMMENDED_BUFFER_SIZE = "BUF";
-    private static final String META_PLAY_COUNTER = "CNT";
-    private static final String META_COMMENTS = "COM";
-    private static final String META_AUDIO_ENCRYPTION = "CRA";
-    private static final String META_ENCRYPTED_META = "CRM";
-    private static final String META_EVENT_TIMING_CODES = "ETC";
-    private static final String META_EQUALIZATION = "EQU";
-    private static final String META_GENERAL_ENCAPSULATED_OBJECT = "GEO";
-    private static final String META_INVOLVED_PEOPLE_LIST = "IPL";
-    private static final String META_LINKED_INFORMATION = "LNK";
-    private static final String META_MUSIC_CD_IDENTIFIER = "MCI";
-    private static final String META_MPEG_LOCATION_LOOKUP_TABLE = "MLL";
-    private static final String META_ATTACHED_PICTURE = "PIC";
-    private static final String META_POPULARIMETER = "POP";
-    private static final String META_REVERB = "REV";
-    private static final String META_RELATIVE_VOLUME_ADJUSTMENT = "RVA";
-    private static final String META_SYNCHRONIZED_LYRIC_TEXT = "SLT";
-    private static final String META_SYNCHED_TEMPO_CODES = "STC";
-    private static final String META_ALBUM_MOVIE_SHOW_TITLE = "TAL";
-    private static final String META_BEATS_PER_MINUTE = "TBP";
-    private static final String META_COMPOSER = "TCM";
-    private static final String META_CONTENT_TYPE = "TCO";
-    private static final String META_COPYRIGHT_MESSAGE = "TCR";
-    private static final String META_DATE = "TDA";
-    private static final String META_PLAYLIST_DELAY = "TDY";
-    private static final String META_ENCODED_BY = "TEN";
-    private static final String META_FILE_TYPE = "TFT";
-    private static final String META_TIME = "TIM";
-    private static final String META_INITIAL_KEY = "TKE";
-    private static final String META_LANGUAGES = "TLA";
-    private static final String META_LENGTH = "TLE";
-    private static final String META_MEDIA_TYPE = "TMT";
-    private static final String META_ORIGINAL_ARTISTS_PERFORMERS = "TOA";
-    private static final String META_ORIGINAL_FILENAME = "TOF";
-    private static final String META_ORIGINAL_LYRICISTS_TEXT_WRITERS = "TOL";
-    private static final String META_ORIGINAL_RELEASE_YEAR = "TOR";
-    private static final String META_ORIGINAL_ALBUM_MOVIE_SHOW_TITLE = "TOT";
-    private static final String META_LEAD_ARTISTS_LEAD_PERFORMERS_SOLOISTS_PERFORMING_GROUP = "TP1";
-    private static final String META_BAND_ORCHESTRA_ACCOMPANIMENT = "TP2";
-    private static final String META_CONDUCTOR_PERFORMER_REFINEMENT = "TP3";
-    private static final String META_INTERPRETED_REMIXED_OR_OTHERWISE_MODIFIED_BY = "TP4";
-    private static final String META_PART_OF_A_SET = "TPA";
-    private static final String META_PUBLISHER = "TPB";
-    private static final String META_INTERNATIONAL_STANDARD_RECORDING_CODE = "TRC";
-    private static final String META_RECORDING_DATES = "TRD";
-    private static final String META_TRACK_NUMBER_POSITION_IN_SET = "TRK";
-    private static final String META_SIZE = "TSI";
-    private static final String META_SOFTWARE_HARDWARE_AND_SETTINGS_USED_FOR_ENCODING = "TSS";
-    private static final String META_CONTENT_GROUP_DESCRIPTION = "TT1";
-    private static final String META_TITLE_SONGNAME_CONTENT_DESCRIPTION = "TT2";
-    private static final String META_SUBTITLE_DESCRIPTION_REFINEMENT = "TT3";
-    private static final String META_LYRICIST_TEXT_WRITER = "TXT";
-    private static final String META_USER_DEFINED_TEXT_INFORMATION_FRAME = "TXX";
-    private static final String META_YEAR = "TYE";
-    private static final String META_UNIQUE_FILE_IDENTIFIER = "UFI";
-    private static final String META_UNSYNCHRONIZED_LYRIC_TEXT_TRANSCRIPTION = "ULT";
-    private static final String META_OFFICIAL_AUDIO_FILE_WEBPAGE = "WAF";
-    private static final String META_OFFICIAL_ARTIST_PERFORMER_WEBPAGE = "WAR";
-    private static final String META_OFFICIAL_AUDIO_SOURCE_WEBPAGE = "WAS";
-    private static final String META_COMMERCIAL_INFORMATION = "WCM";
-    private static final String META_COPYRIGHT_LEGAL_INFORMATION = "WCP";
-    private static final String META_PUBLISHERS_OFFICIAL_WEBPAGE = "WPB";
-    private static final String META_USER_DEFINED_URL_LINK_FRAME = "WXX";
 
     public static ID3v22 extractTag(MP3 mp3) {
         ID3v2Header header = null;
@@ -94,18 +31,45 @@ public class ID3v22Factory extends ID3v2Factory {
         }
 
         ID3v22 tag = new ID3v22();
-        tag.setBytes(Arrays.copyOfRange(mp3.getBytes(), header.getPositionInFile(),
+        tag.setTagBytes(Arrays.copyOfRange(mp3.getBytes(), header.getPositionInFile(),
             header.getPositionInFile() + header.getTagSize()));
 
         if (header.hasExtendedHeader()) {
 
         } else {
-            tag.setFrameBytes(Arrays.copyOfRange(tag.getBytes(), HEADER_LENGTH, header.getTagSize()));
+            tag.setFrameBytes(Arrays.copyOfRange(tag.getTagBytes(), HEADER_LENGTH, header.getTagSize()));
         }
         tag.setHeader(header);
 
-        ArrayList<ID3v2Frame> frames = extractFrames(header, tag.getFrameBytes());
+        ArrayList<ID3v22Frame> frames = extractFrames(header, tag.getFrameBytes());
+
+        tag.setFrames(frames);
 
         return tag;
+    }
+
+    /**
+     * Extracts all supported frames from the ID3v2 tag.
+     *
+     * @param header The ID3v2 tag header.
+     * @param framesData The frames data as an array of bytes.
+     * @return An arraylist of ID3v2 frames populated with data.
+     */
+    private static ArrayList<ID3v22Frame> extractFrames(ID3v2Header header, byte[] framesData) {
+        ArrayList<ID3v22Frame> frames = new ArrayList<>();
+
+        int startPosition = 0;
+        while (startPosition < header.getDataSize()) {
+            ID3v22Frame frame;
+            try {
+                frame = ID3v22FrameFactory.extractFrameMetadata(Arrays.copyOfRange(framesData, startPosition, framesData.length));
+            } catch (InvalidFrameException ife) {
+                break;
+            }
+            frames.add(frame);
+            startPosition += frame.getFrameSize();
+        }
+
+        return frames;
     }
 }

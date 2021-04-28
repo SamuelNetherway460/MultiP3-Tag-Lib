@@ -1,0 +1,28 @@
+
+Q
+java:S1068q"/Remove this unused "FLAGS_START" private field.(¼ş—Ÿøÿÿÿÿ8‘³ş§/
+K	java:S108Ò")Either remove or fill this block of code.(ş˜Ï‡øÿÿÿÿ8‘â¥Í/
+K	java:S108Ğ")Either remove or fill this block of code.(Íÿİ‹ùÿÿÿÿ8‘â¥Í/
+z
+java:S1488“"\Immediately return this expression instead of assigning it to the temporary variable "size".(ò„Ó¬8åÖüƒ/
+E	java:S108Ä")Either remove or fill this block of code.(…æ£8‘â¥Í/
+F	java:S108Ë")Either remove or fill this block of code.(Ó¾èª8åÖüƒ/
+K	java:S108Å")Either remove or fill this block of code.(Ë—éıÿÿÿÿ8‘â¥Í/
+P
+java:S1135¸"2Complete the task associated to this TODO comment.(µéíÇ8åÖüƒ/
+K
+java:S1068l".Remove this unused "SIZE_START" private field.(ìçƒ8‘³ş§/
+F	java:S108É")Either remove or fill this block of code.(‚Î×8‘â¥Í/
+K	java:S108Â")Either remove or fill this block of code.(’ëÚŠøÿÿÿÿ8åÖüƒ/
+K	java:S108Ç")Either remove or fill this block of code.(èºôúÿÿÿÿ8‘â¥Í/
+F	java:S108Ñ")Either remove or fill this block of code.(Ò•8‘â¥Í/
+K	java:S108Î")Either remove or fill this block of code.(õÚÖÊûÿÿÿÿ8‘â¥Í/
+F	java:S108Æ")Either remove or fill this block of code.(®òŠÕ8‘â¥Í/
+E	java:S108Ï")Either remove or fill this block of code.(…šê8‘â¥Í/
+p
+java:S3776¿"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(˜ş¿µ8åÖüƒ/
+F	java:S108È")Either remove or fill this block of code.(Ç®Ãˆ8‘â¥Í/
+K	java:S108Ì")Either remove or fill this block of code.(Ê„ŒŞùÿÿÿÿ8‘â¥Í/
+F	java:S108Ã")Either remove or fill this block of code.(Û¹íÁ8‘â¥Í/
+F	java:S108Í")Either remove or fill this block of code.(–¼°8‘â¥Í/
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(áŞäÛşÿÿÿÿ

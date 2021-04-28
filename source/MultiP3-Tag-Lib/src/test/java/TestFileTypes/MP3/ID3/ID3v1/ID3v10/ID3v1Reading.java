@@ -7,11 +7,13 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
+import java.io.FileNotFoundException;
+
 public class ID3v1Reading {
 
     @Test
     @DisplayName("Read ID3v1 Title")
-    void readTitle() {
+    void readTitle() throws FileNotFoundException {
         MP3 mp3 = new MP3(MP3Globals.SAMPLE_MP3_FILE_PATH, false);
         ID3v1 id3v1 = new ID3v1();
         if (mp3.hasID3v1()) id3v1 = mp3.getId3v1();
@@ -20,7 +22,7 @@ public class ID3v1Reading {
 
     @Test
     @DisplayName("Read ID3v1 Artist")
-    void readArtist() {
+    void readArtist() throws FileNotFoundException {
         MP3 mp3 = new MP3(MP3Globals.SAMPLE_MP3_FILE_PATH, false);
         ID3v1 id3v1 = new ID3v1();
         if (mp3.hasID3v1()) id3v1 = mp3.getId3v1();
@@ -29,7 +31,7 @@ public class ID3v1Reading {
 
     @Test
     @DisplayName("Read ID3v1 Album")
-    void readAlbum() {
+    void readAlbum() throws FileNotFoundException {
         MP3 mp3 = new MP3(MP3Globals.SAMPLE_MP3_FILE_PATH, false);
         ID3v1 id3v1 = new ID3v1();
         if (mp3.hasID3v1()) id3v1 = mp3.getId3v1();
@@ -38,7 +40,7 @@ public class ID3v1Reading {
 
     @Test
     @DisplayName("Read ID3v1 Year")
-    void readYear() {
+    void readYear() throws FileNotFoundException {
         MP3 mp3 = new MP3(MP3Globals.SAMPLE_MP3_FILE_PATH, false);
         ID3v1 id3v1 = new ID3v1();
         if (mp3.hasID3v1()) id3v1 = mp3.getId3v1();
@@ -47,7 +49,7 @@ public class ID3v1Reading {
 
     @Test
     @DisplayName("Read ID3v1 Comment")
-    void readComment() {
+    void readComment() throws FileNotFoundException {
         MP3 mp3 = new MP3(MP3Globals.SAMPLE_MP3_FILE_PATH, false);
         ID3v1 id3v1 = new ID3v1();
         if (mp3.hasID3v1()) id3v1 = mp3.getId3v1();
@@ -56,7 +58,7 @@ public class ID3v1Reading {
 
     @Test
     @DisplayName("Read ID3v1 Genre")
-    void readGenre() {
+    void readGenre() throws FileNotFoundException {
         MP3 mp3 = new MP3(MP3Globals.SAMPLE_MP3_FILE_PATH, false);
         ID3v1 id3v1 = new ID3v1();
         if (mp3.hasID3v1()) id3v1 = mp3.getId3v1();
@@ -65,7 +67,7 @@ public class ID3v1Reading {
 
     @Test
     @DisplayName("Read ID3v1 Genre Index")
-    void readGenreIndex() {
+    void readGenreIndex() throws FileNotFoundException {
         MP3 mp3 = new MP3(MP3Globals.SAMPLE_MP3_FILE_PATH, false);
         ID3v1 id3v1 = new ID3v1();
         if (mp3.hasID3v1()) id3v1 = mp3.getId3v1();

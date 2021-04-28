@@ -1,55 +1,5 @@
 
-o
-java:S1068%"MRemove this unused "UNASSIGNED_STATUS_MESSAGES_FLAG_BIT_POS_1" private field.(άγ‰ώÿÿÿÿ8…ιαΦ/
-^
-java:S10683"<Remove this unused "COMPRESSION_FLAG_BIT_POS" private field.(ΐ…ρϋÿÿÿÿ8ω¬ªΦ/
-Q
-java:S1068"/Remove this unused "FLAGS_START" private field.(Όώ—ψÿÿÿÿ8…ιαΦ/
-L
-java:S1068!"0Remove this unused "FLAGS_LENGTH" private field.(«ΟΠ8…ιαΦ/
-o
-java:S1068+"MRemove this unused "UNASSIGNED_STATUS_MESSAGES_FLAG_BIT_POS_4" private field.(―ή« όÿÿÿÿ8ΕπΦ/
-
-java:S13198"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(Ψ’³8µΖΦ/
-I
-java:S1068",Remove this unused "ID_START" private field.(–ίεΒ8…ιαΦ/
-W
-java:S1068(":Remove this unused "READ_ONLY_FLAG_BIT_POS" private field.(ψσύ8ΤΔ—Φ/
-K
-java:S1068".Remove this unused "SIZE_START" private field.(μηƒ8…ιαΦ/
-j
-java:S1068,"MRemove this unused "UNASSIGNED_STATUS_MESSAGES_FLAG_BIT_POS_5" private field.(™’„α8ΕπΦ/
-M
-java:S1135"2Complete the task associated to this TODO comment.(δ’―χύÿÿÿÿ
-o
-java:S1068*"MRemove this unused "UNASSIGNED_STATUS_MESSAGES_FLAG_BIT_POS_3" private field.(βΎ°ΰωÿÿÿÿ8ΕπΦ/
-_
-java:S10685"BRemove this unused "UNSYNCHRONISATION_FLAG_BIT_POS" private field.(γΑ‘υ8ω¬ªΦ/
 t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(αήδΫώÿÿÿÿ
-j
-java:S1068'"HRemove this unused "FILE_ALTER_PRESERVATION_FLAG_BIT_POS" private field.(®¶ΗΤύÿÿÿÿ8ΤΔ—Φ/
-Q
-java:S1068 "/Remove this unused "SIZE_LENGTH" private field.(οΓδϊÿÿÿÿ8…ιαΦ/
-]
-java:S10684";Remove this unused "ENCRYPTION_FLAG_BIT_POS" private field.(„Λΰ‰ϋÿÿÿÿ8ω¬ªΦ/
-h
-java:S10686"FRemove this unused "DATA_LENGTH_INDICATOR_FLAG_BIT_POS" private field.(ύ–…ªύÿÿÿÿ8ω¬ªΦ/
-W
-java:S1128
-"5Remove this unused import 'java.nio.charset.Charset'.(ό¶Ψύÿÿÿÿ8“―Ω/
-o
-java:S1068)"MRemove this unused "UNASSIGNED_STATUS_MESSAGES_FLAG_BIT_POS_2" private field.(§‡Νύÿÿÿÿ8ΕπΦ/
-r
-java:S1068/"PRemove this unused "UNASSIGNED_FORMAT_DESCRIPTION_FLAG_BIT_POS_1" private field.(Η«„ωÿÿÿÿ8φ Φ/
-^
-java:S10680"BRemove this unused "GROUPING_IDENTITY_FLAG_BIT_POS" private field.(«Τ8ω¬ªΦ/
+]	java:S125"<This block of commented-out lines of code should be removed.(ϊ©λ²ϊÿÿÿÿ8†υγΝ/
 P
-java:S1118":Add a private constructor to hide the implicit public one.(Ή‰†£
-i
-java:S1068&"GRemove this unused "TAG_ALTER_PRESERVATION_FLAG_BIT_POS" private field.(ÿΞαωÿÿÿÿ8ΤΔ—Φ/
-O
-java:S1068"-Remove this unused "ID_LENGTH" private field.(ρΖ©―ϋÿÿÿÿ8…ιαΦ/
-r
-java:S10681"PRemove this unused "UNASSIGNED_FORMAT_DESCRIPTION_FLAG_BIT_POS_2" private field.(υΔηώÿÿÿÿ8φ Φ/
-r
-java:S10682"PRemove this unused "UNASSIGNED_FORMAT_DESCRIPTION_FLAG_BIT_POS_3" private field.(ύκσώÿÿÿÿ8φ Φ/
+java:S1118":Add a private constructor to hide the implicit public one.(Ή‰†£

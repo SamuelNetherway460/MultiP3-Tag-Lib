@@ -1,16 +1,18 @@
 package TagTypes;
 
-import TagStructures.ID3v2Frame;
 import TagStructures.ID3v2Header;
 
-import java.util.Map;
-
+//TODO: JavaDoc
+/**
+ *
+ *
+ * @author Samuel Netherway
+ */
 public class ID3v2 {
 
     protected ID3v2Header header;
-    private Map<String, ID3v2Frame> frames;
-    private byte[] bytes;
-    private byte[] frameBytes;
+    protected byte[] tagBytes;
+    protected byte[] frameBytes;
 
     public ID3v2Header getHeader() {
         return header;
@@ -20,20 +22,12 @@ public class ID3v2 {
         this.header = header;
     }
 
-    public Map<String, ID3v2Frame> getFrames() {
-        return frames;
+    public byte[] getTagBytes() {
+        return tagBytes;
     }
 
-    public void setFrames(Map<String, ID3v2Frame> frames) {
-        this.frames = frames;
-    }
-
-    public byte[] getBytes() {
-        return bytes;
-    }
-
-    public void setBytes(byte[] bytes) {
-        this.bytes = bytes;
+    public void setTagBytes(byte[] tagBytes) {
+        this.tagBytes = tagBytes;
     }
 
     public byte[] getFrameBytes() {
@@ -42,13 +36,5 @@ public class ID3v2 {
 
     public void setFrameBytes(byte[] frameBytes) {
         this.frameBytes = frameBytes;
-    }
-
-    public int getMajorVersion() {
-        return header.getMajorVersion();
-    }
-
-    public int getMinorVersion() {
-        return header.getMinorVersion();
     }
 }

@@ -1,15 +1,17 @@
 TestFileTypes/MP3/ID3/ID3v2/ID3v22/ID3v22Reading.java
  TestFileTypes.MP3.ID3.ID3v2.ID3v22.ID3v22Reading
+Globals/MP3/ID3/ID3v2/ID3v2Globals.java
+ Globals.MP3.ID3.ID3v2.ID3v2Globals
 TestFileTypes/MP3/ID3/ID3v2/ID3v23/ID3v23WritingNormal.java
  TestFileTypes.MP3.ID3.ID3v2.ID3v23.ID3v23WritingNormal
-TestFileTypes/MP3/ID3/VersionConversion/VersionConversionsRobust.java
- TestFileTypes.MP3.ID3.VersionConversion.VersionConversionsRobust
+TestFileTypes/MP3/ID3/ID3v1/ID3v11/ID3v11WritingNormal.java
+ TestFileTypes.MP3.ID3.ID3v1.ID3v11.ID3v11WritingNormal
 Globals/MP3/ID3/ID3v1/ID3v1Globals.java
  Globals.MP3.ID3.ID3v1.ID3v1Globals
 TestFileTypes/WAV/RIFF_INFO/RIFF_INFO_WritingNormal.java
  TestFileTypes.WAV.RIFF_INFO.RIFF_INFO_WritingNormal
-Globals/MP3/MP3Globals.java
- Globals.MP3.MP3Globals
+TestFileTypes/MP3/ID3/ID3v1/ID3v10/ID3v1WritingNormal.java
+ TestFileTypes.MP3.ID3.ID3v1.ID3v10.ID3v1WritingNormal
 TestFileTypes/WAV/ID3v2/ID3v23/ID3v23Reading.java
  TestFileTypes.WAV.ID3v2.ID3v23.ID3v23Reading
 TestFileTypes/WAV/ID3v2/ID3v24/ID3v24WritingRobust.java
@@ -24,34 +26,38 @@ TestFileTypes/MP3/ID3/ID3v1/ID3v11/ID3v11MultiFileTesting.java
  TestFileTypes.MP3.ID3.ID3v1.ID3v11.ID3v11MultiFileTesting
 Globals/MP3/ID3/ID3v2/ID3v2HeaderGlobals.java
  Globals.MP3.ID3.ID3v2.ID3v2HeaderGlobals
+TestFileTypes/MP3/ID3/ID3v2/ID3v24/ID3v24FrameReading.java
+ TestFileTypes.MP3.ID3.ID3v2.ID3v24.ID3v24FrameReading
 TestFileTypes/WAV/ID3v2/VersionConversion/VersionConversionsRobust.java
  TestFileTypes.WAV.ID3v2.VersionConversion.VersionConversionsRobust
 TestFileTypes/MP3/ID3/ID3v1/ID3v10/ID3v1MultiFileTesting.java
  TestFileTypes.MP3.ID3.ID3v1.ID3v10.ID3v1MultiFileTesting
 TestFileTypes/MP3/ID3/ID3v2/ID3v24/ID3v24WritingRobust.java
  TestFileTypes.MP3.ID3.ID3v2.ID3v24.ID3v24WritingRobust
-TestFileTypes/MP3/ID3/ID3v2/ID3v24/ID3v24MultiFileTesting.java
- TestFileTypes.MP3.ID3.ID3v2.ID3v24.ID3v24MultiFileTesting
+TestFileTypes/MP3/ID3/ID3v1/ID3v11/ID3v11Reading.java
+ TestFileTypes.MP3.ID3.ID3v1.ID3v11.ID3v11Reading
 TestFileTypes/WAV/ID3v2/VersionConversion/VersionConversions.java
  TestFileTypes.WAV.ID3v2.VersionConversion.VersionConversions
-TestFileTypes/WAV/RIFF_INFO/RIFF_INFO_WritingRobust.java
- TestFileTypes.WAV.RIFF_INFO.RIFF_INFO_WritingRobust
+TestFileTypes/MP3/ID3/ID3v1/ID3v10/ID3v1WritingBoundary.java
+ TestFileTypes.MP3.ID3.ID3v1.ID3v10.ID3v1WritingBoundary
 TestFileTypes/MP3/ID3/ID3v2/ID3v23/ID3v23WritingBoundary.java
  TestFileTypes.MP3.ID3.ID3v2.ID3v23.ID3v23WritingBoundary
+TestFileTypes/MP3/ID3/ID3v2/ID3v2Header/ID3v2HeaderWriting.java
+ TestFileTypes.MP3.ID3.ID3v2.ID3v2Header.ID3v2HeaderWriting
 TestFileTypes/MP3/ID3/ID3v1/ID3v10/ID3v1Genres.java
  TestFileTypes.MP3.ID3.ID3v1.ID3v10.ID3v1Genres
 TestFileTypes/WAV/ID3v2/ID3v24/ID3v24WritingNormal.java
  TestFileTypes.WAV.ID3v2.ID3v24.ID3v24WritingNormal
-TestFileTypes/MP3/ID3/ID3v2/ID3v23/ID3v23Reading.java
- TestFileTypes.MP3.ID3.ID3v2.ID3v23.ID3v23Reading
-TestFileTypes/MP3/ID3/ID3v2/ID3v24/ID3v24WritingBoundary.java
- TestFileTypes.MP3.ID3.ID3v2.ID3v24.ID3v24WritingBoundary
-TestFileTypes/WAV/ID3v2/ID3v23/ID3v23WritingRobust.java
- TestFileTypes.WAV.ID3v2.ID3v23.ID3v23WritingRobust
+TestFileTypes/MP3/ID3/ID3v1/ID3v10/ID3v1WritingRobust.java
+ TestFileTypes.MP3.ID3.ID3v1.ID3v10.ID3v1WritingRobust
+TestFileTypes/MP3/ID3/ID3v1/ID3v11/ID3v11WritingRobust.java
+ TestFileTypes.MP3.ID3.ID3v1.ID3v11.ID3v11WritingRobust
+TestFileTypes/MP3/ID3/ID3v1/ID3v10/ID3v1Reading.java
+ TestFileTypes.MP3.ID3.ID3v1.ID3v10.ID3v1Reading
 TestFileTypes/MP3/ID3/ID3v2/ID3v22/ID3v22MultiFileTesting.java
  TestFileTypes.MP3.ID3.ID3v2.ID3v22.ID3v22MultiFileTesting
-Globals/MP3/ID3/ID3v2/ID3v24Globals.java
- Globals.MP3.ID3.ID3v2.ID3v24Globals
+TestFileTypes/MP3/ID3/ID3v1/ID3v11/ID3v11WritingBoundary.java
+ TestFileTypes.MP3.ID3.ID3v1.ID3v11.ID3v11WritingBoundary
 Globals/MP3/ID3/ID3v2/ID3v23Globals.java
  Globals.MP3.ID3.ID3v2.ID3v23Globals
 TestFileTypes/WAV/ID3v2/ID3v22/ID3v22Reading.java
@@ -66,39 +72,43 @@ TestFileTypes/MP3/ID3/ID3v2/ID3v23/ID3v23WritingRobust.java
  TestFileTypes.MP3.ID3.ID3v2.ID3v23.ID3v23WritingRobust
 Globals/MP3/ID3/ID3v1/ID3v11Globals.java
  Globals.MP3.ID3.ID3v1.ID3v11Globals
+Globals/WAV/ID3v2/WavGlobals.java
+ Globals.WAV.ID3v2.WavGlobals
 TestFileTypes/WAV/ID3v2/ID3v24/ID3v24WritingBoundary.java
  TestFileTypes.WAV.ID3v2.ID3v24.ID3v24WritingBoundary
 TestFileTypes/WAV/ID3v2/ID3v24/ID3v24Reading.java
  TestFileTypes.WAV.ID3v2.ID3v24.ID3v24Reading
 TestFileTypes/WAV/RIFF_INFO/RIFF_INFO_WritingBoundary.java
  TestFileTypes.WAV.RIFF_INFO.RIFF_INFO_WritingBoundary
-TestFileTypes/WAV/ID3v2/ID3v24/ID3v24MultiFileTesting.java
- TestFileTypes.WAV.ID3v2.ID3v24.ID3v24MultiFileTesting
+TestFileTypes/MP3/ID3/ID3v2/ID3v2Header/ID3v2HeaderReading.java
+ TestFileTypes.MP3.ID3.ID3v2.ID3v2Header.ID3v2HeaderReading
 TestFileTypes/WAV/RIFF_INFO/RIFF_INFO_Reading.java
  TestFileTypes.WAV.RIFF_INFO.RIFF_INFO_Reading
 TestFileTypes/WAV/ID3v2/ID3v23/ID3v23MultiFileTesting.java
  TestFileTypes.WAV.ID3v2.ID3v23.ID3v23MultiFileTesting
 Globals/TestGlobals.java
  Globals.TestGlobals
-TestFileTypes/MP3/ID3/ID3v1/ID3v10/ID3v1WritingBoundary.java
- TestFileTypes.MP3.ID3.ID3v1.ID3v10.ID3v1WritingBoundary
-TestFileTypes/MP3/ID3/ID3v1/ID3v10/ID3v1WritingRobust.java
- TestFileTypes.MP3.ID3.ID3v1.ID3v10.ID3v1WritingRobust
-TestFileTypes/MP3/ID3/ID3v1/ID3v11/ID3v11Reading.java
- TestFileTypes.MP3.ID3.ID3v1.ID3v11.ID3v11Reading
-TestFileTypes/MP3/ID3/ID3v1/ID3v10/ID3v1WritingNormal.java
- TestFileTypes.MP3.ID3.ID3v1.ID3v10.ID3v1WritingNormal
-TestFileTypes/MP3/ID3/ID3v2/ID3v2Header/ID3v2HeaderWriting.java
- TestFileTypes.MP3.ID3.ID3v2.ID3v2Header.ID3v2HeaderWriting
-TestFileTypes/MP3/ID3/ID3v1/ID3v11/ID3v11WritingRobust.java
- TestFileTypes.MP3.ID3.ID3v1.ID3v11.ID3v11WritingRobust
-TestFileTypes/MP3/ID3/ID3v1/ID3v10/ID3v1Reading.java
- TestFileTypes.MP3.ID3.ID3v1.ID3v10.ID3v1Reading
-TestFileTypes/MP3/ID3/ID3v1/ID3v11/ID3v11WritingNormal.java
- TestFileTypes.MP3.ID3.ID3v1.ID3v11.ID3v11WritingNormal
-TestFileTypes/MP3/ID3/ID3v1/ID3v11/ID3v11WritingBoundary.java
- TestFileTypes.MP3.ID3.ID3v1.ID3v11.ID3v11WritingBoundary
-TestFileTypes/MP3/ID3/ID3v2/ID3v2Header/ID3v2HeaderReading.java
- TestFileTypes.MP3.ID3.ID3v2.ID3v2Header.ID3v2HeaderReading
-TestFileTypes/MP3/ID3/ID3v2/ID3v24/ID3v24FrameReading.java
- TestFileTypes.MP3.ID3.ID3v2.ID3v24.ID3v24FrameReading
+TestFileTypes/MP3/ID3/ID3v2/ID3v24/ID3v24MultiFileTesting.java
+ TestFileTypes.MP3.ID3.ID3v2.ID3v24.ID3v24MultiFileTesting
+TestFileTypes/WAV/ID3v2/ID3v24/ID3v24MultiFileTesting.java
+ TestFileTypes.WAV.ID3v2.ID3v24.ID3v24MultiFileTesting
+Globals/WAV/ID3v2/WavID3v23Globals.java
+ Globals.WAV.ID3v2.WavID3v23Globals
+Globals/MP3/ID3/ID3v2/ID3v24Globals.java
+ Globals.MP3.ID3.ID3v2.ID3v24Globals
+Globals/WAV/ID3v2/WavID3v22Globals.java
+ Globals.WAV.ID3v2.WavID3v22Globals
+TestFileTypes/MP3/ID3/VersionConversion/VersionConversionsRobust.java
+ TestFileTypes.MP3.ID3.VersionConversion.VersionConversionsRobust
+TestFileTypes/WAV/ID3v2/ID3v23/ID3v23WritingRobust.java
+ TestFileTypes.WAV.ID3v2.ID3v23.ID3v23WritingRobust
+Globals/MP3/MP3Globals.java
+ Globals.MP3.MP3Globals
+TestFileTypes/MP3/ID3/ID3v2/ID3v23/ID3v23Reading.java
+ TestFileTypes.MP3.ID3.ID3v2.ID3v23.ID3v23Reading
+TestFileTypes/WAV/RIFF_INFO/RIFF_INFO_WritingRobust.java
+ TestFileTypes.WAV.RIFF_INFO.RIFF_INFO_WritingRobust
+TestFileTypes/MP3/ID3/ID3v2/ID3v24/ID3v24WritingBoundary.java
+ TestFileTypes.MP3.ID3.ID3v2.ID3v24.ID3v24WritingBoundary
+TestFileTypes/MP3/ID3/MultipleTagTesting.java
+ TestFileTypes.MP3.ID3.MultipleTagTesting

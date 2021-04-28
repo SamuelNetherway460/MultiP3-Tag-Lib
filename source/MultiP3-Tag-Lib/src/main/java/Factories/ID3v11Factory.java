@@ -114,7 +114,7 @@ public class ID3v11Factory extends ID3v1Factory {
         } catch (UnsupportedEncodingException uee) {
             return EMPTY_STRING;
         }
-        if (comment.equalsIgnoreCase(EMPTY_STRING)) throw new EmptyFieldException("[EMPTY FIELD EXCEPTION] Comment field does not contain a value");
+        if (comment.equalsIgnoreCase(EMPTY_STRING)) throw new EmptyFieldException("[ERROR] Comment field does not contain a value");
         return comment;
     }
 
@@ -127,7 +127,7 @@ public class ID3v11Factory extends ID3v1Factory {
      */
     public static byte[] updateRawComment(byte[] raw, String comment) throws IllegalArgumentException {
         if (comment.length() > COMMENT_FIELD_LENGTH) {
-            throw new IllegalArgumentException("[ILLEGAL ARGUMENT EXCEPTION] Comment has length " + comment.length()
+            throw new IllegalArgumentException("[ERROR] Comment has length " + comment.length()
                 + " which is greater than the maximum permitted length of " + COMMENT_FIELD_LENGTH);
         } else {
             return ByteUtilities.updateSection(raw, comment, COMMENT_FIELD_START, COMMENT_FIELD_LENGTH);
@@ -183,7 +183,7 @@ public class ID3v11Factory extends ID3v1Factory {
      */
     public static byte[] updateRawTrackNumber(byte[] raw, int trackNumber) throws IllegalArgumentException {
         if (trackNumber < TRACK_NUMBER_MIN || trackNumber > TRACK_NUMBER_MAX) {
-            throw new IllegalArgumentException("[ILLEGAL ARGUMENT EXCEPTION] The track number " + trackNumber
+            throw new IllegalArgumentException("[ERROR] The track number " + trackNumber
                 + " is not within the range of " + TRACK_NUMBER_MIN + " and " + TRACK_NUMBER_MAX);
         } else {
             return ByteUtilities.updateSection(raw, trackNumber, TRACK_NUMBER_FIELD_START);

@@ -1,71 +1,113 @@
 
-M
-java:S1135"2Complete the task associated to this TODO comment.(ä’¯÷ıÿÿÿÿ
+T
+java:S1068a"2Remove this unused "titleSortOrder" private field.(ëÎÏúùÿÿÿÿ8½õÏÜ/
+T
+java:S1135g"2Complete the task associated to this TODO comment.(ä’¯÷ıÿÿÿÿ8Ò—³‰/
+O
+java:S1068"-Remove this unused "ownership" private field.(‡øü£ùÿÿÿÿ8·›ë«/
+Y
+java:S1068T"7Remove this unused "audioSeekPointIndex" private field.(àûÈÕüÿÿÿÿ8½õÏÜ/
+_
+java:S1068"=Remove this unused "generalEncapsulatedObject" private field.(ïÇ‡íúÿÿÿÿ8·›ë«/
+Y
+java:S1068J"=Remove this unused "copyrightLegalInformation" private field.(ºË“t8·›ë«/
+T
+java:S1068_"2Remove this unused "albumSortOrder" private field.(è‘Ù°ÿÿÿÿÿ8½õÏÜ/
+\
+java:S1068<"?Remove this unused "originalAlbumMovieShowTitle" private field.(ùä’÷8·›ë«/
+e
+java:S1068H"HRemove this unused "unsynchronizedLyricTextTranscription" private field.(ÖÜ±Â8·›ë«/
+P
+java:S1068".Remove this unused "commercial" private field.(â²øÿÿÿÿ8·›ë«/
+R
+java:S1068"0Remove this unused "equalization" private field.(—³úÎşÿÿÿÿ8·›ë«/
 N
-java:S1135´"2Complete the task associated to this TODO comment.(ä’¯÷ıÿÿÿÿ
-N
-java:S1135¥"2Complete the task associated to this TODO comment.(ä’¯÷ıÿÿÿÿ
+java:S1068",Remove this unused "comments" private field.(ƒÉˆÉúÿÿÿÿ8·›ë«/
+V
+java:S1068"9Remove this unused "recommendedBufferSize" private field.(€¬”ê8·›ë«/
+G
+java:S1068"*Remove this unused "reverb" private field.(ë—‚‘8·›ë«/
+T
+java:S1068'"2Remove this unused "recordingDates" private field.(Á¿÷°üÿÿÿÿ8·›ë«/
+Q
+java:S1068"5Remove this unused "linkedInformation" private field.(Şüã.8·›ë«/
+J
+java:S1068V"-Remove this unused "signature" private field.(ºæàù8½õÏÜ/
+Z
+java:S1068N"=Remove this unused "publishersOfficialWebpage" private field.(¦¯›Ø8·›ë«/
+“
+java:S1319x"qThe type of the "frames" object should be an interface such as "List" rather than the implementation "ArrayList".(©ÒÁÒúÿÿÿÿ8—‹Š¢/
 M
-java:S1135x"2Complete the task associated to this TODO comment.(ä’¯÷ıÿÿÿÿ
+java:S1135"2Complete the task associated to this TODO comment.(ä’¯÷ıÿÿÿÿ
+[
+java:S1068I"9Remove this unused "commercialInformation" private field.(¨Æ •ıÿÿÿÿ8·›ë«/
+R
+java:S1068"5Remove this unused "musicCDIdentifier" private field.(•Ÿ™Ú8·›ë«/
+^
+java:S1068K"<Remove this unused "officialAudioFileWebpage" private field.(Úİ‚øøÿÿÿÿ8·›ë«/
+`
+java:S1068M">Remove this unused "officialAudioSourceWebpage" private field.(ı†¶ÿÿÿÿÿ8·›ë«/
+J
+java:S1068U"(Remove this unused "seek" private field.(îŸë€ıÿÿÿÿ8½õÏÜ/
+O
+java:S1068^"2Remove this unused "producedNotice" private field.(£¡¨¸8½õÏÜ/
+S
+java:S1068`"6Remove this unused "performerSortOrder" private field.(Ê¿‚Ê8½õÏÜ/
+
+java:S1186h"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¿úÖí8òÅ™œ/
+Q
+java:S1068Z"/Remove this unused "taggingTime" private field.(Š£ıüÿÿÿÿ8½õÏÜ/
+V
+java:S1068 "9Remove this unused "synchronizedLyricText" private field.(¬Şú8·›ë«/
 M
-java:S1135F"2Complete the task associated to this TODO comment.(ä’¯÷ıÿÿÿÿ
+java:S1068X"1Remove this unused "recordingTime" private field.(¡ÃŸK8½õÏÜ/
+P
+java:S1144p".Remove this unused private "setFooter" method.(øô™êøÿÿÿÿ8Âˆé«/
+J
+java:S1068)"(Remove this unused "year" private field.(õå…õıÿÿÿÿ8·›ë«/
 N
-java:S1135Œ"2Complete the task associated to this TODO comment.(ä’¯÷ıÿÿÿÿ
-M
-java:S1135K"2Complete the task associated to this TODO comment.(ä’¯÷ıÿÿÿÿ
-M
-java:S1135}"2Complete the task associated to this TODO comment.(ä’¯÷ıÿÿÿÿ
-N
-java:S1135¾"2Complete the task associated to this TODO comment.(ä’¯÷ıÿÿÿÿ
-N
-java:S1135‚"2Complete the task associated to this TODO comment.(ä’¯÷ıÿÿÿÿ
-N
-java:S1135Ã"2Complete the task associated to this TODO comment.(ä’¯÷ıÿÿÿÿ
-M
-java:S1135U"2Complete the task associated to this TODO comment.(ä’¯÷ıÿÿÿÿ
-M
-java:S1135<"2Complete the task associated to this TODO comment.(ä’¯÷ıÿÿÿÿ
-N
-java:S1135‡"2Complete the task associated to this TODO comment.(ä’¯÷ıÿÿÿÿ
-N
-java:S1135‘"2Complete the task associated to this TODO comment.(ä’¯÷ıÿÿÿÿ
-N
-java:S1135È"2Complete the task associated to this TODO comment.(ä’¯÷ıÿÿÿÿ
-M
-java:S1135n"2Complete the task associated to this TODO comment.(ä’¯÷ıÿÿÿÿ
-M
-java:S1135"2Complete the task associated to this TODO comment.(ä’¯÷ıÿÿÿÿ
-]	java:S125'"<This block of commented-out lines of code should be removed.(ÌÈóŸüÿÿÿÿ8Ô‘ŒÙ/
-M
-java:S11357"2Complete the task associated to this TODO comment.(ä’¯÷ıÿÿÿÿ
-N
-java:S1135ª"2Complete the task associated to this TODO comment.(ä’¯÷ıÿÿÿÿ
-N
-java:S1135–"2Complete the task associated to this TODO comment.(ä’¯÷ıÿÿÿÿ
-M
-java:S1135A"2Complete the task associated to this TODO comment.(ä’¯÷ıÿÿÿÿ
+java:S1068"1Remove this unused "popularimeter" private field.(‚ŠšË8·›ë«/
+P
+java:S1144l".Remove this unused private "getFooter" method.(°õ‰Ùúÿÿÿÿ8Üóè«/
+e
+java:S1068E"CRemove this unused "userDefinedTextInformationFrame" private field.(ş“ Âøÿÿÿÿ8·›ë«/
 t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Û·¯¢üÿÿÿÿ
+Q
+java:S1068"/Remove this unused "playCounter" private field.(µ°Æşÿÿÿÿ8·›ë«/
+W
+java:S1068!":Remove this unused "synchronizedTempoCodes" private field.(ƒ³Å8·›ë«/
+O
+java:S1068"3Remove this unused "audioEncryption" private field.(äÒÅ8·›ë«/
 M
-java:S1135$"2Complete the task associated to this TODO comment.(ä’¯÷ıÿÿÿÿ
-N
-java:S1135 "2Complete the task associated to this TODO comment.(ä’¯÷ıÿÿÿÿ
-N
-java:S1135¹"2Complete the task associated to this TODO comment.(ä’¯÷ıÿÿÿÿ
-M
-java:S1135s"2Complete the task associated to this TODO comment.(ä’¯÷ıÿÿÿÿ
-M
-java:S1135i"2Complete the task associated to this TODO comment.(ä’¯÷ıÿÿÿÿ
-N
-java:S1135¯"2Complete the task associated to this TODO comment.(ä’¯÷ıÿÿÿÿ
-N
-java:S1135›"2Complete the task associated to this TODO comment.(ä’¯÷ıÿÿÿÿ
-M
-java:S1135_"2Complete the task associated to this TODO comment.(ä’¯÷ıÿÿÿÿ
-M
-java:S1135P"2Complete the task associated to this TODO comment.(ä’¯÷ıÿÿÿÿ
-M
-java:S1135Z"2Complete the task associated to this TODO comment.(ä’¯÷ıÿÿÿÿ
-H
-java:S1135+"2Complete the task associated to this TODO comment.(¥á¢Ñ
-M
-java:S1135d"2Complete the task associated to this TODO comment.(ä’¯÷ıÿÿÿÿ
+java:S1068["0Remove this unused "encodingTime" private field.(öÇ’“8½õÏÜ/
+^
+java:S1068"<Remove this unused "relativeVolumeAdjustment" private field.(ï”Ø•ÿÿÿÿÿ8·›ë«/
+T
+java:S1068\"7Remove this unused "musicianCreditsList" private field.(Û•£—8½õÏÜ/
+T
+java:S1135"2Complete the task associated to this TODO comment.( ¨„ëşÿÿÿÿ8·›ë«/
+T
+java:S1117†"7Rename "bpm" which hides the field declared at line 34.(ó©»I8ÑÎ¥‡/
+V
+java:S1068"4Remove this unused "eventTimingCodes" private field.(·Û™øúÿÿÿÿ8·›ë«/
+X
+java:S1068";Remove this unused "mpegLocationLookupTable" private field.(¸»Şõ8·›ë«/
+Z
+java:S1068F"8Remove this unused "uniqueFileIdentifier" private field.(’Ÿ…Õıÿÿÿÿ8·›ë«/
+]	java:S125d"<This block of commented-out lines of code should be removed.(¾€ˆÜüÿÿÿÿ8ÃŸ¡š/
+Q
+java:S1068]"/Remove this unused "setSubtitle" private field.(°¤™Æùÿÿÿÿ8½õÏÜ/
+^
+java:S1068L"BRemove this unused "officialArtistPerformerWebpage" private field.(±Üã]8·›ë«/
+E
+java:S1068W"(Remove this unused "mood" private field.(Ù°¸ï8½õÏÜ/
+P
+java:S1068G".Remove this unused "termsOfUse" private field.(†Ùíïşÿÿÿÿ8·›ë«/
+’
+java:S1319t"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ÈÆŠÕøÿÿÿÿ8Õ¿Š¢/
+J
+java:S1068("(Remove this unused "time" private field.(Ñ’àòùÿÿÿÿ8·›ë«/
+S
+java:S1068O"6Remove this unused "userDefinedURLLink" private field.(¾Ï÷8·›ë«/
+U
+java:S1068"3Remove this unused "attachedPicture" private field.( ¨„ëşÿÿÿÿ8·›ë«/

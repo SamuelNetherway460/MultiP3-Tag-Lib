@@ -2,6 +2,7 @@ package Factories;
 
 import Exceptions.HeaderNotFoundException;
 import FileTypes.MP3;
+import FileTypes.WAV;
 import TagStructures.ID3v2Header;
 import Utilities.ByteUtilities;
 import java.io.UnsupportedEncodingException;
@@ -60,6 +61,15 @@ public class ID3v2HeaderFactory {
         return header;
     }
 
+    public static ID3v2Header extractHeader(WAV wav) throws HeaderNotFoundException {
+        int id3v2TagPosition = scanForID3v2TagPosition(wav);
+        byte[] headerBytes = Arrays.copyOfRange(wav.getBytes(), id3v2TagPosition, id3v2TagPosition + HEADER_LENGTH);
+        if (headerBytes == null)
+            throw new HeaderNotFoundException("[HEADER NOT FOUND EXCEPTION] ID3v2 header could not be extracted from file.");
+        ID3v2Header header = parseHeader(headerBytes, id3v2TagPosition);
+        return header;
+    }
+
     public static ID3v2Header parseHeader(byte[] headerBytes, int positionInFile) {
 
         int majorVersion = 0;
@@ -79,18 +89,6 @@ public class ID3v2HeaderFactory {
         boolean unassignedFlag2 = checkBit(headerBytes[FLAGS_START], UNASSIGNED_FLAG_BIT_2_POS);
         boolean unassignedFlag3 = checkBit(headerBytes[FLAGS_START], UNASSIGNED_FLAG_BIT_3_POS);
         boolean unassignedFlag4 = checkBit(headerBytes[FLAGS_START], UNASSIGNED_FLAG_4_POS);
-
-        if (majorVersion == 2) {
-
-        } else if (majorVersion == 3) {
-
-        } else if (majorVersion == 4) {
-
-        }
-
-
-
-
 
         int size = unpackSynchsafeInteger(
             headerBytes[SIZE_START_1],

@@ -1,9 +1,4 @@
 
-f
-java:S2259"DA "NullPointerException" could be thrown; "header" is nullable here.(Û©¨®úÿÿÿÿ8ù½¢Ø/
 t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(áŞäÛşÿÿÿÿ
-E	java:S108")Either remove or fill this block of code.(Ë¿óï8Ã¶‘Ø/
-U
-java:S1118":Add a private constructor to hide the implicit public one.(¶Åùûÿÿÿÿ
-H
-java:S1135"2Complete the task associated to this TODO comment.(¥á¢Ñ
+d
+java:S2094"BRemove this empty class, write its code or make it an "interface".(¶Åùûÿÿÿÿ8¸†ş/

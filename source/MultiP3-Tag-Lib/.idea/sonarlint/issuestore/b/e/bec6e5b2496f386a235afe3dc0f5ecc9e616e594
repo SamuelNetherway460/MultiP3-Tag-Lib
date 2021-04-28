@@ -1,23 +1,16 @@
 
-M
-java:S1135"2Complete the task associated to this TODO comment.(ä’¯÷ýÿÿÿÿ
-<
-java:S11682"&Return an empty array instead of null.(¥¹ï
-T
-java:S3034j">Prevent "int" promotion by adding "& 0xff" to this expression.(¸¿€Ò
-W
-java:S1854"5Remove this useless assignment to local variable "s".(×Î§ÿÿÿÿÿ8ÄÎÒÜŒ/
-Ÿ
-java:S1130"}Remove the declaration of thrown exception 'java.io.UnsupportedEncodingException', as it cannot be thrown from method's body.(èÌ‹áýÿÿÿÿ8Û¼ÅÓ/
-t	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(áê½ýÿÿÿÿ
-H
-java:S1135"2Complete the task associated to this TODO comment.(Àê¶¾
-n	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÄÍû
 Y
-java:S3034d">Prevent "int" promotion by adding "& 0xff" to this expression.(Ùâ˜Èøÿÿÿÿ
+java:S3034">Prevent "int" promotion by adding "& 0xff" to this expression.(Ùâ˜Èøÿÿÿÿ
+M
+java:S1135"2Complete the task associated to this TODO comment.(ä’¯÷ýÿÿÿÿ
+W
+java:S1854"5Remove this useless assignment to local variable "s".(×Î§ÿÿÿÿÿ8ÄÎÒÜŒ/
+Ÿ
+java:S1130"}Remove the declaration of thrown exception 'java.io.UnsupportedEncodingException', as it cannot be thrown from method's body.(èÌ‹áýÿÿÿÿ8Û¼ÅÓ/
 H
-java:S1481"&Remove this unused "s" local variable.(×Î§ÿÿÿÿÿ8ÄÎÒÜŒ/
-Q
-java:S1854Ê"5Remove this useless assignment to local variable "j".(ù ŸÖÿÿÿÿÿ
-L
-java:S1172•"0Remove this unused method parameter "fromIndex".(•Þìùÿÿÿÿ
+java:S1135	"2Complete the task associated to this TODO comment.(Àê¶¾
+H
+java:S1481"&Remove this unused "s" local variable.(×Î§ÿÿÿÿÿ8ÄÎÒÜŒ/
+T
+java:S3034#">Prevent "int" promotion by adding "& 0xff" to this expression.(¸¿€Ò
+n	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÄÍû

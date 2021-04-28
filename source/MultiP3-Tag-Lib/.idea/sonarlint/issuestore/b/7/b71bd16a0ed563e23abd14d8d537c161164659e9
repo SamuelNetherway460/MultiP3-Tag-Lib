@@ -1,0 +1,8 @@
+
+P
+java:S1068U".Remove this unused "SIZE_START" private field.(òª§†ûÿÿÿÿ8²áÍ/
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(áŞäÛşÿÿÿÿ
+
+java:S1488İ"\Immediately return this expression instead of assigning it to the temporary variable "size".(éö†ªıÿÿÿÿ8ºº°ƒ/
+R
+java:S1128"5Remove this unused import 'TagStructures.ID3v2Frame'.(Çåş•8Ï¶ø‚/

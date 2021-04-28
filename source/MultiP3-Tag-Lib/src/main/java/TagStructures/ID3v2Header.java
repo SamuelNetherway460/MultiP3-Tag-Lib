@@ -1,5 +1,7 @@
 package TagStructures;
 
+import static Utilities.BufferUtilities.packSynchsafeInteger;
+
 public class ID3v2Header {
 
     private int majorVersion;
@@ -186,6 +188,11 @@ public class ID3v2Header {
      */
     public void setTagSize(int tagSize) {
         this.tagSize = tagSize;
+        byte[] synchsafeInt = packSynchsafeInteger(tagSize);
+        bytes[6] = synchsafeInt[0];
+        bytes[7] = synchsafeInt[1];
+        bytes[8] = synchsafeInt[2];
+        bytes[9] = synchsafeInt[3];
     }
 
     public int getDataSize() {

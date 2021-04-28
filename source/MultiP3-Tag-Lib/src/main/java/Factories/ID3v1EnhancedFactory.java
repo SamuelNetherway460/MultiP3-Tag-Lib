@@ -94,7 +94,7 @@ public class ID3v1EnhancedFactory {
     /**
      * Reads the title field from the tag bytes in the mp3 file.
      *
-     * @param tag The FileTypes.MP3.ID3.ID3v1 Enhanced tag containing the raw tag bytes.
+     * @param tag The ID3v1 Enhanced tag containing the raw tag bytes.
      * @return The title of the mp3 track.
      * @throws EmptyFieldException Thrown if the title field does not contain a value.
      */
@@ -114,7 +114,7 @@ public class ID3v1EnhancedFactory {
     /**
      * Reads the artist field from the tag bytes in the mp3 file.
      *
-     * @param tag The FileTypes.MP3.ID3.ID3v1 tag containing the raw tag bytes.
+     * @param tag The ID3v1 tag containing the raw tag bytes.
      * @return The artist of the mp3 track.
      * @throws EmptyFieldException Thrown if the artist field does not contain a value.
      */
@@ -134,7 +134,7 @@ public class ID3v1EnhancedFactory {
     /**
      * Reads the album field from the tag bytes in the mp3 file.
      *
-     * @param tag The FileTypes.MP3.ID3.ID3v1 Enhanced tag containing the raw tag bytes.
+     * @param tag The ID3v1 Enhanced tag containing the raw tag bytes.
      * @return The album that the mp3 track is part of.
      * @throws EmptyFieldException Thrown if the album field does not contain a value.
      */
@@ -154,7 +154,7 @@ public class ID3v1EnhancedFactory {
     /**
      * Reads the speed index field from the tag bytes in the mp3 file.
      *
-     * @param tag The FileTypes.MP3.ID3.ID3v1 Enhanced tag containing the raw tag bytes.
+     * @param tag The ID3v1 Enhanced tag containing the raw tag bytes.
      * @return An index corresponding to the speed of the track.
      * @throws EmptyFieldException Thrown if the speed index field does not contain a value.
      */
@@ -172,9 +172,9 @@ public class ID3v1EnhancedFactory {
 
     /**
      * Reads the genre index field from the tag bytes in the mp3 file.
-     * FileTypes.MP3.ID3.ID3v1 Enhanced can contain 191 possible genres.
+     * ID3v1 Enhanced can contain 191 possible genres.
      *
-     * @param tag The FileTypes.MP3.ID3.ID3v1 tag containing the raw tag bytes.
+     * @param tag The ID3v1 tag containing the raw tag bytes.
      * @return The index indicating the genre of the track.
      */
     public static int readGenreIndex(ID3v1Enhanced tag) {
@@ -193,7 +193,7 @@ public class ID3v1EnhancedFactory {
     /**
      * Reads the start time field from the tag bytes in the mp3 file.
      *
-     * @param tag The FileTypes.MP3.ID3.ID3v1 Enhanced tag containing the raw tag bytes.
+     * @param tag The ID3v1 Enhanced tag containing the raw tag bytes.
      * @return The start time of the track.
      * @throws EmptyFieldException Thrown if the start time field does not contain a value.
      */
@@ -211,7 +211,7 @@ public class ID3v1EnhancedFactory {
     /**
      * Reads the end time field from the tag bytes in the mp3 file.
      *
-     * @param tag The FileTypes.MP3.ID3.ID3v1 Enhanced tag containing the raw tag bytes.
+     * @param tag The ID3v1 Enhanced tag containing the raw tag bytes.
      * @return The end time of the track.
      * @throws EmptyFieldException Thrown if the end time field does not contain a value.
      */

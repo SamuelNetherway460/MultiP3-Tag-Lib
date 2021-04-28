@@ -1,0 +1,20 @@
+
+>
+java:S1170"!Make this final field static too.(¥¢ìÙ8±ìğ¬/
+X
+java:S1128"6Remove this unused import 'TagStructures.ID3v2Header'.(¿àëšøÿÿÿÿ8¢ñÌ/
+q	java:S116"URename this field "TAG_ABSENT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ò÷¾€8±ìğ¬/
+w	java:S116"VRename this field "TAG_PRESENT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Œê™…úÿÿÿÿ8±ìğ¬/
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(§ù¡ªùÿÿÿÿ
+O
+java:S1135F"2Complete the task associated to this TODO comment.(ÃîâÒ8ÿ„ö¬/
+>
+java:S1170"!Make this final field static too.(ò÷¾€8±ìğ¬/
+v	java:S116"ZRename this field "DEFAULT_CHARSET" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¥¢ìÙ8±ìğ¬/
+T
+java:S1135?"2Complete the task associated to this TODO comment.(ªÂÍ¯şÿÿÿÿ8ë¸ô¬/
+X	java:S125G"<This block of commented-out lines of code should be removed.(¡”öæ8åŒ†Ì/
+P
+java:S1068"3Remove this unused "DEFAULT_CHARSET" private field.(¥¢ìÙ8±ìğ¬/
+C
+java:S1170"!Make this final field static too.(Œê™…úÿÿÿÿ8±ìğ¬/

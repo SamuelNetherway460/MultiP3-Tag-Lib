@@ -1,7 +1,5 @@
 
 @
-java:S5786
-"Remove this 'public' modifier.(Àİãøÿÿÿÿ8åÄ®/
+java:S5786"Remove this 'public' modifier.(Àİãøÿÿÿÿ8åÄ®/
 ¯
-java:S3577
-"ŒRename class "ID3v11Reading" to match the regular expression: '^((Test|IT)[a-zA-Z0-9_]+|[A-Z][a-zA-Z0-9_]*(Test|Tests|TestCase|IT|ITCase))$'(Àİãøÿÿÿÿ8¿Ğ¡¯/
+java:S3577"ŒRename class "ID3v11Reading" to match the regular expression: '^((Test|IT)[a-zA-Z0-9_]+|[A-Z][a-zA-Z0-9_]*(Test|Tests|TestCase|IT|ITCase))$'(Àİãøÿÿÿÿ8¿Ğ¡¯/

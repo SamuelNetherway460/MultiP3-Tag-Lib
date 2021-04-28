@@ -1,17 +1,82 @@
 
+
+java:S1319_"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(»û»ù8¨°®¬/
+e
+java:S1068I"CRemove this unused "userDefinedTextInformationFrame" private field.(ş“ Âøÿÿÿÿ8Ë²¬/
+M
+java:S1135Z"2Complete the task associated to this TODO comment.(ä’¯÷ıÿÿÿÿ
+P
+java:S1068".Remove this unused "commercial" private field.(â²øÿÿÿÿ8Ë²¬/
+_
+java:S1068"=Remove this unused "generalEncapsulatedObject" private field.(ïÇ‡íúÿÿÿÿ8Ë²¬/
 M
 java:S1135"2Complete the task associated to this TODO comment.(ä’¯÷ıÿÿÿÿ
-M
-java:S1135"2Complete the task associated to this TODO comment.(ä’¯÷ıÿÿÿÿ
-M
-java:S1135 "2Complete the task associated to this TODO comment.(ä’¯÷ıÿÿÿÿ
-M
-java:S1135"2Complete the task associated to this TODO comment.(ä’¯÷ıÿÿÿÿ
+N
+java:S1068 "1Remove this unused "popularimeter" private field.(‚ŠšË8Ë²¬/
+U
+java:S1068"3Remove this unused "attachedPicture" private field.( ¨„ëşÿÿÿÿ8Ë²¬/
+S
+java:S1068S"6Remove this unused "userDefinedURLLink" private field.(¾Ï÷8Ë²¬/
+[
+java:S1068M"9Remove this unused "commercialInformation" private field.(¨Æ •ıÿÿÿÿ8Ë²¬/
+Q
+java:S1068"/Remove this unused "playCounter" private field.(µ°Æşÿÿÿÿ8Ë²¬/
+^
+java:S1068P"BRemove this unused "officialArtistPerformerWebpage" private field.(±Üã]8Ë²¬/
 t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Û·¯¢üÿÿÿÿ
-M
-java:S1135"2Complete the task associated to this TODO comment.(ä’¯÷ıÿÿÿÿ
-]	java:S125"<This block of commented-out lines of code should be removed.(Ø¹Æšıÿÿÿÿ8¬¡†Ù/
-M
-java:S1135"2Complete the task associated to this TODO comment.(ä’¯÷ıÿÿÿÿ
-M
-java:S1135%"2Complete the task associated to this TODO comment.(ä’¯÷ıÿÿÿÿ
+Y
+java:S1117k"7Rename "bpm" which hides the field declared at line 38.(ş°­“ıÿÿÿÿ8²¬—Ì/
+T
+java:S1135"2Complete the task associated to this TODO comment.( ¨„ëşÿÿÿÿ8Ë²¬/
+O
+java:S1068"3Remove this unused "audioEncryption" private field.(äÒÅ8Ë²¬/
+V
+java:S1068"4Remove this unused "eventTimingCodes" private field.(·Û™øúÿÿÿÿ8Ë²¬/
+
+java:S1319c"qThe type of the "frames" object should be an interface such as "List" rather than the implementation "ArrayList".(ù†ö8¨°®¬/
+W
+java:S1068%":Remove this unused "synchronizedTempoCodes" private field.(ƒ³Å8Ë²¬/
+G
+java:S1068#"*Remove this unused "reverb" private field.(ë—‚‘8Ë²¬/
+Z
+java:S1068J"8Remove this unused "uniqueFileIdentifier" private field.(’Ÿ…Õıÿÿÿÿ8Ë²¬/
+[
+java:S1117õ"8Rename "size" which hides the field declared at line 85.(ÏõŠ—øÿÿÿÿ8»úé/
+Q
+java:S1068"5Remove this unused "linkedInformation" private field.(Şüã.8Ë²¬/
+[
+java:S1117¤"8Rename "year" which hides the field declared at line 45.( œ©êøÿÿÿÿ8ÊÀèé/
+N
+java:S1068",Remove this unused "comments" private field.(ƒÉˆÉúÿÿÿÿ8Ë²¬/
+R
+java:S1068"0Remove this unused "equalization" private field.(—³úÎşÿÿÿÿ8Ë²¬/
+V
+java:S1068$"9Remove this unused "synchronizedLyricText" private field.(¬Şú8Ë²¬/
+X
+java:S1068";Remove this unused "mpegLocationLookupTable" private field.(¸»Şõ8Ë²¬/
+V
+java:S1068!"9Remove this unused "recommendedBufferSize" private field.(€¬”ê8Ë²¬/
+^
+java:S1068""<Remove this unused "relativeVolumeAdjustment" private field.(ï”Ø•ÿÿÿÿÿ8Ë²¬/
+Z
+java:S1068R"=Remove this unused "publishersOfficialWebpage" private field.(¦¯›Ø8Ë²¬/
+
+java:S1186["€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(œ†ò“8©Ù­‰/
+e
+java:S1068L"HRemove this unused "unsynchronizedLyricTextTranscription" private field.(ÖÜ±Â8Ë²¬/
+N
+java:S1068V"1Remove this unused "encryptedMeta" private field.(æ›ğÄ8ì§ØÜ/
+S
+java:S1144›"5Remove this unused private "updateFrameBytes" method.(›ë—8¡œ’ê/
+O
+java:S1068"-Remove this unused "ownership" private field.(‡øü£ùÿÿÿÿ8Ë²¬/
+R
+java:S1068"5Remove this unused "musicCDIdentifier" private field.(•Ÿ™Ú8Ë²¬/
+^
+java:S1068O"<Remove this unused "officialAudioFileWebpage" private field.(Úİ‚øøÿÿÿÿ8Ë²¬/
+P
+java:S1068K".Remove this unused "termsOfUse" private field.(†Ùíïşÿÿÿÿ8Ë²¬/
+`
+java:S1068Q">Remove this unused "officialAudioSourceWebpage" private field.(ı†¶ÿÿÿÿÿ8Ë²¬/
+Y
+java:S1068N"=Remove this unused "copyrightLegalInformation" private field.(ºË“t8Ë²¬/

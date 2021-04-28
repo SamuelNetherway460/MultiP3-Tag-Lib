@@ -10,12 +10,14 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
+import java.io.FileNotFoundException;
+
 public class ID3v2HeaderReading {
 
     //TODO: Check version in header
     @Test
     @DisplayName("Read ID3v2 Header")
-    void readID3v2Header() {
+    void readID3v2Header() throws FileNotFoundException {
         MP3 mp3 = new MP3(MP3Globals.SAMPLE_MP3_FILE_PATH, false);
 
         ID3v2Header id3v2Header = null;

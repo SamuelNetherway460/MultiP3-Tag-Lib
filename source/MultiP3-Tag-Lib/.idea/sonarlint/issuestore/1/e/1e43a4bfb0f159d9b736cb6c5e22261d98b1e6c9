@@ -1,41 +1,26 @@
 
-H
-java:S1135J"2Complete the task associated to this TODO comment.(ÃîâÒ
-K
-java:S1066n"/Merge this if statement with the enclosing one.(Ÿ€¿8…€»Œ/
-v	java:S116"ZRename this field "DEFAULT_CHARSET" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¥¢ìÙ8àÇ¿/
-H
-java:S1135F"2Complete the task associated to this TODO comment.(ÃîâÒ
 >
-java:S1170"!Make this final field static too.(¥¢ìÙ8àÇ¿/
-T
-java:S1135<"2Complete the task associated to this TODO comment.(ªÂÍ¯şÿÿÿÿ8–ï¬×/
-L
-java:S1481ˆ"0Remove this unused "id3v2Header" local variable.(…€›Õøÿÿÿÿ
-N
-java:S1135Í"2Complete the task associated to this TODO comment.(ûÉñøÿÿÿÿ
-N
-java:S1135"2Complete the task associated to this TODO comment.(ûæ¸»ıÿÿÿÿ
-<
-java:S1170"!Make this final field static too.(Œê™…úÿÿÿÿ
-Q	java:S125G"<This block of commented-out lines of code should be removed.(²æàÜ
-H
-java:S1135L"2Complete the task associated to this TODO comment.(ÃîâÒ
-N
-java:S1135ç"2Complete the task associated to this TODO comment.(ûÉñøÿÿÿÿ
-[
-java:S1854Š"?Remove this useless assignment to local variable "id3v2Header".(³Ç¦§ûÿÿÿÿ
-H
-java:S1135C"2Complete the task associated to this TODO comment.(ÃîâÒ
-j	java:S116"URename this field "TAG_ABSENT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ò÷¾€
-t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(§ù¡ªùÿÿÿÿ
-W	java:S125"<This block of commented-out lines of code should be removed.(ûæ¸»ıÿÿÿÿ
-7
-java:S1170"!Make this final field static too.(ò÷¾€
-H
-java:S1135H"2Complete the task associated to this TODO comment.(ÃîâÒ
-p	java:S116"VRename this field "TAG_PRESENT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Œê™…úÿÿÿÿ
-N
-java:S1135"2Complete the task associated to this TODO comment.(ûÉñøÿÿÿÿ
+java:S1170"!Make this final field static too.(¥¢ìÙ8àÇ¿/
+]	java:S125S"<This block of commented-out lines of code should be removed.(şÊØûÿÿÿÿ8‚Ôëê/
 M
-java:S1066“"/Merge this if statement with the enclosing one.(§–Õ±8´£÷ºŒ/
+java:S1066¤"/Merge this if statement with the enclosing one.(§–Õ±8‚Ôëê/
+O
+java:S1135O"2Complete the task associated to this TODO comment.(ÃîâÒ8‚Ôëê/
+j	java:S116"URename this field "TAG_ABSENT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ò÷¾€
+v	java:S116"ZRename this field "DEFAULT_CHARSET" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¥¢ìÙ8àÇ¿/
+<
+java:S1170"!Make this final field static too.(Œê™…úÿÿÿÿ
+7
+java:S1170"!Make this final field static too.(ò÷¾€
+O
+java:S1135R"2Complete the task associated to this TODO comment.(ÃîâÒ8‚Ôëê/
+T
+java:S1135H"2Complete the task associated to this TODO comment.(ªÂÍ¯şÿÿÿÿ8‚Ôëê/
+p	java:S116"VRename this field "TAG_PRESENT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Œê™…úÿÿÿÿ
+O
+java:S1135T"2Complete the task associated to this TODO comment.(ÃîâÒ8‚Ôëê/
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(§ù¡ªùÿÿÿÿ
+K
+java:S1066"/Merge this if statement with the enclosing one.(Ÿ€¿8‚Ôëê/
+X
+java:S1128"6Remove this unused import 'TagStructures.ID3v2Header'.(¿àëšøÿÿÿÿ8â§ùË/
