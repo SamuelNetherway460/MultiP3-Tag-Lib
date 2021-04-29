@@ -1,26 +1,26 @@
 
->
-java:S1170"!Make this final field static too.(¥¢ìÙ8àÇ¿/
-]	java:S125S"<This block of commented-out lines of code should be removed.(şÊØûÿÿÿÿ8‚Ôëê/
-M
-java:S1066¤"/Merge this if statement with the enclosing one.(§–Õ±8‚Ôëê/
-O
-java:S1135O"2Complete the task associated to this TODO comment.(ÃîâÒ8‚Ôëê/
-j	java:S116"URename this field "TAG_ABSENT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ò÷¾€
-v	java:S116"ZRename this field "DEFAULT_CHARSET" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¥¢ìÙ8àÇ¿/
 <
 java:S1170"!Make this final field static too.(Œê™…úÿÿÿÿ
+O
+java:S1135T"2Complete the task associated to this TODO comment.(ÃîâÒ8‚Ôëê/
 7
 java:S1170"!Make this final field static too.(ò÷¾€
+K
+java:S1066"/Merge this if statement with the enclosing one.(Ÿ€¿8‚Ôëê/
+j	java:S116"URename this field "TAG_ABSENT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ò÷¾€
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(§ù¡ªùÿÿÿÿ
 O
 java:S1135R"2Complete the task associated to this TODO comment.(ÃîâÒ8‚Ôëê/
 T
 java:S1135H"2Complete the task associated to this TODO comment.(ªÂÍ¯şÿÿÿÿ8‚Ôëê/
-p	java:S116"VRename this field "TAG_PRESENT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Œê™…úÿÿÿÿ
-O
-java:S1135T"2Complete the task associated to this TODO comment.(ÃîâÒ8‚Ôëê/
-t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(§ù¡ªùÿÿÿÿ
-K
-java:S1066"/Merge this if statement with the enclosing one.(Ÿ€¿8‚Ôëê/
+]	java:S125S"<This block of commented-out lines of code should be removed.(şÊØûÿÿÿÿ8‚Ôëê/
 X
 java:S1128"6Remove this unused import 'TagStructures.ID3v2Header'.(¿àëšøÿÿÿÿ8â§ùË/
+O
+java:S1135O"2Complete the task associated to this TODO comment.(ÃîâÒ8‚Ôëê/
+>
+java:S1170"!Make this final field static too.(¥¢ìÙ8àÇ¿/
+v	java:S116"ZRename this field "DEFAULT_CHARSET" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¥¢ìÙ8àÇ¿/
+M
+java:S1066¤"/Merge this if statement with the enclosing one.(§–Õ±8‚Ôëê/
+p	java:S116"VRename this field "TAG_PRESENT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Œê™…úÿÿÿÿ

@@ -10,100 +10,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="78a3bad7-b97e-4a13-af01-8512dd4b9670" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/6.7/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.7/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.7/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.7/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.7/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.7/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.7/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/javaCompile/jarAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.7/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.7/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/javaCompile/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/5/05da976c9877ace5977e99846e80536baeb23d69" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/5/05da976c9877ace5977e99846e80536baeb23d69" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/e/1e43a4bfb0f159d9b736cb6c5e22261d98b1e6c9" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/e/1e43a4bfb0f159d9b736cb6c5e22261d98b1e6c9" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/8/28ba779df70e80e1e07437339287745502345006" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/8/28ba779df70e80e1e07437339287745502345006" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/d/2da6724998123a201d21c8b34949743e1db35da9" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/d/2da6724998123a201d21c8b34949743e1db35da9" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/5/35d0ba3f4304fddc3e6c7107d3bd03ddb8bd911d" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/5/35d0ba3f4304fddc3e6c7107d3bd03ddb8bd911d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/5/455cfc2e0f690a7514bc877864db232f5fb78126" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/5/455cfc2e0f690a7514bc877864db232f5fb78126" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/7/4791fd39e8b74684ea763ec714bad2c7ab1dc5fa" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/7/4791fd39e8b74684ea763ec714bad2c7ab1dc5fa" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/7/47dffb40c6a06640feb9befbbad5f1e018c08930" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/7/47dffb40c6a06640feb9befbbad5f1e018c08930" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/8/48d29fa386ba0ad70d1ee758176615f65f7b3437" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/8/48d29fa386ba0ad70d1ee758176615f65f7b3437" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/9/6905b9d8aa541f724a1c5d8346cf2a1252f1ee4b" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/9/6905b9d8aa541f724a1c5d8346cf2a1252f1ee4b" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/c/6ccc006616148d967be276b616fb98240fa5d7e5" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/c/6ccc006616148d967be276b616fb98240fa5d7e5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/9/79d9b770f6d560f1fb13518b1bf9671769102a11" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/9/79d9b770f6d560f1fb13518b1bf9671769102a11" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/8/88483cadf549f1595c45a8b1cb909e579598cee6" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/8/88483cadf549f1595c45a8b1cb909e579598cee6" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/c/8c89850350fd13dfc58efc896b3d4daf18c44971" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/c/8c89850350fd13dfc58efc896b3d4daf18c44971" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/c/8cccde589f929dc2b6fdf95d1e564c715ffb7205" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/0/90b1f0257664521af74caf67279c3a691fe81421" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/0/90b1f0257664521af74caf67279c3a691fe81421" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/5/95de60d191bf633faa04ae584549014218aefca0" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/5/95de60d191bf633faa04ae584549014218aefca0" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/8/a8a4fb7862e983d9864655c971d8be9b1a4f0261" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/8/a8a4fb7862e983d9864655c971d8be9b1a4f0261" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/9/a920a538ab5cb236556a1ad1c8ef7ebf4bb38c42" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/9/a920a538ab5cb236556a1ad1c8ef7ebf4bb38c42" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/c/bca8c19356e67523256288c2956318d5d5af30b8" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/c/bca8c19356e67523256288c2956318d5d5af30b8" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/c/bcf3cea30bd0e86f0b4df1f24f57eaebc7b754b1" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/c/bcf3cea30bd0e86f0b4df1f24f57eaebc7b754b1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/e/bec6e5b2496f386a235afe3dc0f5ecc9e616e594" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/e/bec6e5b2496f386a235afe3dc0f5ecc9e616e594" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/5/c52339ed86b072c857318755e73756bb79b2de66" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/5/c52339ed86b072c857318755e73756bb79b2de66" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/9/c98d72a12e2d725778240ef1c376ecf9c161c14b" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/9/c98d72a12e2d725778240ef1c376ecf9c161c14b" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/a/cadffa91204e7a2b4d63df422c102a39fbe1ef32" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/a/cadffa91204e7a2b4d63df422c102a39fbe1ef32" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/c/ccbdbe57bc0727de46d34009d757f7757a5c51b0" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/c/ccbdbe57bc0727de46d34009d757f7757a5c51b0" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/c/ccf105dedaf61301910e05404f917e4a83081d0b" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/c/ccf105dedaf61301910e05404f917e4a83081d0b" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/d/cdbd2bf272b4cca11bb829ccb4cf38a8bc017554" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/d/cdbd2bf272b4cca11bb829ccb4cf38a8bc017554" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/1/d1bb5dbb41495462048ef20bcfd9d0013425fad4" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/1/d1bb5dbb41495462048ef20bcfd9d0013425fad4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/6/d63fb054c1203f49f0474183f64b0710b918693a" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/6/d63fb054c1203f49f0474183f64b0710b918693a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/4/e44a8606ce010ad9b89aafdfcee2ab49afbf6d10" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/4/f45b20cea6b42ef7c5b2aa61e9bfe9111d82ab6d" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/4/f45b20cea6b42ef7c5b2aa61e9bfe9111d82ab6d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/6/f6a3ea6548be1710fce4c9af6b44eba509ebdbac" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/6/f6a3ea6548be1710fce4c9af6b44eba509ebdbac" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/6/f6a64905576a0e39b9bcfbdcaabb79b8a4899ca4" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/6/f6a64905576a0e39b9bcfbdcaabb79b8a4899ca4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/c/fcab1b16e2cf989d567af50fdf55a6bbe2c9ac78" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/c/fcab1b16e2cf989d567af50fdf55a6bbe2c9ac78" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/source-classes-mapping.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileTestJava/source-classes-mapping.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Factories/ID3v11Factory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Factories/ID3v11Factory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Factories/ID3v1EnhancedFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Factories/ID3v1EnhancedFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Factories/ID3v1Factory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Factories/ID3v1Factory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Factories/ID3v22Factory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Factories/ID3v22Factory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Factories/ID3v22FrameFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Factories/ID3v22FrameFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Factories/ID3v23Factory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Factories/ID3v23Factory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Factories/ID3v23FrameFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Factories/ID3v23FrameFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Factories/ID3v24Factory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Factories/ID3v24Factory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Factories/ID3v24FrameFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Factories/ID3v24FrameFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Factories/ID3v2Factory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Factories/ID3v2Factory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Factories/ID3v2FrameFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Factories/ID3v2FrameFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Factories/ID3v2HeaderFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Factories/ID3v2HeaderFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MultiP3_Tag_Lib_jar/MultiP3-Tag-Lib.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/MultiP3_Tag_Lib_jar/MultiP3-Tag-Lib.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/FileTypes/MP3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FileTypes/MP3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FileTypes/WAV.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FileTypes/WAV.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TagStructures/ID3v2Frame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TagStructures/ID3v2Frame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TagStructures/ID3v2Header.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TagStructures/ID3v2Header.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TagTypes/ID3v11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TagTypes/ID3v11.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TagTypes/ID3v2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TagTypes/ID3v2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TagTypes/ID3v22.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TagTypes/ID3v22.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TagTypes/ID3v23.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TagTypes/ID3v23.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TagTypes/ID3v24.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TagTypes/ID3v24.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Utilities/BufferUtilities.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utilities/BufferUtilities.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Utilities/ByteUtilities.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utilities/ByteUtilities.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Utilities/EncodedText.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Globals/MP3/ID3/ID3v2/ID3v22Globals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Globals/MP3/ID3/ID3v2/ID3v22Globals.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Globals/MP3/ID3/ID3v2/ID3v23Globals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Globals/MP3/ID3/ID3v2/ID3v23Globals.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestFileTypes/MP3/ID3/ID3v1/ID3v10/ID3v1Reading.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestFileTypes/MP3/ID3/ID3v1/ID3v10/ID3v1Reading.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestFileTypes/MP3/ID3/ID3v1/ID3v10/ID3v1WritingBoundary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestFileTypes/MP3/ID3/ID3v1/ID3v10/ID3v1WritingBoundary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestFileTypes/MP3/ID3/ID3v1/ID3v10/ID3v1WritingNormal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestFileTypes/MP3/ID3/ID3v1/ID3v10/ID3v1WritingNormal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestFileTypes/MP3/ID3/ID3v1/ID3v10/ID3v1WritingRobust.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestFileTypes/MP3/ID3/ID3v1/ID3v10/ID3v1WritingRobust.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestFileTypes/MP3/ID3/ID3v1/ID3v11/ID3v11Reading.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestFileTypes/MP3/ID3/ID3v1/ID3v11/ID3v11Reading.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestFileTypes/MP3/ID3/ID3v1/ID3v11/ID3v11WritingBoundary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestFileTypes/MP3/ID3/ID3v1/ID3v11/ID3v11WritingBoundary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestFileTypes/MP3/ID3/ID3v1/ID3v11/ID3v11WritingNormal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestFileTypes/MP3/ID3/ID3v1/ID3v11/ID3v11WritingNormal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestFileTypes/MP3/ID3/ID3v1/ID3v11/ID3v11WritingRobust.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestFileTypes/MP3/ID3/ID3v1/ID3v11/ID3v11WritingRobust.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestFileTypes/MP3/ID3/ID3v2/ID3v22/ID3v22Reading.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestFileTypes/MP3/ID3/ID3v2/ID3v22/ID3v22Reading.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestFileTypes/MP3/ID3/ID3v2/ID3v23/ID3v23Reading.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestFileTypes/MP3/ID3/ID3v2/ID3v23/ID3v23Reading.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestFileTypes/MP3/ID3/ID3v2/ID3v23/ID3v23WritingNormal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestFileTypes/MP3/ID3/ID3v2/ID3v23/ID3v23WritingNormal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestFileTypes/MP3/ID3/ID3v2/ID3v24/ID3v24FrameReading.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestFileTypes/MP3/ID3/ID3v2/ID3v24/ID3v24FrameReading.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestFileTypes/MP3/ID3/ID3v2/ID3v24/ID3v24MultiFileTesting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestFileTypes/MP3/ID3/ID3v2/ID3v24/ID3v24MultiFileTesting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestFileTypes/MP3/ID3/ID3v2/ID3v24/ID3v24WritingNormal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestFileTypes/MP3/ID3/ID3v2/ID3v24/ID3v24WritingNormal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestFileTypes/MP3/ID3/ID3v2/ID3v2Header/ID3v2HeaderReading.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestFileTypes/MP3/ID3/ID3v2/ID3v2Header/ID3v2HeaderReading.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestFileTypes/WAV/ID3v2/ID3v22/ID3v22Reading.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestFileTypes/WAV/ID3v2/ID3v22/ID3v22Reading.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestFileTypes/WAV/ID3v2/ID3v23/ID3v23Reading.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestFileTypes/WAV/ID3v2/ID3v23/ID3v23Reading.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestFileTypes/WAV/ID3v2/ID3v24/ID3v24Reading.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestFileTypes/WAV/ID3v2/ID3v24/ID3v24Reading.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -184,17 +93,6 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.ID3v11WritingRobust">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ID3v11Reading" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MultiP3-Tag-Lib.test" />
       <extension name="coverage">
@@ -305,6 +203,7 @@
       <workItem from="1619341616406" duration="20530000" />
       <workItem from="1619422165612" duration="7912000" />
       <workItem from="1619512297734" duration="3422000" />
+      <workItem from="1619634087809" duration="7277000" />
     </task>
     <servers />
   </component>

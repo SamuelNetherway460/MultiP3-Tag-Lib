@@ -82,7 +82,7 @@ public class MP3 {
         //TODO Implement try catch for NonExistentTagException
         //if (hasID3v1Enhanced()) id3v1Enhanced = ID3v1EnhancedFactory.extractTag(this);
         //TODO Implement try catch for NonExistentTagException
-        //if (hasID3v22()) FileTypes.MP3.ID3.ID3v22 = ID3v22Factory.extractTag(this);
+        if (hasID3v22()) id3v22 = ID3v22Factory.extractTag(this);
         if (hasID3v23()) id3v23 = ID3v23Factory.extractTag(this);
         if (hasID3v24()) id3v24 = ID3v24Factory.extractTag(this);
     }
